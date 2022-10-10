@@ -72,7 +72,12 @@ Wait until the building process is completed(This may take some time...)
  ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Access_Build_Uf2_Files.PNG)  
   
     
-**SERIAL CONSOLE – PUTTY.** <br />
+**SERIAL CONSOLE – PUTTY.** <br />  
+    While not the most *powerful* serial port software, putty does a good job and is a handy tool(telnet and ssh) and in my setup process, I choose it as my serial console.  
+    PUTTY can be assessed and download through [putty](https://www.putty.org/) and open up the installer once the download process is over. 
+    
+    
+
     
     
 ## Setting Up a Text Editor
