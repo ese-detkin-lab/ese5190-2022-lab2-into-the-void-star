@@ -67,7 +67,8 @@ Wait until the building process is completed(This may take some time...)
 
 ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Pico_Build.PNG)
    
- This building process will produce the \textcolor{red}{elf,bin,} and \textcolor{red}{uf2} targets.
+ This building process will produce the **elf,bin** and **uf2** targets.  
+ In order to find the corresponding file, we can access: <p><red> hello_world/serial and also hello_world/usb</red> directories
         
 ## Setting Up a Text Editor
 
