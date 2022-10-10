@@ -10,6 +10,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 ## Setting Up Terminal
 
+The detailed Set up can be found in the following repo：https://github.com/Yuxuan-Li295/ese519_lab2_setup
+
 While I was using Windows Operating system, I prefer to use WindowsPowershell simply because of the ease of access.  
 Moreover, we need to follow the steps below to install the C/C++ SDK, using the repository for pico-examples and then run the "hello_usb.c" program.
 
