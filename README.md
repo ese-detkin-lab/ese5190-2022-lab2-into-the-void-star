@@ -72,7 +72,7 @@ Wait until the building process is completed(This may take some time...)
  ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Access_Build_Uf2_Files.PNG)  
   
     
-  #SERIAL CONSOLE -PUTTY  
+**SERIAL CONSOLE – PUTTY.** <br />
     
     
 ## Setting Up a Text Editor
