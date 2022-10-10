@@ -48,9 +48,13 @@ We can follow the following steps to configure our PC:
    
    6. Building "Hello World" From the Command Line
    
-   Go ahead and open a Developer Command Prompt window from the Windows menu, by selecting ‘Windows > Visual Studio 2022 > Developer Command Prompt    for VS 2022’ from the menu.  
+   Go ahead and open a Developer Command Prompt window from the Windows menu, by selecting ‘**Windows > Visual Studio 2022 > Developer Command Prompt    for VS 2022**’ from the menu.  
    Then set the path to the SDK as follows:
-   
+```
+   C:\Users\pico\Downloads> setx PICO_SDK_PATH "..\..\pico-sdk"
+```
+At this stage, the command window will prompt a hint information which indicating that the setup is completed.
+You now need to *Close your current Command Prompt Window*
    
    
         
