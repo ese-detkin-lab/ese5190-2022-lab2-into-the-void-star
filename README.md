@@ -14,7 +14,7 @@ While I was using Windows Operating system, I prefer to use WindowsPowershell si
 Moreover, we need to follow the steps below to install the C/C++ SDK, using the repository for pico-examples and then run the "hello_usb.c" program.
 
 We can follow the following steps to configure our PC:  
-   ** 1.  [Arm GNU Toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads) you need the filename ending with -arm-none-eabi.exe.**
+    1.  [**Arm GNU Toolchain**](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads) you need the filename ending with -arm-none-eabi.exe.**
         ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/ARM_GNU_SetUp.PNG)  
         
     This will help us complete the setup process of the ARM GNU Toolchain.
