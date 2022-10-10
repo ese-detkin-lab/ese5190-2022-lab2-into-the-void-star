@@ -46,6 +46,12 @@ We can follow the following steps to configure our PC:
    
    ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Git_Setup.PNG)
    
+   6. Building "Hello World" From the Command Line
+   
+   Go ahead and open a Developer Command Prompt window from the Windows menu, by selecting ‘Windows > Visual Studio 2022 > Developer Command Prompt    for VS 2022’ from the menu.  
+   Then set the path to the SDK as follows:
+   
+   
    
         
 ## Setting Up a Text Editor
