@@ -65,7 +65,7 @@ C:\Users\pico\Downloads\pico-examples\build> nmake
 ```
 Wait until the building process is completed(This may take some time...)
 
-![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Git_Setup.PNG)
+![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Pico_Build.PNG)
    
    
         
