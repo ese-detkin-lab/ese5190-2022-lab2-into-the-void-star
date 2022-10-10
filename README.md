@@ -4,7 +4,6 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
         liyux@seas.upenn.edu
         [Yuxuan's LinkedIn](https://www.linkedin.com/in/yuxuan-li-26511b203/)
     Tested on:  OMEN Laptop 15-ek0xxx, Windows-10 Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz   2.59 GHz
-    Partner: Yuxin Wang, Xingqi Pan
 
 (TODO: Your README)
 
@@ -16,8 +15,11 @@ Moreover, we need to follow the steps below to install the C/C++ SDK, using the 
 
 We can follow the following steps to configure our PC:  
     1.  [Arm GNU Toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads) you need the filename ending with -arm-none-eabi.exe.
-        
-
+        ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/ARM_GNU_SetUp.PNG)
+    This will help us complete the setup process of the ARM GNU Toolchain.
+    
+    2. [CMake](https://github.com/Kitware/CMake/releases/download/v3.24.2/cmake-3.24.2-windows-x86_64.msi)
+        ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Install_CMake.PNG)
 
 
 
