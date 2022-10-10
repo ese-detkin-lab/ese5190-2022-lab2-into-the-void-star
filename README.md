@@ -24,7 +24,12 @@ We can follow the following steps to configure our PC:
    ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Install_CMake.PNG) 
 
 
-
+   3. Installing Build Tools for Visual Studio 2022  
+   
+       [Build Tools for Visual Studio 2022](https://aka.ms/vs/17/release/vs_BuildTools.exe)
+        
+        ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Install_VSCode.PNG) 
+        
 ## Setting Up a Text Editor
 
 After the terminal setup, the two first command I am used are “ls” and "cd". "ls" enable you to look over the folders that you navigate to and "cd****<File_Path>" enable you to navigate to the destination that you want to go.  
