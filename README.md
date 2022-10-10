@@ -11,7 +11,15 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 ## Setting Up Terminal
 
-While I was using Windows Operating system, I prefer to use WindowsPowershell simply because of the ease of access. 
+While I was using Windows Operating system, I prefer to use WindowsPowershell simply because of the ease of access.  
+Moreover, we need to follow the steps below to install the C/C++ SDK, using the repository for pico-examples and then run the "hello_usb.c" program.
+
+We can follow the following steps to configure our PC:  
+    1.  [Arm GNU Toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads) you need the filename ending with -arm-none-eabi.exe.
+        
+
+
+
 
 ## Setting Up a Text Editor
 
