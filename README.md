@@ -30,6 +30,18 @@ We can follow the following steps to configure our PC:
         
         ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Install_VSCode.PNG) 
         
+   4.  Installing Python 3.10
+   
+        [Latest Python 3 Release - Python 3.10.7](https://www.python.org/downloads/release/python-3107/) 
+        
+   5. Installing Git
+        
+        Download git as: [64-bit Git for Windows Setup](https://github.com/git-for-windows/git/releases/download/v2.38.0.windows.1/Git-2.38.0-64-bit.exe) 
+        
+   ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Install_VSCode.PNG) 
+   
+   
+        
 ## Setting Up a Text Editor
 
 After the terminal setup, the two first command I am used are “ls” and "cd". "ls" enable you to look over the folders that you navigate to and "cd****<File_Path>" enable you to navigate to the destination that you want to go.  
