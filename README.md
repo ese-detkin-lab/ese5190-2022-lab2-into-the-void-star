@@ -19,22 +19,22 @@ We can follow the following steps to configure our PC:
         
     This will help us complete the setup process of the ARM GNU Toolchain.
     
-   2. [Cmake](https://github.com/Kitware/CMake/releases/download/v3.24.2/cmake-3.24.2-windows-x86_64.msi)  
+   2. [**Cmake**](https://github.com/Kitware/CMake/releases/download/v3.24.2/cmake-3.24.2-windows-x86_64.msi)  
     
    ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Install_CMake.PNG) 
 
 
-   3. Installing Build Tools for Visual Studio 2022  
+   3. **Installing Build Tools for Visual Studio 2022**
    
        [Build Tools for Visual Studio 2022](https://aka.ms/vs/17/release/vs_BuildTools.exe)
         
         ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Install_VSCode.PNG) 
         
-   4.  Installing Python 3.10
+   4.  **Installing Python 3.10**
    
         [Latest Python 3 Release - Python 3.10.7](https://www.python.org/downloads/release/python-3107/) 
         
-   5. Installing Git
+   5. **Installing Git**
         
         Download git as: [64-bit Git for Windows Setup](https://github.com/git-for-windows/git/releases/download/v2.38.0.windows.1/Git-2.38.0-64-bit.exe) 
         
@@ -46,7 +46,7 @@ We can follow the following steps to configure our PC:
    
    ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Git_Setup.PNG)
    
-   6. Building "Hello World" From the Command Line
+   6. **Building "Hello World" From the Command Line**
    
    Go ahead and open a Developer Command Prompt window from the Windows menu, by selecting ‘**Windows > Visual Studio 2022 > Developer Command Prompt    for VS 2022**’ from the menu.  
    Then set the path to the SDK as follows:
@@ -71,7 +71,8 @@ Wait until the building process is completed(This may take some time...)
  In order to find the corresponding file, we can access: <p><red> hello_world/serial and also hello_world/usb</red> directories in the directory named **Build**. 
  ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Access_Build_Uf2_Files.PNG)
     
-        
+    7. **SERIAL CONSOLE-PUTTY**
+    
 ## Setting Up a Text Editor
 
 After the terminal setup, the two first command I am used are “ls” and "cd". "ls" enable you to look over the folders that you navigate to and "cd****<File_Path>" enable you to navigate to the destination that you want to go.  
