@@ -54,7 +54,7 @@ We can follow the following steps to configure our PC:
    C:\Users\pico\Downloads> setx PICO_SDK_PATH "..\..\pico-sdk"
 ```
 At this stage, the command window will prompt a hint information which indicating that the setup for the environment variable is completed.
-You now need to *Close your current Command Prompt Window* and open a second Developer command window and then Navigating to the  <span style="color:red">some **pico-examples file.** text</span>. The code for getting th
+You now need to *Close your current Command Prompt Window* and open a second Developer command window and then Navigating to the  <span style="color:red">some **pico-examples file.** text</span>. The code for getting the build files for the "hello_usb.c" is listed as follows:
 ```
 C:\Users\pico\Downloads> cd pico-examples
 C:\Users\pico\Downloads\pico-examples> mkdir build
