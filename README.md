@@ -38,7 +38,13 @@ We can follow the following steps to configure our PC:
         
         Download git as: [64-bit Git for Windows Setup](https://github.com/git-for-windows/git/releases/download/v2.38.0.windows.1/Git-2.38.0-64-bit.exe) 
         
-   ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Install_VSCode.PNG) 
+        Ensure you tick the checkbox to allow Git to be used from 3rd-party software and, when installing Git check the box "Checkout as is, commit as-is".  
+        
+        Select Windows' default console window", and " Enable experiemental support for pseusdo consoles" during the installation process. 
+        
+   ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Install_Git.PNG)
+   
+   ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Git_Setup.PNG)
    
    
         
