@@ -69,7 +69,7 @@ Wait until the building process is completed(This may take some time...)
    
  This building process will produce the **elf,bin** and **uf2** targets.  
  In order to find the corresponding file, we can access: <p><red> hello_world/serial and also hello_world/usb</red> directories in the directory named **Build**. 
-    
+ ![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Access_Build_Uf2_Files.PNG)
     
         
 ## Setting Up a Text Editor
