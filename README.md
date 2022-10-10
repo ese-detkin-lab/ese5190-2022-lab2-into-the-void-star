@@ -54,7 +54,18 @@ We can follow the following steps to configure our PC:
    C:\Users\pico\Downloads> setx PICO_SDK_PATH "..\..\pico-sdk"
 ```
 At this stage, the command window will prompt a hint information which indicating that the setup for the environment variable is completed.
-You now need to *Close your current Command Prompt Window* and open a second Developer command window and then Navigating to the  <span style="color:red">some **pico-examples file.** text</span>
+You now need to *Close your current Command Prompt Window* and open a second Developer command window and then Navigating to the  <span style="color:red">some **pico-examples file.** text</span>. The code for getting th
+```
+C:\Users\pico\Downloads> cd pico-examples
+C:\Users\pico\Downloads\pico-examples> mkdir build
+C:\Users\pico\Downloads\pico-examples> cd build
+C:\Users\pico\Downloads\pico-examples\build> cmake -G "NMake Makefiles" ..
+C:\Users\pico\Downloads\pico-examples\build> nmake
+
+```
+Wait until the building process is completed(This may take some time...)
+
+![alt text](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media/Git_Setup.PNG)
    
    
         
