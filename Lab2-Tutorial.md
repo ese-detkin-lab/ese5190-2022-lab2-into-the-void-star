@@ -3,6 +3,8 @@ PennID: 81304595
 
 This is a detail guide to set up the programming environment for RP2040
 
+Based on system: MacBook Pro 2019; macOS Monterey 12.3.1; 2.4GHz Quad-Core Intel Core i5
+
 ## 1. Tools to install first:
 #### install Homebrew
 ```
