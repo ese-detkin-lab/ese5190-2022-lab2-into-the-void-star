@@ -5,7 +5,13 @@ MacOS Monterey Version 12.6
 # 1. Tools to install first:
 #### install homebrew
 $  /bin/bash -c "$(curl -fsSL
- https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-( referrence: https://github.com/homebrew/install#uninstall-homebrew ）![image](https://user-images.githubusercontent.com/114199800/195716951-db965601-1439-4fca-85f8-e50fdc78b777.png)
-
+https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+（ referrence: https://github.com/homebrew/install#uninstall-homebrew ）
+#### install toolchain
+```
+$ brew install cmake
+$ brew tap ArmMbed/homebrew-formulae
+$ brew install arm-none-eabi-gcc
+```
+And you will see
 
