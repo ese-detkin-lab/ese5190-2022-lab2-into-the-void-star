@@ -41,7 +41,6 @@ On your ubuntu, you should run these for installing the user space tools for USB
 
 ```
 sudo apt install linux-tools-5.4.0-77-generic hwdata
-
 sudo update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-tools/5.4.0-77-generic/usbip 20
 ```
 
