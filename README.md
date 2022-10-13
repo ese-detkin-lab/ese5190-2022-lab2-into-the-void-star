@@ -1,9 +1,9 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
-    (TODO) YOUR NAME HERE
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
+    Aurunima Samaddar
+        www.linkedin.com/in/aurunima-samaddar-600157232
+    Tested on: Thinkpad X1 Carbon 2nd Gen, Windows 10 Education
 
-(TODO: Your README)
+README
 
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
+Something goes in here
