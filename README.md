@@ -41,16 +41,16 @@ The main steps for building on MS windows systems, is covered in detail in Secti
 
 ## Getting the SDK
 
-	Here I used the Developer Command Prompt for VS 2022.
+Here I used the Developer Command Prompt for VS 2022.
 
-	In this part I made a new directory first of the form:
+In this part I made a new directory first of the form:
 
 	```
 	mkdir picoo
 	cd picoo
 	```
 
-	Then cloned the pico-examples and pico-sdk repositories using the commands :
+Then cloned the pico-examples and pico-sdk repositories using the commands :
 
 	```
 	git clone -b master https://github.com/raspberrypi/pico-sdk.git
