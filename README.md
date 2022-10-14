@@ -13,27 +13,28 @@ To setup the sdk and get going with the hello world serial output code, I follow
 The main steps for building on MS windows systems, is covered in detail in Section 9.2 of the datasheet/guide, and I experienced them as follows :
   
 1.  Installed the [**ARM GNU Toolchain**](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/downloads) :
-		Here one must look out for the file ending as: -none-eabi.exe.
+	Here one must look out for the file ending as: -none-eabi.exe.
+	![](https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/65d9e0a39b0d2cb9b73e1e9957a2e2b74b89735a/arm.png)
         Note : Tick the box to register the path to the Arm compiler as an environment variable 
 
 2. Installed [**Cmake**](https://cmake.org/download/#latest) ( i have linked to the latest release for convenience )
-	![alt text](image)
+	![](https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/65d9e0a39b0d2cb9b73e1e9957a2e2b74b89735a/cmake.png)
     Note : Add CMake to the system PATH for all users. 
 
 3. Installed [**Build Tools for Visual Studio 2022**](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022)
         
-	![alt text](image)
+	![](https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/65d9e0a39b0d2cb9b73e1e9957a2e2b74b89735a/vs.png)
 	
 	Note : Need the C++ build tools only, add path.
         
 4. (Re)installed latest version of Python [**3.10.x**](https://www.python.org/downloads/release/python-3108/) 
     
-    ![alt text](image)
+    ![](https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/65d9e0a39b0d2cb9b73e1e9957a2e2b74b89735a/python.png)
     Note: Tick "Add python to path", disable the MAX_PATH length limit.
         
 5. Installed [**Git 64-bit Setup**](https://git-scm.com/download/win) 
 
-    ![alt text](image)
+    ![](https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/65d9e0a39b0d2cb9b73e1e9957a2e2b74b89735a/git.png)
     
 	Note: Use preferred editor(Notepad for me), allow Git to be used from 3rd-party software, "Checkout as -is, commit as-is", "Use Windows default console window"
 	"Enable experimental support for pseudo consoles", rest as default.
@@ -73,7 +74,8 @@ The code for making the build for all the example codes, by first creating a "pi
 
 
 This will start the build process.
-   
+![](https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/65d9e0a39b0d2cb9b73e1e9957a2e2b74b89735a/building.png)
+
 This building process will produce the **elf,bin** and **uf2** targets.  
 simply by dragging the uf2 file to our RP2040 board we can flash new code to it. 
 
@@ -92,4 +94,4 @@ This was solved by using the menu Action>Add Legacy Hardware>Select from a list>
 
 Now COM3 appears to be active, and setting a baud rate of 115200, we can see serial terminal open up showing :
 
-![alt text](image)  
+![](https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/65d9e0a39b0d2cb9b73e1e9957a2e2b74b89735a/output.png)  
