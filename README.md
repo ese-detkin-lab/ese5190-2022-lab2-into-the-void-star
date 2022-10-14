@@ -32,5 +32,16 @@ For this part, we choose to download Ubuntu and use it as terminal for the rest 
 For this part, you need to install gVIM(outside the terminal window) as a power for text editor which can help you edit files from the terminal. Or, you can use the built-in Vim by input command "vimtutor". 
 
 ## Serial Console
-For this part, you need to download PuTTY of latest 64 bits version.
+For this part, you need to download PuTTY of latest 64 bits version. The Adafruit tutoeial for Windows is atached here, https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-windows. 
+1. After you install the PuTTY, you need to find out the channel you are using. Open the device manger, the plug RP2040 board into a USB port. The device manager list will refresh and a new item will appear under Ports(COM&LPT). You will find a different (COM#) after this item in the list. 
+2. Under Connection type: choose the botton next to Serial.
+3. In the box under Serial line, enter the serial port you found that your board is using.
+4. In the box under speed, enter 115200.
+5. Once your settings are entered, click "Open" at the bottom of window. Now you are ready to see the results of your code.
+
+# Lab2A: SDK setup
+In this part, you will set up your laptop for RP2040 development using the official C/C++SDK, and compile & run example code on your board. The following will be primary reference materials for this part. https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
+
+## Installing the Toolchain
+To build you will need to install these extra tools.
 
