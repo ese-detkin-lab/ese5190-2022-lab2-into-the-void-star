@@ -39,7 +39,7 @@ The main steps for building on MS windows systems, is covered in detail in Secti
 	"Enable experimental support for pseudo consoles", rest as default.
     
 
-##Getting the SDK
+## Getting the SDK
 
 	Here I used the Developer Command Prompt for VS 2022.
 
@@ -60,7 +60,7 @@ The main steps for building on MS windows systems, is covered in detail in Secti
 	git clone -b master https://github.com/raspberrypi/pico-examples.git
 	```
 
-##**Building from Command Line, for serial hello world**
+## **Building from Command Line, for serial hello world**
      
 	I used Developer Command Prompt for VS 2022 again and set its path to the SDK as:
 	```
