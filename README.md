@@ -83,14 +83,14 @@ Ensure you tick the checkbox to allow Git to be used from 3rd-party software and
 ### Set up the path and download SDK
 Firstly we need to open the "Developer Command Prompt for VS 2022" window from the Windows Menu. Then we download the "pico-sdk" and "pico-examples" from github and make files for them by using following code,
 
-C:\Users\pico\Downloads> git clone -b master https://github.com/raspberrypi/pico-sdk.git
+''C:\Users\pico\Downloads> git clone -b master https://github.com/raspberrypi/pico-sdk.git
 C:\Users\pico\Downloads> cd pico-sdk
 C:\Users\pico\Downloads\pico-sdk> git submodule update --init
 C:\Users\pico\Downloads\pico-sdk> cd ..
-C:\Users\pico\Downloads> git clone -b master https://github.com/raspberrypi/pico-examples.git
+C:\Users\pico\Downloads> git clone -b master https://github.com/raspberrypi/pico-examples.git''
 
 
 Then set the path to the SDK as follows, 
 
-C:\Users\pico\Downloads> setx PICO_SDK_PATH "..\..\pico-sdk"
+''C:\Users\pico\Downloads> setx PICO_SDK_PATH "..\..\pico-sdk"''
 
