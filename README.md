@@ -42,7 +42,7 @@ For this part, you need to download PuTTY of latest 64 bits version. The Adafrui
 # Lab2A: SDK setup
 In this part, you will set up your laptop for RP2040 development using the official C/C++SDK, and compile & run example code on your board. The following will be primary reference materials for this part. https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
 
-## Installing the Toolchain
+## 1. Installing the Toolchain
 To build you will need to install these extra tools.
 - [Arm GNU Toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
 - [CMake](https://cmake.org/download/)
@@ -77,3 +77,21 @@ Ensure you tick the checkbox to allow Git to be used from 3rd-party software and
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/git3.png)
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/git4.png)
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/git5.png)
+
+## 2. Getting the SDK and examples on your pc.
+
+### Set up the path and download SDK
+Firstly we need to open the "Developer Command Prompt for VS 2022" window from the Windows Menu. Then we download the "pico-sdk" and "pico-examples" from github and make files for them by using following code,
+'''
+C:\Users\pico\Downloads> git clone -b master https://github.com/raspberrypi/pico-sdk.git
+C:\Users\pico\Downloads> cd pico-sdk
+C:\Users\pico\Downloads\pico-sdk> git submodule update --init
+C:\Users\pico\Downloads\pico-sdk> cd ..
+C:\Users\pico\Downloads> git clone -b master https://github.com/raspberrypi/pico-examples.git
+
+'''
+
+Then set the path to the SDK as follows, 
+'''
+C:\Users\pico\Downloads> setx PICO_SDK_PATH "..\..\pico-sdk"
+'''
