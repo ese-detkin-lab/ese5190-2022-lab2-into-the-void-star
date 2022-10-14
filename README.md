@@ -92,6 +92,6 @@ Note: anytime we want to re-flash the board, we can hold **BOOT**, and click the
 Using PUTTY as setup from lab 1, I found the COM port the board was using, by going to DEVICE MANAGER, and found my new laptop to have no PORTS( COM & LPT),
 This was solved by using the menu Action>Add Legacy Hardware>Select from a list>PORTS( COM & LPT)>Communications Port
 
-Now COM3 appears to be active, and setting a baud rate of 115200, we can see serial terminal open up showing :
+Now COM4 appears to be active, and setting a baud rate of 115200, we can see serial terminal open up showing :
 
 ![](https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/65d9e0a39b0d2cb9b73e1e9957a2e2b74b89735a/output.png)  
