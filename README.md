@@ -80,19 +80,42 @@ Ensure you tick the checkbox to allow Git to be used from 3rd-party software and
 
 ## 2. Getting the SDK and examples on your pc.
 
-### Set up the path and download SDK
+### Set up the path and Download SDK
 Firstly we need to open the "Developer Command Prompt for VS 2022" window from the Windows Menu. Then we download the "pico-sdk" and "pico-examples" from github and make files for them by using following code,
 
 ```
-	$ C:\Users\pico\Downloads> git clone -b master https://github.com/raspberrypi/pico-sdk.git
-	$ C:\Users\pico\Downloads> cd pico-sdk
-	$ C:\Users\pico\Downloads\pico-sdk> git submodule update --init
-	$ C:\Users\pico\Downloads\pico-sdk> cd ..
-	$ C:\Users\pico\Downloads> git clone -b master https://github.com/raspberrypi/pico-examples.git
+	 C:\Users\pico\Downloads> git clone -b master https://github.com/raspberrypi/pico-sdk.git
+	 C:\Users\pico\Downloads> cd pico-sdk
+	 C:\Users\pico\Downloads\pico-sdk> git submodule update --init
+	 C:\Users\pico\Downloads\pico-sdk> cd ..
+	 C:\Users\pico\Downloads> git clone -b master https://github.com/raspberrypi/pico-examples.git
 ```
 
 
 Then set the path to the SDK as follows, 
 
-'C:\Users\pico\Downloads> setx PICO_SDK_PATH "..\..\pico-sdk'
+```
+	C:\Users\pico\Downloads> setx PICO_SDK_PATH "..\..\pico-sdk'
+```
 
+### Build "Hello World"
+You now need to close your current Command Prompt window and open a second Developer Command Prompt window where this environment variable will now be set correctly before proceeding.
+Navigate into the pico-examples folder, and build the 'Hello World' example, 
+```
+	C:\Users\pico\Downloads> cd pico-examples
+	C:\Users\pico\Downloads\pico-examples> mkdir build
+	C:\Users\pico\Downloads\pico-examples> cd build
+	C:\Users\pico\Downloads\pico-examples\build> cmake -G "NMake Makefiles" ..
+	C:\Users\pico\Downloads\pico-examples\build> nmake
+
+```
+This will produce elf, bin, and uf2 targets, you find these in the hello_world/serial and hello_world/usb directories inside your build directory. You might get the result which is similar to the picture below. 
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/nmake.png)
+
+### Runing "Hello World"
+For this step, you need to hold down the "BOOT" button on the board while pressing "RESET" to re-enter programming mode at first. The board should automatically appear as a external drive. Then, you can drag-and-drop the uf2 binaries directly onto RP2040 board attached to your computer using USB. The Raspberry Pi Pico will reboot, and unmount itself as an external drive, and start running the flashed code. 
+
+We need to open the PuTTY and enter the correct Serial line. Set the speed to 115200, and click "Open".
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/Putty.png)
+Then, we will see the output "Hello, world!" successfully.
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/hello.png)
