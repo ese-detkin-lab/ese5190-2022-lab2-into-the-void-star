@@ -32,4 +32,5 @@ For this part, we choose to download Ubuntu and use it as terminal for the rest 
 For this part, you need to install gVIM(outside the terminal window) as a power for text editor which can help you edit files from the terminal. Or, you can use the built-in Vim by input command "vimtutor". 
 
 ## Serial Console
+For this part, you need to download PuTTY of latest 64 bits version.
 
