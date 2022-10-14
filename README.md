@@ -53,14 +53,17 @@ To build you will need to install these extra tools.
 ### Installing Arm GNU Toolchain
 For Arm GNU Toolchain, you should download the file ended with "-eabi.exe".
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/GNU%20Toolchain.png)
+
 Then make sure you click the box "Add path to environment variable" to register the path to the Arm compiler as an environment variable in the Windows shell when prompted to do so.
 
 ### Installing CMake
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/Cmake.png)
+
 During the installation add CMake to the system PATH for all users when prompted by the installer.
 
 ### Installing Build Tools for Visual Studio 2022
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/VScode.png)
+
 Although the client language in picture is Chinese, it is easy to set up for Visual Studio Installer. Firstly, you only need to install the C++ build tools only. Secondly, you must install the full "Windows 10 SDK" package as the SDK will need to build the pioasm and elf2uf2 tools locally. 
 
 ### Installing Python 3.10
