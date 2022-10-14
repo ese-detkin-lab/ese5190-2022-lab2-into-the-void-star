@@ -44,4 +44,10 @@ In this part, you will set up your laptop for RP2040 development using the offic
 
 ## Installing the Toolchain
 To build you will need to install these extra tools.
+- [Arm GNU Toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
+- [CMake](https://cmake.org/download/)
+- [Build Tools for Visual Studio 2022](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022)
+- [Python 3.10](https://www.python.org/downloads/windows/)
+- [Git](https://git-scm.com/download/win)
 
+### Installing Arm GNU Toolchain
