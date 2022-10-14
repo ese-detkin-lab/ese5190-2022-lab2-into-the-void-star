@@ -5,9 +5,11 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 ## LAB WRITEUP: due Monday, Oct 17 at 8:30 AM ET on Github
 Include the following files in your repo:
-- 3.3: Photos or scans of your annotated code printouts § 3.4: Your spreadsheet of initial PIO register states
+- 3.3: Photos or scans of your annotated code printouts 
+- 3.4: Your spreadsheet of initial PIO register states
 - 3.5: A photo or scan of your paper model
-- 3.6: Your complete packet transmission spreadsheet § 3.7: Your polished timing diagram
+- 3.6: Your complete packet transmission spreadsheet 
+- 3.7: Your polished timing diagram
 - 4: Your working USB + WS2812 code folder
   - Don’t include build/, which is only for your machine. In general, you may want to use a “.gitignore” file to exclude machine-specific files when working in repositories you plan to publish.
 - Update your README.md by filling in the TODOs along with the following content.
