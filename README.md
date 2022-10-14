@@ -76,9 +76,13 @@ When installing Git you should ensure that you change the default editor away fr
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/git1.png)
 
 Ensure you tick the checkbox to allow Git to be used from 3rd-party software and, unless you have a strong reason otherwise, when installing Git you should also check the box "Checkout as is, commit as-is", select "Use Windows' default console window", and "Enable experimental support for pseudo consoles" during the installation process.
+
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/git2.png)
+
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/git3.png)
+
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/git4.png)
+
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/git5.png)
 
 ## 2. Getting the SDK and examples on your pc.
