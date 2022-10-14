@@ -92,5 +92,5 @@ C:\Users\pico\Downloads\pico-sdk> cd ..
 
 Then set the path to the SDK as follows, 
 
-''C:\Users\pico\Downloads> setx PICO_SDK_PATH "..\..\pico-sdk''
+'C:\Users\pico\Downloads> setx PICO_SDK_PATH "..\..\pico-sdk'
 
