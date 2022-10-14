@@ -1,7 +1,9 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
   Sen Luo
+  
         email: luosen@seas.upenn.edu
+        
         Tested on: Razer Blade 15 (15-inch, 2020), Windows 10 21H2
 
 #Introduction
