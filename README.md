@@ -26,12 +26,12 @@ The main steps for building on MS windows systems, is covered in detail in Secti
 	
 	Note : Need the C++ build tools only, add path.
         
-4. (Re)installed latest version of Python [3.10.x](https://www.python.org/downloads/release/python-3108/) 
+4. (Re)installed latest version of Python [**3.10.x**](https://www.python.org/downloads/release/python-3108/) 
     
     ![alt text](image)
     Note: Tick "Add python to path", disable the MAX_PATH length limit.
         
-5. Installed [Git 64-bit Setup](https://git-scm.com/download/win) 
+5. Installed [**Git 64-bit Setup**](https://git-scm.com/download/win) 
 
     ![alt text](image)
     
