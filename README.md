@@ -5,6 +5,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
         Tested on: Razer Blade 15 (15-inch, 2020), Windows 10 21H2
 
 #Introduction
+
 This guide introduces how getting started with Raspberry Pi Pico and how to set up their MS Windows computer. The content is based on the instruction manual https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf. Before we start setting up, we need to install these softwares which are shown below. 
 
 - [Ubuntu](https://ubuntu.com/download/desktop)
