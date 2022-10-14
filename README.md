@@ -45,41 +45,37 @@ Here I used the Developer Command Prompt for VS 2022.
 
 In this part I made a new directory first of the form:
 
-	```
 	mkdir picoo
 	cd picoo
-	```
 
 Then cloned the pico-examples and pico-sdk repositories using the commands :
 
-	```
 	git clone -b master https://github.com/raspberrypi/pico-sdk.git
 	cd pico-sdk
 	git submodule update --init
 	cd ..
 	git clone -b master https://github.com/raspberrypi/pico-examples.git
-	```
 
 ## **Building from Command Line, for serial hello world**
      
-	I used Developer Command Prompt for VS 2022 again and set its path to the SDK as:
-	```
+I used Developer Command Prompt for VS 2022 again and set its path to the SDK as:
+
 	C:\picoo> setx PICO_SDK_PATH "..\..\pico-sdk"
-	```
-	Now I must close current Command Prompt, and open a new Developer command prompt, so the environment variable is correctly set.
-	The code for making the build for all the example codes, by first creating a "pico-examples", and "build" folder:
-	```
+	
+Now I must close current Command Prompt, and open a new Developer command prompt, so the environment variable is correctly set.
+The code for making the build for all the example codes, by first creating a "pico-examples", and "build" folder:
+	
 	C:\picoo> cd pico-examples
 	C:\picoo\pico-examples> mkdir build
 	C:\picoo\pico-examples> cd build
 	C:\picoo\pico-examples\build> cmake -G "NMake Makefiles" ..
 	C:\picoo\pico-examples\build> nmake
 
-	```
-	This will start the build process.
+
+This will start the build process.
    
-	This building process will produce the **elf,bin** and **uf2** targets.  
-	simply by dragging the uf2 file to our RP2040 board we can flash new code to it. 
+This building process will produce the **elf,bin** and **uf2** targets.  
+simply by dragging the uf2 file to our RP2040 board we can flash new code to it. 
 
 NOTE : Here I faced an error when building, saying files "not found", when trying to use VS 2022 but was resolved when I repeated the set path, and opened VS 2022 as administrator.
 
