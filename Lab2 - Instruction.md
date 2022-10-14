@@ -57,7 +57,7 @@ $ cd pico-sdk
 $ git pull
 $ git submodule update
 ```
-## loadin the code to the RP2040 and run
+## 3. loadin the code to the RP2040 and run
 First, create a "build" directory to contain the pico examples to build the code
 ```
 $ cd pico-examples
