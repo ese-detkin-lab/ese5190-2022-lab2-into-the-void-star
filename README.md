@@ -116,6 +116,9 @@ This will produce elf, bin, and uf2 targets, you find these in the hello_world/s
 For this step, you need to hold down the "BOOT" button on the board while pressing "RESET" to re-enter programming mode at first. The board should automatically appear as a external drive. Then, you can drag-and-drop the uf2 binaries directly onto RP2040 board attached to your computer using USB. The Raspberry Pi Pico will reboot, and unmount itself as an external drive, and start running the flashed code. 
 
 We need to open the PuTTY and enter the correct Serial line. Set the speed to 115200, and click "Open".
+
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/Putty.png)
+
 Then, we will see the output "Hello, world!" successfully.
+
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/hello.png)
