@@ -51,3 +51,29 @@ To build you will need to install these extra tools.
 - [Git](https://git-scm.com/download/win)
 
 ### Installing Arm GNU Toolchain
+For Arm GNU Toolchain, you should download the file ended with "-eabi.exe".
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/GNU%20Toolchain.png)
+Then make sure you click the box "Add path to environment variable" to register the path to the Arm compiler as an environment variable in the Windows shell when prompted to do so.
+
+### Installing CMake
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/Cmake.png)
+During the installation add CMake to the system PATH for all users when prompted by the installer.
+
+### Installing Build Tools for Visual Studio 2022
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/VScode.png)
+Although the client language in picture is Chinese, it is easy to set up for Visual Studio Installer. Firstly, you only need to install the C++ build tools only. Secondly, you must install the full "Windows 10 SDK" package as the SDK will need to build the pioasm and elf2uf2 tools locally. 
+
+### Installing Python 3.10
+During the installation, ensure that it’s installed 'for all users' and add Python 3.10 to the system PATH when prompted by
+the installer. You should additionally disable the MAX_PATH length limit when prompted at the end of the Python installation.
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/python3.10.png)
+
+### Installing Git
+When installing Git you should ensure that you change the default editor away from vim. 
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/git1.png)
+
+Ensure you tick the checkbox to allow Git to be used from 3rd-party software and, unless you have a strong reason otherwise, when installing Git you should also check the box "Checkout as is, commit as-is", select "Use Windows' default console window", and "Enable experimental support for pseudo consoles" during the installation process.
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/git2.png)
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/git3.png)
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/git4.png)
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/git5.png)
