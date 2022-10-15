@@ -6,4 +6,14 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 README
 
-Something goes in here
+## Computer Specs
+
+|   System      |Spec                                                      |
+|--------------:|----------------------------------------------------------|
+|   Windows     | 10 Education                                             |
+|   Computer    | Thinkpad X1 Carbon 2nd Gen                               |
+|   Processor   | 2.1 GHz Dual Core Intel(R) Core i7                       |
+|   Memory      | 8 GB DDR3                                                |
+|   StatUp Disk | Samsung MZNTD256HAGL-000L9                               |
+|   Graphics    | Intel(R) HD Graphics Family                              |
+|   Board       | Adafruit QT Py                                           |
