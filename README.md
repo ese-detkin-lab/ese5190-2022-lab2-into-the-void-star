@@ -18,27 +18,28 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 ## Windows Subsystem for Linux
 - If you alreday have it installed (like I did), skip to the 'Check the version' step
-- Install WSL through Windows powershell
+- Install WSL through Windows powershell\
   + `$ wsl --install`
-  + In Windows Powershell (as admin)
+  + In Windows Powershell (as admin)\
     `$ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
   + Restart your machine to complete the WSL install and update to WSL 2
   + Download and run kernel package from https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-3---enable-virtual-machine-feature
-  + Set WSL2 as the default version
+  + Set WSL2 as the default version\
     `$ wsl --set-default-version 2`
   + Install Linux distribution form here https://apps.microsoft.com/store/detail/ubuntu-2004/9N6SVWS3RX71?hl=en-us&gl=us \
     OR\
-    Use this command in Powershell
+    Use this command in Powershell\
     `$ Invoke-WebRequest -Uri https://aka.ms/wslubuntu2004 -OutFile Ubuntu.appx -UseBasicParsing`
-- **Check the version**
+- **Check the version**\
   `$ wsl -l -v`
-- Set WSL2 as the default version:
+- Set WSL2 as the default version\
   `$ wsl --set-default-version 2`
-- Upgrade the WSL version for Ubuntu:
+- Upgrade the WSL version for Ubuntu\
   `$ wsl --set-version Ubuntu 2`
-- If you want to set Ubuntu as default, use
+  ![image](https://github.com/Aurunima/ESE5190_Fall22_Lab2/blob/main/img/Lab2_Ubuntu_WSL2.png)
+- If you want to set Ubuntu as default, use\
   `$ wsl -s Ubuntu`
-- To use the WSL Ubuntu simply use
+- To use the WSL Ubuntu simply use\
   `$ ubuntu` \
   OR\
   you may even start the program from Windows Start menu\
@@ -46,16 +47,17 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 ## Using Ubuntu
 - Open Ubuntu
-- Create a folder
+- Create a folder\
   `$ mkdir Aurchie`
-- Navigate to the newly created folder
+- Navigate to the newly created folder\
   `$ cd Aurchie`
-- Create a new text file
+- Create a new text file\
   `$ nano test.txt`
 - Write something in the file, save it (Ctrl-O) and close it (Ctrl-X)
-- Print out the text in the file
+- Print out the text in the file\
   `$ cat test.txt`
 - This will display the text in the command window
+![image](https://github.com/Aurunima/ESE5190_Fall22_Lab2/blob/main/img/Lab2_Ubuntu_p2dot2.png)
 
 ### Install GVim on Ubuntu
 - `$ gvim` (if you don't have it, this will list variants of vim)
