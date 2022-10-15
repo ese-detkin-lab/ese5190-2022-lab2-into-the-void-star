@@ -57,8 +57,8 @@
 - To inspect serial communication, either of the following two
   - Serial monitor in ubuntu
      ```
-     $ sudo apt install minicom
-     $ sudo minicom -b 115200 -o -D /dev/ttyACM0
+     $ ls /dev/tty.*
+     $ screen /dev/tty.usbmodem14201
      ```
   OR
   - Open Putty and make sure the inputs are as follows
