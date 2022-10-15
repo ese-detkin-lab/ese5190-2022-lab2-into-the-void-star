@@ -61,17 +61,20 @@ Now open up the ubuntu on windows. By following the methods given in the setup f
     then we can run cmake .. to make up files there. 
     Upon successful execution, the cmake command would end with the following message: "-- Build files have been written to:"path to your build folder"
     
-    
+    <img width="636" alt="1 setup" src="https://user-images.githubusercontent.com/44985032/195965501-5e4822dd-f856-4a3c-98b4-556e25c0bb5c.png">
+
 6. build and run hello_world
     firstly we open the folder of hello_world
     cd hello_world
     make -j4 
     my laptop has 16 core so I can run make -j16 to run it faster, but as such a small project, the speed does not matter too much. 
     After the build we can various files have been created in the build/hello_world/usb folder, and then we can try to run it on the broad. 
-    
+    <img width="651" alt="3 directory" src="https://user-images.githubusercontent.com/44985032/195965512-37170e80-f8db-41bc-b043-b67a04099be1.png">
+
     First we need to reset our broad by tapping the central button and insert it into usb port at the same time. This time it will be recognized by the laptop as a usb mass storage device. 
     I open up the folder of hello_world/usb, and we drop the hello-usb.uf2 file into that disk, we can see that the broad will automatically disappear. However, it will still be visible on the device manager. Now we can check the COM port it is using, and we can open up the Putty, type the corresponding port and baud rate into it, then we can open the serial communication window to see "hello, world" coming. 
     
     
-    
+    <img width="1240" alt="4  serial input" src="https://user-images.githubusercontent.com/44985032/195965519-4a15fb69-ecbf-40d0-a5da-e3b8b8625778.png">
+
     
