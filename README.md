@@ -1,8 +1,8 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
-    (TODO) Name: Yeqi Chen 
-        (TODO) LinkedIn: https://www.linkedin.com/in/villy-chen97/
-    Tested on: Lenovo Legion Y9000, CPU: Ryzen 5700 16 core
+   Name: Yeqi Chen 
+   LinkedIn: https://www.linkedin.com/in/villy-chen97/
+   Tested on: Lenovo Legion Y9000, CPU: Ryzen 5700 16 core
 
 Directory
 This is the setup log/guide of Villy Chen on ESE 519 Lab2. In this directory I will go through all the detailed steps of setting up the RP2040 broad on the windows laptop using WSL. 
