@@ -6,9 +6,13 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 Directory
 This is the setup log/guide of Villy Chen on ESE 519 Lab2. In this directory I will go through all the detailed steps of setting up the RP2040 broad on the windows laptop using WSL. 
-1. Software prequisites 
-2. 
-3. 
+1. Software Installation
+2. Downloading the setup script 
+3. install the toolchain  
+4. update the SDK
+5. build up the code for pico
+6. build and run hello_world
+
 
 
 1. Software Installation 
@@ -51,7 +55,7 @@ Now open up the ubuntu on windows. By following the methods given in the setup f
     cd pico-sdk 12. git pull 
     git submodule update
    
-5. then we can build up the code for pico. 
+5. build up the code for pico
     cd .. 
     cd pico-examples 
     mkdir build -p
