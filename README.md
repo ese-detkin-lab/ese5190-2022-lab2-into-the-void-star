@@ -41,8 +41,11 @@ Q6) In the example, which low-level C SDK function is directly responsible for t
 main() -> pattern_tables() -> pattern_() -> put_pixel() -> pio_sm_put_blocking()
 
 Q7) What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
+
 The pioasm assembler generates the binary file from the .pio files. It is the assembler used for this conversion. CMake function pico_generate_pio_header(TARGET
 PIO_FILE) invokes pioasm automatically and adding the generated header to the include path of the target TARGET.
+
+
 
 
 
