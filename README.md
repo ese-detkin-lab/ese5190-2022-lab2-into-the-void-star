@@ -3,6 +3,9 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
     Katrina Ji
     Tested on: MacBook Pro (14-inch, 2021), macOS Monterey 12.6
 
+## LAB 2A: Katrina Ji, Worked with: Yuchen Wang
+
+
 ## LAB WRITEUP: due Monday, Oct 17 at 8:30 AM ET on Github
 Include the following files in your repo:
 - 3.3: Photos or scans of your annotated code printouts 
