@@ -37,6 +37,7 @@ Q6) In the example, which low-level C SDK function is directly responsible for t
 
 1) pio_sm_put_blocking() function is responsible for setting the led to new colour whenever a new value is passed. It takes a 32 bit hex code converted to GRB by urgb_u32() function and shifts it by 8 bits.
 2) The pattern table function inside the main code has definitions for different patterns. These pattern functions calls the put_pixel() function which contains the pio_sm_put_blocking() function.
+
 main() -> pattern_tables() -> pattern_() -> put_pixel() -> pio_sm_put_blocking()
 
 Q7) What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
