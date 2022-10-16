@@ -17,5 +17,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 ## 3.4 Spreadsheet of Initial PIO Register States
 
+[RegistersList.pdf](https://github.com/YuchenWang0303/ese5190-2022-lab2-into-the-void-star/files/9793649/RegistersList.pdf)
+
+
 
 
