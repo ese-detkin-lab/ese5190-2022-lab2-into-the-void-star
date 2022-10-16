@@ -41,5 +41,7 @@ main() -> pattern_tables() -> pattern_() -> put_pixel() -> pio_sm_put_blocking()
 
 Q7) What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
 
+
+
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
