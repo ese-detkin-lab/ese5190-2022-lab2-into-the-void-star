@@ -21,3 +21,11 @@ https://github.com/skyfall88888/ese5190-2022-lab2-into-the-void-star/blob/main/L
 The following link contains the spreadsheet for the registers.
 
 https://github.com/skyfall88888/ese5190-2022-lab2-into-the-void-star/blob/main/Lab2(a)_3.4_PIO_REG.xlsx
+
+### 3.5: A photo or scan of your paper model
+
+The following link contains the pdf of the paper model. 
+
+https://github.com/skyfall88888/ese5190-2022-lab2-into-the-void-star/blob/main/Lab2(a)_3.5.pdf
+
+
