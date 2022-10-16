@@ -13,6 +13,7 @@ PART 3: TALKING LEDS
 Q1) Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
 
 Ans) Akthoughs PCs these days are faster in speed, bit banging is not practical for them anymore. This is because , the layers and size between hardware and software have rapidly increased with developments.Additonally, Modern PCs keep hundreds of instructions inflight at any point of time , which makes it hard for the PC to switch between real time tasks, thus increasing the latency.
+
 Q2) What are some cases where directly using the GPIO might be a better choice than using the PIO hardware? 
 
 The PIO hardware is relatively not equipped to run complex general purpose software implmentations. For cases in the implmentation of SDIO and DPI video editing, better route is going GPIO as we may end up using 2-3 of our PIO state machines.
