@@ -1,9 +1,7 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
-    (TODO) YOUR NAME HERE
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
+    Yash Budhe
+        LinkedIn: https://www.linkedin.com/in/yash-mb-a1723812b
+    Tested on: HP Envy x360 Convertible, 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz 
 
-(TODO: Your README)
 
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
