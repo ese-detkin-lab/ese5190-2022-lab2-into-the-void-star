@@ -12,4 +12,5 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 2) Directly using the GPIO might be a better choice than using the PIO hardware when working on some simple embedded systems, and when dealing with LED and push buttons.
 3) We push the data into the state machine's TX FIFO using functions, like "pio_sm_put_blocking()".
-4)
+4) To get data out of the state machine, we need to write a pio program, in which we can use "out" instruction to take data bits out of the output shift register (OSR).
+5) We write a state machine init function 
