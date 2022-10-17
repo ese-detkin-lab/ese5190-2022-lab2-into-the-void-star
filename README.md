@@ -38,3 +38,4 @@ A7:The pioasm "assembler" allow users to define the function of GPIO to solve th
 
 # 3.3 Follow the flow
 
+！[pdf](https://github.com/kop123meter/ese5190-2022-lab2-into-the-void-star/blob/main/LAB2_A/3.3.pdf)
