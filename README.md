@@ -55,6 +55,7 @@ Drive link to the spreadsheet - https://docs.google.com/spreadsheets/d/1v-5flhdt
 ## Packet Transmission Spreadsheet
 
 Image link to Packet Transmission Timing Diagram - https://ibb.co/Zg1Fg4H (Please download the PNG file and Zoom to see the waveform)
+Spreadsheet Link - https://docs.google.com/spreadsheets/d/1h2cIcP2sgUzOSQJtkfA_R5-FZlRSPOEY/edit?usp=sharing&ouid=117925605607785787119&rtpof=true&sd=true
 
 What were some strengths/weaknesses of working with paper?
 - Analysis of code can be done conveniently on paper. For example, Analysing the assembly code by labelling the instructions and determining the control flow was much easier on paper.
