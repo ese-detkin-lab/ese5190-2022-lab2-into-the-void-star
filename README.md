@@ -3,8 +3,9 @@
    Name: Yuan Chi<br>
    Tested on: MacBook Air (13-inch, 2019), macOS Monterey 12.6
 
-## 3.2 Brief responses to the reading questions in 3.2
+## 3.2 PIO
 
+### Brief responses to the reading questions in 3.2
 1. Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?<br>
 If the processor is interrupted to attend to one of the hard peripherals it is also responsible for, it can be fatal to the timing of any bit-banged protocol. And the ratio between the processor speed and protocol speed is big, so the processor will spend uselessly idling in between GPIO accesses.
 
@@ -26,7 +27,7 @@ The processor can use pio_sm_put_blocking(pio, sm, 1) and pio_sm_put_blocking(pi
 The assembler will change a ".pio" file to some static variables describing the program and a method which configures a PIO state machine based on user parameters, and the directives in the actual PIO program. CMake support the converte process from "human language" to "machine language".
 
 ## 3.3 Follow the flow
-Photos or scans of the annotated code printouts:<br>
+Photos my annotated code printout:<br>
 https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.3-Annotated%20Code%20Printouts.pdf
 
 # 3.4 Color by number
