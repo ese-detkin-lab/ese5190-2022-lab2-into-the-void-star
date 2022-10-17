@@ -1,3 +1,7 @@
 {
-    "cmake.sourceDirectory": "/home/tom/Documents/GitHub/ese5190-2022-lab2-into-the-void-star/ws2812"
+    "cmake.sourceDirectory": "${workspaceFolder}/.",
+    "files.associations": {
+        "ws2812.h": "c",
+        "ws2812.pio.h": "c"
+    }
 }
