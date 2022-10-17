@@ -7,3 +7,6 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 # Part3 TALKING LEDS
 
+##Brief responses to the reading questions in 3.2
+
+
