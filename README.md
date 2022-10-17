@@ -3,7 +3,7 @@
    Name: Yuan Chi<br>
    Tested on: MacBook Air (13-inch, 2019), macOS Monterey 12.6
 
-## Brief responses to the reading questions in 3.2
+## 3.2 Brief responses to the reading questions in 3.2
 
 1. Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?<br>
 If the processor is interrupted to attend to one of the hard peripherals it is also responsible for, it can be fatal to the timing of any bit-banged protocol. And the ratio between the processor speed and protocol speed is big, so the processor will spend uselessly idling in between GPIO accesses.
@@ -24,3 +24,6 @@ First, choose a PIO instance to use. Second, use pio_add_program() loading progr
 The processor can use pio_sm_put_blocking(pio, sm, 1) and pio_sm_put_blocking(pio, sm, 0) to push data directly into the state machine’s TX FIFO to turn on LED or turn off LED.
 7. What role does the pioasm “assembler” play in the example, and how does this interact with CMake?<br>
 The assembler will change a ".pio" file to some static variables describing the program and a method which configures a PIO state machine based on user parameters, and the directives in the actual PIO program. CMake support the converte process from "human language" to "machine language".
+
+## 3.3 Photos or scans of your annotated code printouts
+
