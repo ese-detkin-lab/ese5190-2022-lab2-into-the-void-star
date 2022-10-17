@@ -19,11 +19,11 @@ A: First, the conflicts between the fast speed of CPU and the rather slow speed 
 
 Second, CPU on laptop nowadays are working under a much more complex system than microcontrollers, which means the CPU would keep many hundreds of instructions in-flight on a single core at once, which has drawbacks when trying to switch rapidly between hard real time tasks.
 
-**Q: What are some cases where directly using the GPIO might be a  better choice than using the PIO hardware? **
+**Q: What are some cases where directly using the GPIO might be a  better choice than using the PIO hardware?** 
 
 A: Some burst I/O needs may be better to satisfy when handling them using GPIO. Also, some tasks without strict requirement for  cock synchronization would also be simpler to deal with using GPIO. In the case of lighting up a WS2812 LED, send a signal contains a high voltage to power the WS2812, which is not strict restricted to the timing and clocks, is solved by deploying a GPIO interface.
 
-**Q: How do you get data into/out from a PIO state machine? **
+**Q: How do you get data into/out from a PIO state machine?** 
 
 A: Getting data into a PIO state machine would us the TX FIFO register for the intended PIO machine while getting data from the PIO state machine is basically an `OUT` instruction to transfer data from Out Shift Register(OSR) to Scratch register X or Y, which is binding with a specific PIN as the output destination.
 
