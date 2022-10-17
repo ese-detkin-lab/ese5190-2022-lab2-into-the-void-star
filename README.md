@@ -22,4 +22,4 @@ First, choose a PIO instance to use. Second, use pio_add_program() loading progr
 
 6. In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?<br>
 
-7.What role does the pioasm “assembler” play in the example, and how does this interact with CMake?<br>
+7. What role does the pioasm “assembler” play in the example, and how does this interact with CMake?<br>
