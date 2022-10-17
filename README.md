@@ -95,4 +95,5 @@ When the code go through L3 and L8 the FIFO is empty, and there are data in FIFO
 
 This folder is Called Lab2a. 
 
-
+## Conclusion
+In this experiment, I mainly use pencil and paper to draw pictures, which I feel is different from using electronic equipment. In addition, the data sheet of 2040 and the data sheet of C SDK can be combined to better understand the data transmission mode and working principle of each register.
