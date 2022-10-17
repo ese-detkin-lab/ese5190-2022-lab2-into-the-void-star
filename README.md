@@ -70,9 +70,9 @@ To begin, we first answer the following questions:
     <img src="README.assets/image-20221016174506445.png" alt="image-20221016174506445" style="zoom:67%;" />
 
     From ws2812.pio.h we can know that, the numbers of cycle that for state machine to output a bit is equal to
-    $$
+    
     2+5+3=10
-    $$
+    
 
 - How much is this state machine’s clock scaled down relative to the system clock? (i.e. the “clock divisor”) 
 
@@ -83,9 +83,9 @@ To begin, we first answer the following questions:
     ![image-20221016175600339](README.assets/image-20221016175600339.png)
 
     And then we can calculate 
-    $$
-    \text{div}=(125\times10^{6})/(800000\times10)=15.625
-    $$
+    
+    div=(125*10^{6})/(800000*10)=15.625
+    
 
 - In which direction will this state machine shift bits out of its “output shift register”?
 
@@ -169,7 +169,7 @@ Most of information can be find on [WS2812 datasheet](https://cdn-shop.adafruit.
 
 - How do you tell a WS2812 you’re done sending data?
 
-  - Keep the data signal at low for more than $$ 50 \mu s$$
+  - Keep the data signal at low for more than 50us
 
 - How do you send data to more than one WS2812 in a chain?
 
