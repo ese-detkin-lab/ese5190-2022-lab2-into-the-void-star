@@ -280,8 +280,8 @@ while (true) {
 Include color data breakdown function for reorder
 
 ```c
-	uint32_t r_32 = (color & 0xff0000) >> 16u;
-    uint32_t g_32 = (color & 0x00ff00) >> 8u;
-    uint32_t b_32 = (color & 0x0000ff);
+uint32_t r_32 = (color & 0xff0000) >> 16u;
+uint32_t g_32 = (color & 0x00ff00) >> 8u;
+uint32_t b_32 = (color & 0x0000ff);
 ```
 
