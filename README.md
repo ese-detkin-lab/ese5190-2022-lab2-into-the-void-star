@@ -1,12 +1,9 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
     Meiyi Yu
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
+    Tested on: MacBook Pro (13-inch, 2019), macOS Monterey
 
-(TODO: Your README)
-
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
+Included lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
 
 ### 3.2 Questions
@@ -33,18 +30,19 @@ pio_sm_put_blocking. Accessed from while loop.
 PIO is programmed with assembling language, and cmake acts as a compiler to compile the assembler to executable program. 
 
 ### 3.3 Follow the flow
-https://github.com/Thea-E/ese5190-2022-lab2-into-the-void-star
+https://github.com/Thea-E/ese5190-2022-lab2-into-the-void-star/blob/main/3.3.pdf
 
-### 3.4
+### 3.4 Register Table
 https://github.com/Thea-E/ese5190-2022-lab2-into-the-void-star/blob/main/Lab2table.xlsx
 
-### 3.5
+### 3.5 .pio main
 https://github.com/Thea-E/ese5190-2022-lab2-into-the-void-star/blob/main/3.5.png
 
 ### 3.6
 
 ### 3.7
 
-### 4
+### 4 light the LED and print out message
 https://github.com/Thea-E/ese5190-2022-lab2-into-the-void-star/tree/main/WS2812_LED
- 
+
+
