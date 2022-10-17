@@ -17,6 +17,6 @@ Use pio_sm_put_blocking() function to push data directly into the state machine�
 4. How do you get data out of a PIO state machine?<br>
 Use pull instruction first to take one data item from the transmit FIFO buffer, and places it in the output shift register (OSR). Then use out instruction  to write that data to some pins.
 
-5. How do you program a PIO state machine?
-
-6. In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
+5. How do you program a PIO state machine?<br>
+First, choose a PIO instance to use. Second, use pio_add_program() loading program into the PIO's instruction memory. Third, use pio_claim_unused_sm() finding a free state machine. Last, configure out state machine by using helper function we included in our .pio file to start and run our program.
+7. In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
