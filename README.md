@@ -21,5 +21,5 @@ Use pull instruction first to take one data item from the transmit FIFO buffer, 
 First, choose a PIO instance to use. Second, use pio_add_program() loading program into the PIO's instruction memory. Third, use pio_claim_unused_sm() finding a free state machine. Last, configure out state machine by using helper function we included in our .pio file to start and run our program.
 
 6. In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?<br>
-
+The processor can use pio_sm_put_blocking(pio, sm, 1) and pio_sm_put_blocking(pio, sm, 0) to push data directly into the state machine’s TX FIFO to turn on LED or turn off LED.
 7. What role does the pioasm “assembler” play in the example, and how does this interact with CMake?<br>
