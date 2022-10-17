@@ -23,3 +23,4 @@ First, choose a PIO instance to use. Second, use pio_add_program() loading progr
 6. In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?<br>
 The processor can use pio_sm_put_blocking(pio, sm, 1) and pio_sm_put_blocking(pio, sm, 0) to push data directly into the state machine’s TX FIFO to turn on LED or turn off LED.
 7. What role does the pioasm “assembler” play in the example, and how does this interact with CMake?<br>
+The assembler convert .pio file into a .h header containing our assembled PIO program binary, any helper functions we included in the file, and some useful information about the program. CMake supports assembler to get "machine language" from "human readible" language.
