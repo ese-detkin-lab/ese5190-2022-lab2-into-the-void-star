@@ -1,9 +1,10 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
-    (TODO) YOUR NAME HERE
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
+    Haoze Wu
+    Tested on: Lenovo Thinkbook 16+ Ubuntu 20.04 LTS
 
-(TODO: Your README)
 
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
+
+## Overview 
+
+This repo is for Lab 2A in ESE5190@Penn, mainly covering up the PIO mechanism and a process to develop a gradually precise model for a simple PIO example: light up a WS2812 LED on Adafruit Qt Py RP2040 board.
