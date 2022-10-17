@@ -116,6 +116,14 @@ Then, with the combination of WS2812's technique characteristics, we could devel
 
 ![](assets/3-5.jpg)
 
+After  drawing the time diagram above,  let's take several time to summary.
+
+First, the time diagram above start when the data is ready at the TX FIFO for the state machine, and ends when the first bit is sent to the GPIO pin to the WS2812. Since for different bit the PIO sent the situation may be different, here we use different color to identify different bits: red stands for a single bit 1 and blue stands for a single bit 0.
+
+About the method used here: drawing charts on iPad using an Apple Pencil, which is more direct than checking the digits inside the registers to guess the status of the state machine. But the time delay here could not be depicted very precise, which may affect the control of clock. Also, when drawing directly could give us a comprehensive view of the whole process sending a single bit through PIO, but we cannot obtain some essential information   inside the registers, such as whether there is a IRQ for microcontroller from peripheral or not. On the contrary, spreadsheet, which accurately record every digit inside the register, could give us opportunities to speculate the digits inside the registers.                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+At last, the time period depicted here is one state machine clock, which is not precise enough, so there may not be some obvious delay on signals. But this could be visible when we zoom in to a much more trivial timer period, for example, $\frac{1}{4}$ state machine clock. And we will going into details about in the next chapter.
+
 ## Zooming in & Time Diagram
 
 After speculation on the PIO state machine register values and chart of the data for one bit, we could form a more comprehensive view of the process to a whole color data package which has a size of 32 bits.
