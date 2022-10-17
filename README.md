@@ -123,6 +123,8 @@ The we can take a look at other parts, the registers of PIO and FIFOs
 
 ## 3.5.1 Working Principle of WS2812
 
+Most of information can be find on [WS2812 datasheet](https://cdn-shop.adafruit.com/datasheets/WS2812.pdf)
+
 - What basic circuitry does a WS2812 LED need to operate?
 
   - <img src="README.assets/image-20221016204758166.png" alt="image-20221016204758166" style="zoom: 33%;" />
@@ -215,7 +217,7 @@ The output should be going are below:
 
 And the state is shown in the form:
 
-![image-20221016220849877](README.assets/image-20221016220849877.png)
+![image-20221016234619253](README.assets/image-20221016234619253.png)
 
 
 
