@@ -144,7 +144,7 @@ The main idea of this program is to creating an interactive interface through th
 
 The interactive result could be viewed as follows:
 
-![](assets\hello_usb_ws2812.gif)
+![](assets/hello_usb_ws2812.gif)
 
 Since the program here is a combination of USB Serial input and output and the PIO peripheral output, the CMake of this program should include both the libraries USB serial would use and the dependencies PIO module would use while also enable the USB Serial input and output in CMake file.  Besides, under the instruction of the lab material, we also encapsulate the `ws2812.c` into a header which could be included as a external library in CMake and C file. 
 
