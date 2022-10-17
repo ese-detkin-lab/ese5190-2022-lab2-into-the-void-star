@@ -28,6 +28,12 @@ The following link contains the pdf of the paper model.
 
 https://github.com/skyfall88888/ese5190-2022-lab2-into-the-void-star/blob/main/Lab2(a)_3.5.pdf
 
+### 3.6 & 3.7 Packet Transmission timing diagram and data arrangement
+
+The following link contains a hand-drawn timing diagram of relevant signals. Delays are approx. 
+
+https://github.com/skyfall88888/ese5190-2022-lab2-into-the-void-star/blob/main/Lab2(a)_3.6_3.7_timing_diagram.pdf
+
 
 ### 4: Working USB + WS2812 code folder
 
