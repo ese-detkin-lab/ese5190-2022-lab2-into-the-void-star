@@ -41,3 +41,22 @@ The comments against each line/function explains what the line does, and on the 
 7) What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
    When we run the Pioasm, it will it will create some static variables describing the program, and a method ws2812_default_program_config which configures PIO state machine based on user parameters, and the directives in the actual PIO program. To invoke the pioasm we need to call “pico_generate_pio_header” which will create an “.h” header file, which is already included in out code.
 ```
+## Spreadsheet of Initial PIO Register States
+
+Drive link to the spreadsheet - https://docs.google.com/spreadsheets/d/1v-5flhdtm8m_76C8Aig0-hozPYN_lp9LQVL06rwW4Co/edit?usp=sharing (Sheet 1)
+
+## Paper Modelling of the Code
+
+![](https://github.com/amoghgajare/LAB2A-AMOGH-GAJARE-WORKED-WITH-SAURABH-PARULEKAR/blob/main/papermodel1.jpeg)
+![](https://github.com/amoghgajare/LAB2A-AMOGH-GAJARE-WORKED-WITH-SAURABH-PARULEKAR/blob/main/papermodeltxcycle.jpeg)
+![](https://github.com/amoghgajare/LAB2A-AMOGH-GAJARE-WORKED-WITH-SAURABH-PARULEKAR/blob/main/cycles.jpeg)
+
+## Packet Transmission Spreadsheet
+
+Image link to Packet Transmission Timing Diagram - https://ibb.co/Zg1Fg4H (Please download the PNG file and Zoom to see the waveform)
+
+What were some strengths/weaknesses of working with paper?
+- Analysis of code can be done conveniently on paper. For example, Analysing the assembly code by labelling the instructions and determining the control flow was much easier on paper.
+
+What were some strengths/weaknesses of working with spreadsheets?
+- Working with registers becomes easier with the use of spreadsheets.
