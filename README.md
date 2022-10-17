@@ -94,7 +94,7 @@ Follow the number annotated with the code, we could build up a basic view of the
 |  SM2_PINCTRL  | 0x502010c  | 0x10c  |                 State machine 2 pin control                  | 0001 0100<br />0000 0000<br />0000  0000<br />0000 0000 | State machine 2 is not used.                                 |
 |  SM3_PINCTRL  | 0x5020124  | 0x124  |                 State machine 3 pin control                  | 0001 0100<br />0000 0000<br />0000  0000<br />0000 0000 | State machine 3 is not used.                                 |
 
-which is also available in the form of excel [Here](\assets\3.4.xlsx).
+which is also available in the form of excel [Here](/assets/3.4.xlsx).
 
 ## Modeling Time
 
@@ -106,7 +106,7 @@ After going into details in a temporary state of the PIO state machine, we could
 
 After speculation on the PIO state machine register values and chart of the data for one bit, we could form a more comprehensive view of the process to a whole color data package which has a size of 32 bits.
 
-First, some of the register values are available through the whole sending process [here](\assets\3.6.xlsx).
+First, some of the register values are available through the whole sending process [here](/assets/3.6.xlsx).
 
 Then, based on the time model from previous section and the register values, we could form an integral time diagram for sending the whole color package. 
 
