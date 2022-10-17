@@ -123,8 +123,6 @@ The we can take a look at other parts, the registers of PIO and FIFOs
 
 ## 3.5.1 Working Principle of WS2812
 
-Most of information can be find on [WS2812 datasheet](https://cdn-shop.adafruit.com/datasheets/WS2812.pdf)
-
 - What basic circuitry does a WS2812 LED need to operate?
 
   - <img src="README.assets/image-20221016204758166.png" alt="image-20221016204758166" style="zoom: 33%;" />
