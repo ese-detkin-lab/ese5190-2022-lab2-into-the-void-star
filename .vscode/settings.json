@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/.",
+    "files.associations": {
+        "ws2812.h": "c",
+        "ws2812.pio.h": "c"
+    }
+}
