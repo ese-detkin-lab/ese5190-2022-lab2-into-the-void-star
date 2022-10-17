@@ -47,8 +47,8 @@ The main ingredients in this recipe are:
 
 ### In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
 
-1. `rgbw`
-2. `sm_config_out_shift(&c, false, true, rgbw ? 32 : 24)`
+1. `put_pixel(rand())`
+2. `pattern_table()`
 
 ### What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
 
@@ -80,12 +80,51 @@ The main ingredients in this recipe are:
 <div align=center><img width="800" height="350" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/files%20inside%20test.png"/></div>
 
 ## Modifying CMakelists files.
+
 1. Modifying CmakeLists.txt which is copied from pico-examples folder.
 
 From:
 
-<div align=center><img width="800" height="400" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/former.png"/></div>
+<div align=center><img width="650" height="400" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/former.png"/></div>
 
 To:
 
-<div align=center><img width="800" height="400" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/after.png"/></div>
+<div align=center><img width="650" height="400" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/after.png"/></div>
+
+2. Modifying the CMakeLists.txt in the ws2812 folder.
+
+- Copying two two lines to the CMakeLists.txt in the ws2812 folder from the CMakeLists.txt in the usb folder in the hello_world folder:
+
+<div align=center><img width="650" height="400" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/hello%20world.png"/></div>
+
+- Changing the path hello_usb to pio_ws2812:
+
+<div align=center><img width="650" height="400" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/cmake%20in%20ws2812.png"/></div>
+
+## Modifying WS2812 code.
+
+1. Changing the pin from 2 to 12 in line 22:
+
+<div align=center><img width="800" height="200" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/pin12.png"/></div>
+
+2. Adding `gpio_init(11)` after `printf("WS2812 Smoke Test, using pin %d", WS2812_PIN)`:
+
+<div align=center><img width="800" height="200" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/int11.png"/></div>
+
+3. Adding 
+```
+$ gpio_set_dir(11, GPIO_OUT)
+$ gpio_put(11,1)
+
+```
+after 
+
+```
+uint offset = pio_add_program(pio, &ws2812_program)
+
+```
+<div align=center><img width="800" height="200" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/add%20gpio.png"/></div>
+
+4. Adding `printf("Hello, world!\n")` inside the `while` loop and outside the `for` loop
+
+<div align=center><img width="800" height="400" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/add%20print.png"/></div>
