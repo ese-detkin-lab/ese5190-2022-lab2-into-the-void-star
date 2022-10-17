@@ -128,7 +128,7 @@ At last, the time period depicted here is one state machine clock, which is not 
 
 After speculation on the PIO state machine register values and chart of the data for one bit, we could form a more comprehensive view of the process to a whole color data package which has a size of 32 bits.
 
-First, some of the register values are available through the whole sending process [here](/assets/3.6.xlsx).
+First, some of the register values are available through the whole sending process [here](https://1drv.ms/x/s!AoPsHSmv8XoOorRIED5lDtQaOD9iNg?e=3IkfUm).
 
 Then, based on the time model from previous section and the register values, we could form an integral time diagram for sending the whole color package. 
 
