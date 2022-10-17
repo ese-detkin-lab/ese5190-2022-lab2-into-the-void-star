@@ -123,3 +123,48 @@ To fill the vacuum, the out instruction pushes data out of the OSR and zeroes in
 We are using TX FIFO registers for sending data more than one WS2812 in a chain. The data that we are moving out of the OSR comes from the state machine's TX FIFO, which is more extensively documented in the RP2040 Datasheet. The TX FIFO is a data buffer between the state machine and the rest of the RP2040 that may be filled 
 either directly from the CPU or through system DMA, which is substantially quicker.
 
+# 4 HELLO, BLINKENLIGHT
+
+Kindly find the code in Part 4/USB + WS2812 code/ .
+You can access by clicking the link as well [Code](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/tree/main/Part%204/USB%20%2B%20WS2812%20code/new_%20hello_usb_plus_color)
+
+So Our task was to modify hello_usb.c to make your LED blink when you send serial commands, by incorporating the necessary C and PIO assembly code from the Pico WS2812 example. <br />
+
+So remember from the lab 2A question document, it was said "to get the WS2812 example to work with your board, you will need to manually add code to enable power to your LED before you can control it. You can refer to GPIO documentation in the SDK and the “blink” example for how to do this. You will need to (a) find the right pin to set for NeoPixel power, referring to the board pinout from Adafruit, (b) initialize this pin via the SDK, (c) set the pin as an “output,” and (d) set the pin “high,” before you can send any LED commands."
+
+Below photo shows the comparision between the hello world .c code and our new .c code for "HELLO, BLINKENLIGHT". <br /> 
+The // commented section in the photos and code shows how we implemented it.
+
+![](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%204/Photos%20Code/Main%20code%20comparision%20to%20hello%20world.png)<br />
+
+You must be wondering what is set_neopixel_color in the main for loop! Dont worry we will discuss it next how we implemented it and why.<br /> 
+
+Basically it it a functions to implement our API function that will set the LED color, which we will include to outr existing ws2812.c code.<br /> 
+
+You can see the photo of the implementation below:<br /> 
+![](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%204/Photos%20Code/neopixel.png)<br />
+ We chose a specific RGB values you can choose any values.
+ 
+ Now we need to create a new header file called “ws2812.h” that you will use to expose
+code from “ws2812.c” to our main hello_usb code.<br /> 
+You can see the photo of the implementation below:<br /> 
+[](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%204/Photos%20Code/header%20file.png)
+
+Finally we need to modify the CMakeList.txt of "hello_usb" code to make it workable for our new 
+HELLO, BLINKENLIGHT or hello_usb.c code.
+You can see the photo of the implementation below. I have highlighted the difference as well. For details on how to make CMakeList or CMake file you can always refer to SDK manual for RP2040<br /> 
+[](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%204/Photos%20Code/shows%20changes%20made%20to%20cmakefile.png) <br /> 
+
+Dont worry its just simple edit we made to make it workable. We just included the necessary libraries the CMake needs to use and the additional ws2812.c code that was required to be executed. Moreover, you can see your ws2812 cmake text file it will help you edit this. <br /> 
+
+## HELLO, BLINKENLIGHT GIF <br /> 
+Here is a GIF to show how our code works. <br /> 
+[](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%204/Hello%20World%20%2B%20Blink%20GIF.gif)
+
+
+
+ 
+
+
+
+
