@@ -56,3 +56,36 @@ The main ingredients in this recipe are:
 2. Building your PIO programs for you to `#include` from your C or C++ program.
 3. It can also be used directly, and it can generate programs suitable for use with the MicroPython PIO library.
 4. Within the SDK you do not need to invoke pioasm directly, as the CMake function `pico_generate_pio_header(TARDET PIO_FILE)` takes care of invoking pioasm and adding the generated header to the include path of the target TARGET for you.
+
+# Part 4: HELLO, BLINKENLIGHT
+
+1. Creating a new test folder outside the pico-examples folder.
+2. Copying documents from pico-examples folder.
+3. Modifying CMakelists files.
+4. Modifying WS2812 code.
+4. Building a new folder inside the test folder.
+5. Running the new .uf2 file.
+
+## Creating a new test folder outside the pico-examples folder.
+
+<div align=center><img width="800" height="500" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/new%20folder.png"/></div>
+
+## Copying documents from pico-examples folder.
+
+1. Copying the "pio" folder from the pico-example.
+2. Copying the "CMake" folder from the pico-example.
+3. Copying the "CMakeLists.txt" file from the pico-example folder.
+4. Copying the files which are not folders inside the pico-examples folder.
+
+<div align=center><img width="800" height="350" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/files%20inside%20test.png"/></div>
+
+## Modifying CMakelists files.
+1. Modifying CmakeLists.txt which is copied from pico-examples folder.
+
+From:
+
+<div align=center><img width="800" height="400" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/former.png"/></div>
+
+To:
+
+<div align=center><img width="800" height="400" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/after.png"/></div>
