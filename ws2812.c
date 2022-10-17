@@ -100,19 +100,6 @@ int main() {
 
     int t = 0;
     while (1) {
-        // int pat = rand() % count_of(pattern_table);
-        
-        // printf("WS2812 Smoke Test, using pin \n");
-
-        // int dir = (rand() >> 30) & 1 ? 1 : -1;
-        // // puts(pattern_table[pat].name);
-        // puts(dir == 1 ? "(forward)" : "(backward)");
-        // for (int i = 0; i < 1000; ++i) {
-        //     pattern_table[pat].pat(NUM_PIXELS, t);
-        //     sleep_ms(10);
-        //     t += dir;
-        // }
-            //printf("Blinking");
             int c = getchar_timeout_us (5000);
             if(c!=-1)
             {
