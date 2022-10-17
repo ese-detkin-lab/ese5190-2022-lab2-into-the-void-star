@@ -100,6 +100,20 @@ which is also available in the form of excel [Here](/assets/3.4.xlsx).
 
 After going into details in a temporary state of the PIO state machine, we could have a more high-level view on how the PIO sending one single bit to the WS2812.
 
+First, we would also going through the techniques details of the WS2812 LED.
+
+WS2812 uses a non-return-to-zero protocol to communicate with other hardware: the length of the time period a high voltage continues identifies two different digits. When the high voltage lasts 0.7us and followed by a low voltage input lasts 0.6us would be recognized as digit 1. When the high voltage lasts 0.35us, which is shorter than the length of digit 1's high voltage input, followed by a low voltage input lasting 0.8us would be recognized as digit 0.
+
+WS2812 receives the color data in the GRB order, which is different from normal RGB order. It would take the first 24 bit of the data from PIO state machine and ignore the following 8 digits in the whole 32 bits package. For the first 8 bit of the received 24 bit data, it is recognized as data for Green channel, and the second and thrid 8 digits for Red and Blue channels respectively.
+
+The connection between WS2812 and the RP2040 is wired connection. More specific, the input pin of the WS2812 is the DI pin, which is the PIN 12 on Adafruit Qt Py RP2040. After assigning this PIN 12 to the output of side set in the PIO0, the data could be transferred through side set instructions. Before sending data to WS2812, we should first send high voltage to its power PIN to power it on, in which we adopt GPIO to handle with.
+
+Also, WS2812 provides a cascade connection mode, which means the input of a unit in the chain is the output from DO PIN from the previous unit, which is also 24 bit.
+
+![](assets\cascade_ws2812.jpeg)
+
+Then, with the combination of WS2812's technique characteristics, we could develop a time diagram for the PIO responsible for transferring data to WS2812.
+
 ![](assets/3-5.jpg)
 
 ## Zooming in & Time Diagram
@@ -113,3 +127,12 @@ Then, based on the time model from previous section and the register values, we 
 ![](assets/3-7.jpg)
 
 In this time diagram, the `clock` here has a larger time interval representing the time used for sending one bit to WS2812.
+
+## Hello Blinkenlight
+
+In the final part of lab 2A, we present a new interactive WS2812 program enabled by PIO for LED and USB Serial input and output. 
+
+The main idea of this program is to creating an interactive interface through the terminal, waiting for users to input the RGB color in hex form they are going to put on the WS2812 LED light. After checking the input is valid for a color input, this program would transfer the RGB form input data to GRB order using bitwise operation. Then, the GRB ordered data could be transmitted to WS2812 through PIO to finally light the LED up in the assigning color. If the user does not input the color data within the time limit of 4 seconds, the program would use USB Serial output to display a message to the terminal. Also, if the user's input is not valid, for example, containing characters except the 16 hexadecimal digits, the program would also reminder the user to re-input a valid color data.
+
+
+
