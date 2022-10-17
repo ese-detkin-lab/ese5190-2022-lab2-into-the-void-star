@@ -15,37 +15,6 @@
 #include "hello_usb.pio.h"
 #include "ws2812.h"
 
-
-/*
-#define IS_RGBW true
-#define NUM_PIXELS 1
-
-#ifdef PICO_DEFAULT_WS2812_PIN
-#define WS2812_PIN PICO_DEFAULT_WS2812_PIN
-#else
-// default to pin 2 if the board doesn't have a default WS2812 pin defined
-#define WS2812_PIN 11
-#endif
-
-#ifdef PICO_DEFAULT_WS2812_POWER_PIN
-#define WS2812_POWER PICO_DEFAULT_WS2812_POWER_PIN
-#else
-#define WS2812_POWER 12
-#endif
-
-static inline void put_pixel(uint32_t pixel_grb) {
-    pio_sm_put_blocking(pio0, 0, pixel_grb << 8u);
-}
-
-static inline uint32_t urgb_u32(uint8_t r, uint8_t g, uint8_t b) {
-    return
-            ((uint32_t) (r) << 8) |
-            ((uint32_t) (g) << 16) |
-            (uint32_t) (b);
-}
-
-*/
-
 int main() {
     stdio_init_all();
 
@@ -66,31 +35,27 @@ int main() {
     ws2812_program_init(pio, sm, offset, WS2812_PIN, 800000, IS_RGBW);
 
     while (true) {
-        /*
-        printf("Hello, world!\n");
-        set_neopixel_color(color); 
-        sleep_ms(100);
-        set_neopixel_color(0x00000000);
-        sleep_ms(900);
-        */
         sleep_ms(1000);
-        printf("Waiting for input...\n");
+        printf("Waiting for input. Choose one from r ,g ,b...\n");
         while(true){
             int c = getchar_timeout_us(100);
             if (c != PICO_ERROR_TIMEOUT) {
                 printf("%d",c);
+                // 114 is ASCII for 'r'
                 if (c == 114) {
                     putchar_raw(c);
                     printf("\n");
                     set_neopixel_color(0xff0000);
                     break;
                 }
+                // 103 is ASCII for 'g'
                 else if (c == 103) {
                     putchar_raw(c);
                     printf("\n");
                     set_neopixel_color(0x00ff00);
                     break;
                 }
+                // 98 is ASCII for 'b'
                 else if (c == 98) {
                     putchar_raw(c);
                     printf("\n");

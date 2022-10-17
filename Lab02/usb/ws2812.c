@@ -33,6 +33,7 @@ static inline uint32_t urgb_u32(uint8_t r, uint8_t g, uint8_t b) {
             (uint32_t) (b);
 }
 
+//break down the color data and reorganiz and set to output
 void set_neopixel_color(uint32_t color) {
     uint32_t r_32 = (color & 0xff0000) >> 16u;
     uint32_t g_32 = (color & 0x00ff00) >> 8u;

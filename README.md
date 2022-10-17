@@ -221,3 +221,67 @@ And the state is shown in the form:
 
 
 
+# 4. HELLO, BLINKENLIGHT
+
+## 4.1 Introduction
+
+The project for Lab2A is in the folder 'Lab02'.
+
+This project design a system that read from the USB console and give the corresponding output for red, green or blue.
+
+And most of code is based on [PICO example of ws2812](https://github.com/raspberrypi/pico-examples/tree/master/pio/ws2812).
+
+<img src="README.assets/image-20221016231412516.png" alt="image-20221016231412516" style="zoom:33%;" />
+
+<img src="README.assets/937bc3bda75fe2d061dc31838b41f30.jpg" alt="937bc3bda75fe2d061dc31838b41f30" style="zoom:33%;" />
+
+<img src="README.assets/b601563b1666c1eaec0956a4026c2ec.jpg" alt="b601563b1666c1eaec0956a4026c2ec" style="zoom:33%;" />
+
+## 4.2 Features
+
+Include keyboard input for the NEOPIXEL control on adafruit Qt Py RP2040.
+
+```c
+while (true) {
+        sleep_ms(1000);
+        printf("Waiting for input. Choose one from r ,g ,b...\n");
+        while(true){
+            int c = getchar_timeout_us(100);
+            if (c != PICO_ERROR_TIMEOUT) {
+                // 114 is ASCII for 'r'
+                if (c == 114) {
+                    putchar_raw(c);
+                    printf("\n");
+                    set_neopixel_color(0xff0000);
+                    break;
+                }
+                // 103 is ASCII for 'g'
+                else if (c == 103) {
+                    putchar_raw(c);
+                    printf("\n");
+                    set_neopixel_color(0x00ff00);
+                    break;
+                }
+                // 98 is ASCII for 'b'
+                else if (c == 98) {
+                    putchar_raw(c);
+                    printf("\n");
+                    set_neopixel_color(0x0000ff);
+                    break;
+                }
+                else {
+                    printf("error input!\n");
+                }
+            } 
+        }
+    }
+```
+
+Include color data breakdown function for reorder
+
+```c
+	uint32_t r_32 = (color & 0xff0000) >> 16u;
+    uint32_t g_32 = (color & 0x00ff00) >> 8u;
+    uint32_t b_32 = (color & 0x0000ff);
+```
+
