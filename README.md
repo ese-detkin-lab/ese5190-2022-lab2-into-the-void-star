@@ -31,4 +31,6 @@ Photos my annotated code printout:<br>
 https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.3-Annotated%20Code%20Printouts.pdf
 
 # 3.4 Color by number
-My favorate color is purple(RGB:0xff00ff);<br>
+My favorate color is purple (RGB: 0xff00ff);<br>
+My spreadsheet:<br>
+
