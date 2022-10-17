@@ -1,0 +1,20 @@
+7 .program ws2812
+8 .side_set 1
+9
+10 .define public T1 2
+11 .define public T2 5
+12 .define public T3 3
+13
+14 .lang_opt python sideset_init = pico.PIO.OUT_HIGH
+15 .lang_opt python out_init = pico.PIO.OUT_HIGH
+16 .lang_opt python out_shiftdir = 1
+17
+18 .wrap_target
+19 bitloop:
+20 out x, 1 side 0 [T3 - 1] ; Side-set still takes place when instruction stalls
+21 jmp !x do_zero side 1 [T1 - 1] ; Branch on the bit we shifted out. Positive pulse
+22 do_one:
+23 jmp bitloop side 1 [T2 - 1] ; Continue driving high, for a long pulse
+24 do_zero:
+25 nop side 0 [T2 - 1] ; Or drive low, for a short pulse
+26 .wrap
