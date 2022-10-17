@@ -10,7 +10,9 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 ## Brief responses to the reading questions in 3.2
 
 - Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040? 
+
 Due to the timing uncertainty of actually entering an interrupt handler, the bit-banging become impractical. Another choice is to set the processor in a carefully times loop trying to make sure the GPIO reading and writing happens on the exact cycle required, which is really hard work. 
+
 - What are some cases where directly using the GPIO might be a better choice than using the PIO hardware?  
 
 - How do you get data into a PIO state machine? 
