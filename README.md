@@ -102,15 +102,15 @@ how does this interact with CMake?
     
 ### Reflection
 
-What were some strengths/weaknesses of working with paper?
+1. What were some strengths/weaknesses of working with paper?
 
 I drew most of the timing-related diagrams in hand(paper/ipad), because it is difficult to do so with Excel. 
 
-What were some strengths/weaknesses of working with spreadsheets?
+2. What were some strengths/weaknesses of working with spreadsheets?
 
 Spreadsheets help with arranging and annotate data, especially when I have a large amount of them. But drawing something like timing diagram, especially with delays, it is not the best tool.
 
-How might you approach this task using other tools available to you?
+3. How might you approach this task using other tools available to you?
 
 A timing diagram generator would be great xD...
     
