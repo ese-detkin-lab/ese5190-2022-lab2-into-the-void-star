@@ -19,4 +19,7 @@ Use pull instruction first to take one data item from the transmit FIFO buffer, 
 
 5. How do you program a PIO state machine?<br>
 First, choose a PIO instance to use. Second, use pio_add_program() loading program into the PIO's instruction memory. Third, use pio_claim_unused_sm() finding a free state machine. Last, configure out state machine by using helper function we included in our .pio file to start and run our program.
-7. In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
+
+6. In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?<br>
+
+7.What role does the pioasm “assembler” play in the example, and how does this interact with CMake?<br>
