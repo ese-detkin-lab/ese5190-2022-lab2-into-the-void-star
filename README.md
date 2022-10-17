@@ -9,13 +9,13 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
 
-| |ADDRESS|OFFSET|NAME|VALUE|Notes|
-| :---:    | :---:                    | :---:  | :---: | :---: | :---: |
-|BASE      |0x50200000<br>0x50300000| NONE   |PIO0_BASE<br>PIO1_BASE|NONE|Base address for PIO0_BASE and PIO1_BASE                   |
-|CLTR      | 0x50200000             | 0x000  |PIO control register                     | 0000 0000<br />0000 0000<br />0000  0000<br />0000 0001 | 12:31 digits are reserved, and  state machine 0 is enabled.  |
-|FSTAT     | 0x50200004             | 0x004  |FIFO status register                     | 0000 1110<br />0000 0001<br />0000  1111<br />0000 0000 | State machine 0's TX FIFO is  filled with color data while its RX FIFO is not used.     Other 3 state machine is not enabled. |
-|FDEBUG     | 0x50200008            | 0x008  |FIFO debug register                      | 0000 0001<br />0000 0000<br />0000  0000<br />0000 0000 | State machine 0's TX FIFO is  full and its RX is not used here.     Other 3 state machine is not enabled. |
-|FLEVEL     | 0x502000c             | 0x00c  |FIFO level register                      | 0000 0000<br />0000 0000<br />0000  0000<br />0000 0001 | Only state machine 0's TX is  used, no level specficed for other TX or RX register |
+|          |ADDRESS                 |OFFSET|NAME|VALUE|Notes|
+| :---:    | :---:                  | :---:  | :---:                                   | :---: | :---: |
+|BASE      | 0x5020000              | NONE   |PIO0_BASE<br>PIO1_BASE|NONE|Base address for PIO0_BASE and PIO1_BASE                   |
+|CLTR      | 0x5020000              | 0x000  |PIO control register                     | 0x00000001 | 12:31 digits are reserved, and  state machine 0 is enabled.  |
+|FSTAT     | 0x5020004              | 0x004  |FIFO status register                     | 0x0f000f01 | State machine 0's TX FIFO is  filled with color data while its RX FIFO is not used.     Other 3 state machine is not enabled. |
+|FDEBUG    | 0x5020008              | 0x008  |FIFO debug register                      | 0x01000f00 | State machine 0's TX FIFO is  full and its RX is not used here.     Other 3 state machine is not enabled. |
+|FLEVEL    | 0x502000c              | 0x00c  |FIFO level register                      | 0x00000000 | Only state machine 0's TX is  used, no level specficed for other TX or RX register |
 |TXF0      | 0x5020010              | 0x010  |TXF0 register                         | 0000 0000<br />1111 1111<br />0000  0000<br />0000 0000 | The color 0xFF0000 is used here  for state machine 0. Since the WS2812 takes onlt GRB channel orders, the RGB  is transmitted in the form of GRB after transform. |
 |TXF1      | 0x5020014              | 0x014  |TXF1 register                         | 0000 0000<br />0000 0000<br />0000  0000<br />0000 0000 | Not used, keep  default.                                     |
 |TXF2      | 0x5020018              | 0x018  |TXF2 register                         | 0000 0000<br />0000 0000<br />0000  0000<br />0000 0000 | Not used, keep  default.                                     |
