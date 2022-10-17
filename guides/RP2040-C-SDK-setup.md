@@ -67,7 +67,7 @@
      - Serial Line should be same as the COM port as the one in Device Manager (for me it is COM11)
      - Speed: 115200
      - Click Open: should open the Serial Console
-- **Voila!** Output on the console.
+- **Voila!** Output on the console.\
 ![image](https://github.com/Aurunima/ESE5190_Fall22_Lab2/blob/main/img/Lab2_ConsoleOutput_p1dot3.png)
 
 *Bit-banging is a process where one emulates an unavailable peripheral using direct port manipulation commands on GPIO pins. One important thing to note with bit-banged designs is that it they are simplest and most robust in circumstances where either the devices being communicated with are waiting on the bit-banging controller to generate all their timing, or where the controller will be allowed to wait, without distraction, for an event to arrive, and where it will be able to do everything it needs to do with that event before any other event arrives that it needs to act upon. They are much less robust in circumstances where a device will need to be able to react to external stimuli within a relatively short time frame, but cannot device 100% of its energy to watching for such stimuli.
