@@ -6,4 +6,4 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 (TODO: Your README)
 
-My write up, scanned hand models and annotate code are included in the pdf's attached.
+My write up, scanned hand models and annotate code are included in the pdf's attached. Additionally a gif of my working code blinking the LED and sending a serial message.
