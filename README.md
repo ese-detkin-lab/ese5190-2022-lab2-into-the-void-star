@@ -51,12 +51,22 @@ Drive link to the spreadsheet - https://docs.google.com/spreadsheets/d/1v-5flhdt
 ![](https://github.com/amoghgajare/LAB2A-AMOGH-GAJARE-WORKED-WITH-SAURABH-PARULEKAR/blob/main/papermodeltxcycle.jpeg)
 ![](https://github.com/amoghgajare/LAB2A-AMOGH-GAJARE-WORKED-WITH-SAURABH-PARULEKAR/blob/main/cycles.jpeg)
 
+## Modeling in Excel
+![](https://github.com/saurabhparulekar24/LAB-2A-SAURABH-PARULEKAR-WORKED-WITH-AMOGH-GAJARE/blob/main/Modeling_in_Excel.png)
+
 ## Packet Transmission Spreadsheet
 
 Image link to Packet Transmission Timing Diagram - https://ibb.co/Zg1Fg4H (Please download the PNG file and Zoom to see the waveform)
+
+We decided to do the initial part of the modeling on paper and then we moved on to excel, in both cases it proved difficult to model the long transmission and requires some other approach
 
 What were some strengths/weaknesses of working with paper?
 - Analysis of code can be done conveniently on paper. For example, Analysing the assembly code by labelling the instructions and determining the control flow was much easier on paper.
 
 What were some strengths/weaknesses of working with spreadsheets?
-- Working with registers becomes easier with the use of spreadsheets.
+- Working with registers becomes easier with the use of spreadsheets. but creating a timing diagram for a long transmission becomes very difficult
+
+How might you approach this task using other tools available to you?
+- We can use online timing diagram creators which are helpful but have an initial learning curves
+
+
