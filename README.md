@@ -134,5 +134,10 @@ In the final part of lab 2A, we present a new interactive WS2812 program enabled
 
 The main idea of this program is to creating an interactive interface through the terminal, waiting for users to input the RGB color in hex form they are going to put on the WS2812 LED light. After checking the input is valid for a color input, this program would transfer the RGB form input data to GRB order using bitwise operation. Then, the GRB ordered data could be transmitted to WS2812 through PIO to finally light the LED up in the assigning color. If the user does not input the color data within the time limit of 4 seconds, the program would use USB Serial output to display a message to the terminal. Also, if the user's input is not valid, for example, containing characters except the 16 hexadecimal digits, the program would also reminder the user to re-input a valid color data.
 
+The interactive result could be viewed as follows:
 
+![](assets\hello_usb_ws2812.gif)
 
+Since the program here is a combination of USB Serial input and output and the PIO peripheral output, the CMake of this program should include both the libraries USB serial would use and the dependencies PIO module would use while also enable the USB Serial input and output in CMake file.  Besides, under the instruction of the lab material, we also encapsulate the `ws2812.c` into a header which could be included as a external library in CMake and C file. 
+
+For the implementation, since the power of WS2812 is required to be set to high during the time period where light on, we need to implement a GPIO to be responsible sending high voltage to the power pin of WS2812 LED. Moreover, the transform of color data from RGB order to GRB order is done by using logic AND to extract value of each channel and using bitwise shift to change the order of the channels. 
