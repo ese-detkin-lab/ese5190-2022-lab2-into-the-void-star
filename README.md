@@ -37,7 +37,7 @@ https://github.com/skyfall88888/ese5190-2022-lab2-into-the-void-star/blob/main/h
 
 # Additional Lab Questions
 
-3.2 PIO reading questions:
+### 3.2 PIO reading questions:
 
 • Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
 
@@ -81,3 +81,37 @@ is this function accessed from the main “application” code?
 how does this interact with CMake?
 
    The assmbler works as a 'translator' that compiles the ASM language. CMake generally supports the 'assembler' to convert between 'machine specific' and 'human readable' languages.
+   
+### Decisions I made while working with the modeling documents
+
+1. For 3.3---annotated codes
+
+    I decided to go over basic instructions by browsing the relevant SDK library. Getting to know the meaning of the low-level instructions like pio_sm_put_blocking is very helpful in determining the current status the program is running at.
+    
+2. For 3.4---PIO Registers
+
+    Based on the annotated codes from 3.3, I have a general idea at how the overall build(from putting data into FIFO, then to SM, then to execute c code). Determining each config register's status would be a bit clearer after learning about the procedure of how PIO works.
+    
+3. For 3.5---ASM code
+    
+    The Datasheet for the SDK C was really helpful and explaint the majority of the information needed for this part.
+    
+4. For 3.6 & 3.7 --- Timing diagram
+
+    I decided to cross reference from part 3.4 and 3.5. Figuring out the 32-bit registers that might be affected by those instructions, then figure out what specific bits are affected.
+    
+### Reflection
+
+What were some strengths/weaknesses of working with paper?
+
+I drew most of the timing-related diagrams in hand(paper/ipad), because it is difficult to do so with Excel. 
+
+What were some strengths/weaknesses of working with spreadsheets?
+
+Spreadsheets help with arranging and annotate data, especially when I have a large amount of them. But drawing something like timing diagram, especially with delays, it is not the best tool.
+
+How might you approach this task using other tools available to you?
+
+A timing diagram generator would be great xD...
+    
+    
