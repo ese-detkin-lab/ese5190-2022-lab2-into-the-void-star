@@ -25,6 +25,6 @@ The processor can use pio_sm_put_blocking(pio, sm, 1) and pio_sm_put_blocking(pi
 7. What role does the pioasm “assembler” play in the example, and how does this interact with CMake?<br>
 The assembler will change a ".pio" file to some static variables describing the program and a method which configures a PIO state machine based on user parameters, and the directives in the actual PIO program. CMake support the converte process from "human language" to "machine language".
 
-## 3.3 Photos or scans of your annotated code printouts
+## 3.3 Photos of annotated code printouts
 
 https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.3-Annotated%20Code%20Printouts.pdf
