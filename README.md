@@ -148,18 +148,18 @@ You can see the photo of the implementation below:<br />
  Now we need to create a new header file called “ws2812.h” that you will use to expose
 code from “ws2812.c” to our main hello_usb code.<br /> 
 You can see the photo of the implementation below:<br /> 
-[](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%204/Photos%20Code/header%20file.png)
+![](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%204/Photos%20Code/header%20file.png)
 
 Finally we need to modify the CMakeList.txt of "hello_usb" code to make it workable for our new 
 HELLO, BLINKENLIGHT or hello_usb.c code.
 You can see the photo of the implementation below. I have highlighted the difference as well. For details on how to make CMakeList or CMake file you can always refer to SDK manual for RP2040<br /> 
-[](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%204/Photos%20Code/shows%20changes%20made%20to%20cmakefile.png) <br /> 
+![](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%204/Photos%20Code/shows%20changes%20made%20to%20cmakefile.png) <br /> 
 
 Dont worry its just simple edit we made to make it workable. We just included the necessary libraries the CMake needs to use and the additional ws2812.c code that was required to be executed. Moreover, you can see your ws2812 cmake text file it will help you edit this. <br /> 
 
 ## HELLO, BLINKENLIGHT GIF <br /> 
 Here is a GIF to show how our code works. <br /> 
-[](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%204/Hello%20World%20%2B%20Blink%20GIF.gif)
+![](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%204/Hello%20World%20%2B%20Blink%20GIF.gif)
 
 
 
