@@ -6,9 +6,9 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 (TODO: Your README)
 
 
-PART 3: TALKING LEDS
+# PART 3: TALKING LEDS
 
-3.2 PIO
+## 3.2 PIO
 
 Q1) Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
 
@@ -46,6 +46,9 @@ Q7) What role does the pioasm “assembler” play in the example, and how does 
 The pioasm assembler generates the binary file from the .pio files. It is the assembler used for this conversion. CMake function pico_generate_pio_header(TARGET
 PIO_FILE) invokes pioasm automatically and adding the generated header to the include path of the target TARGET.
 
+## 3.3 Follow the Flow
+
+1) Annotated C code images
 
 
 
