@@ -99,7 +99,7 @@ Check the file 【**part3.5**】
 
 - *How do you tell a WS2812 you’re done sending data?*
 
-    A long negative pulse latches the pixel data into the LEDs.
+    A long negative pulse latches the pixel data into the LEDs (RESET).
 
 - *How do you send data to more than one WS2812 in a chain?*
     
