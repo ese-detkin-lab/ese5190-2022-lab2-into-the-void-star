@@ -75,10 +75,10 @@ The following image elaborates the answers of question 3.5
 
 The following excel sheet contains the list of specified registers, addresses and values.[LINK](https://github.com/prateekbashista/ese5190-2022-lab2-into-the-void-star/blob/b68fe272b76521b4ef9d0a25a23f2c4e2a6cef8c/3.7-3.6.xlsx)
 
+# 4 HELLO BLINKEN,LIGHT
 
+Following is the Output for part 4.
 
+![image](https://github.com/prateekbashista/ese5190-2022-lab2-into-the-void-star/blob/b5a7778f584a77c8b4265624bd83662f8eb63ccb/Part%204%20Video.mp4)
 
-
-
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
