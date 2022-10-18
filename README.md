@@ -27,4 +27,5 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
     - the CMake function pico_generate_pio_header(TARGET PIO_FILE) takes care of invoking pioasm and adding the generated header to the include path of the target application.
 ## 3.3 FOLLOW THE FLOW
 ![image](https://github.com/IndigoQuadratic/ese5190-2022-lab2-into-the-void-star/blob/44cf3a90f34fbbf224ca9f7cd6a5a9a07c01714b/ws2812_00.png)
-![image]
+![image](https://github.com/IndigoQuadratic/ese5190-2022-lab2-into-the-void-star/blob/b63bb793e03e17da55170429981f42fc92ad487b/ws2812_01.png)
+![image]()
