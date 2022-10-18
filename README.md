@@ -107,6 +107,7 @@ Below is the spreadsheet of the list of registers for PIO.
 ## 3.5: Photo of paper model
 
 ![image](https://user-images.githubusercontent.com/113971230/196328448-04d9c4dd-af83-4578-9538-cdd34f56b568.png)
+![image](https://user-images.githubusercontent.com/113971230/196330318-75bf04c9-beb6-44d6-98ad-ec54dc93df97.png)
 
 ## 3.6: Complete packet transmission spreadsheet
 
