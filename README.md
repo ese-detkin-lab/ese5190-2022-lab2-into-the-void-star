@@ -116,7 +116,7 @@ The following Excel file contains all the registers, values and adresses: [EXCEL
 
 <br>
 
-## 3.6) ZOOMING IN AND TIMING DIAGRAM
+## 3.6 & 3.7) ZOOMING IN AND TIMING DIAGRAM
 
 <br>
 
