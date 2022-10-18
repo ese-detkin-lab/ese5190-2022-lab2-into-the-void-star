@@ -117,7 +117,10 @@ Below is the spreadsheet of the list of registers for PIO.
 
 ## 3.6: Complete packet transmission spreadsheet
 
+![image](https://user-images.githubusercontent.com/113971230/196360043-d9801d83-1311-4c4b-8ff3-b5f33b964bc7.png)
+
 ## 3.7: Polished timing diagram
+![image](https://user-images.githubusercontent.com/113971230/196361137-cc360726-1be3-4e48-9af4-7caf1623bd73.png)
 
 ## 4: Working USB + WS2812 code folder
 [Code Folder](https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/tree/main/pico-diy)
