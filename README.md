@@ -182,6 +182,8 @@ Some steps when finish this part guided by the lab
 2. Coping some documents from the pico-examples folder and modifying the CMakelists files, WS 2812C code
 3. Make a new Build folder to contain the program
 4. Drop the new uf2 file to the RP2040 and Run the file as mentioned in the Part 1
+The code is below
+
 
 The out put
 
