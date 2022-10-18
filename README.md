@@ -29,13 +29,13 @@ The assembler will change a ".pio" file to some static variables describing the 
 ## 3.3 Follow the flow
 
 Photos my annotated code printout:<br>
-https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.3-Annotated%20Code%20Printouts.pdf
+https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.3_Annotated%20Code%20Printouts.pdf
 
 ## 3.4 Color by number
 
 My favorate color is purple (RGB: 0xff00ff);<br>
 My spreadsheet:<br>
-https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.4Spreadsheet.xlsx
+https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.4_Spreadsheet.xlsx
 
 ## 3.5 Modeling time
 
@@ -64,5 +64,5 @@ The TX FIFO will be empty, and the SM will stalled.
 When serial data is presented at the LED’s input, it takes the first three bytes for itself (Green, Red, Blue) and the remainder is passed along to its serial data output. Often these LEDs are connected in a single long chain, each LED connected to a common power supply, and each LED’s data output connected through to the next LED’s input. A long burst of serial data to the first in the chain will deposit three bytes of GRB data in each LED, so their colour and brightness can be individually programmed.
 
 ### Chart of System State Step Through:
-
+https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.5_Chart%20of%20System%20State%20Step%20Through.jpeg
 ![3 5](https://user-images.githubusercontent.com/108168201/196312780-8918dbd1-8ad7-4b82-a321-4df8b580e704.jpeg)
