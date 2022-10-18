@@ -5,9 +5,9 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
         zeyugu@seas.upenn.edu
     Tested on: Lenovo XiaoXinPro 16ACH 2021, Windows 11 21H2
 
-1. Question 3.2
+1. Question 3.2 [lab 2_3.2.pdf](https://github.com/zgu74/ese5190-2022-lab2-into-the-void-star/files/9806684/lab.2_3.2.pdf)
 
-        https://github.com/zgu74/ese5190-2022-lab2-into-the-void-star/blob/06dd4db49171bd94e975d259e525ef896740e4ad/lab%202_3.2.pdf
+
 
 
         
