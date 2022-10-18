@@ -20,7 +20,12 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2
 - In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
     - The function that is used is pio_sm_put_blocking() which writes data to the TX FIFO queue and blocks it if it is full.
 - What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
-    - The assmebler compiles Assembly code into a human readable format. 
+    - The assmebler compiles Assembly code into a human readable format.
+
+
+## 3.3: Photos of annotated code printouts
+## 3.4: Spreadsheet of initial PIO register states
+
 
 
 |          |ADDRESS                 |OFFSET  |NAME                                         |VALUE|Notes|
@@ -93,4 +98,13 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2
 |SM0_PINCTRL  | 0x50200dc           | 0x0dc  |State machine 0 pin control                  | 0x00000000 | Correct instruction specific a  pin used to receive the value of side-set change. |
 |SM1_PINCTRL  | 0x50200f4           | 0x0f4  |State machine 1 pin control                  | 0x00000000 | State machine 1 is not used.                                 |
 |SM2_PINCTRL  | 0x502010c           | 0x10c  |State machine 2 pin control                  | 0x00000000 | State machine 2 is not used.                                 |
-|SM3_PINCTRL  | 0x5020124           | 0x124  |State machine 3 pin control                  | 0x00000000 | State machine 3 is not used.                                 |
+|SM3_PINCTRL  | 0x5020124           | 0x124  |State machine 3 pin control                  | 0x00000000 | State machine 3 is not used.       
+
+## 3.5: Photo of paper model|
+
+## 3.6: Complete packet transmission spreadsheet
+
+## 3.7: Polished timing diagram
+
+## 4: Working USB + WS2812 code folder
+[Code Folder](https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/tree/main/pico-diy)
