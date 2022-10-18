@@ -33,7 +33,7 @@ https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.3_A
 
 ## 3.4 Color by number
 
-My favorate color is purple (RGB: 0xff00ff);<br>
+My favorate color is cyan-blue (RGB: 0x00ffff);<br>
 My spreadsheet:<br>
 https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.4_Spreadsheet.xlsx
 
