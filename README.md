@@ -54,6 +54,8 @@ Ans: We use the pioasm tool to convert the assembler code to binary. We use the 
 
 ### WS2812.C Code Annotation. The Annotation is done using comments in Green color.
 
+<br>
+
 ![embedded_c1](https://user-images.githubusercontent.com/52575718/196354721-58f1fe1b-f936-4453-9854-2248099a5413.JPG)
 
 <br>
@@ -76,6 +78,8 @@ Ans: We use the pioasm tool to convert the assembler code to binary. We use the 
 
 ### WS2821.PIO.H Code Annotation. The Annotation is done in comments with Green color.
 
+<br>
+
 ![embedded_h1](https://user-images.githubusercontent.com/52575718/196355544-2ff5f411-4be3-4de4-afa7-3f2d315c884c.JPG)
 
 <br>
@@ -96,3 +100,6 @@ Ans: We use the pioasm tool to convert the assembler code to binary. We use the 
 
 <br>
 
+## 3.4) COLOR BY NUMBER
+
+The following Excel file contains the values for all the registers: EXCEL_FILE 
