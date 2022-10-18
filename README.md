@@ -2,7 +2,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
     Wenxiwei
     Tested on: XiaoXinPro 16ACH 2021
-
+# 3.2
 ### 1.Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
 One reason is that the timing uncertainty of actually entering an interrupt handler. When the processor is doing the "bit-banging", it cannot be used for other tasks. And also the processor speed is much higher than protocol speed, therefore there will waste mauch time to waiting.
 
