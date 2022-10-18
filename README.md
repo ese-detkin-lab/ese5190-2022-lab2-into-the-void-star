@@ -137,6 +137,8 @@ Below is the spreadsheet of the list of registers for PIO.
 
 ## 3.6: Complete packet transmission spreadsheet
 
+240 cycles must pass before the receiver may receive color data.
+
 ![image](https://user-images.githubusercontent.com/113971230/196360043-d9801d83-1311-4c4b-8ff3-b5f33b964bc7.png)
 
 ## 3.7: Polished timing diagram
