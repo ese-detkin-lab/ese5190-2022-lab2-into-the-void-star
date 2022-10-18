@@ -27,10 +27,33 @@ The processor can use pio_sm_put_blocking(pio, sm, 1) and pio_sm_put_blocking(pi
 The assembler will change a ".pio" file to some static variables describing the program and a method which configures a PIO state machine based on user parameters, and the directives in the actual PIO program. CMake support the converte process from "human language" to "machine language".
 
 ## 3.3 Follow the flow
+
 Photos my annotated code printout:<br>
 https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.3-Annotated%20Code%20Printouts.pdf
 
-# 3.4 Color by number
+## 3.4 Color by number
+
 My favorate color is purple (RGB: 0xff00ff);<br>
 My spreadsheet:<br>
 https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.4Spreadsheet.xlsx
+
+## 3.5 Modeling time
+
+1. What basic circuitry does a WS2812 LED need to operate?<br>
+When the power pin is high, WS2812 LED can receive data and change the color of LED based on input data.
+
+2. How do you connect a WS2812 to a microcontroller?<br>
+The connection between WS2812 and the RP2040 is wired connection. More specific, the input pin of the WS2812 is the DI pin, which is the PIN 12 on Adafruit Qt Py RP2040.
+
+3. How does a WS2812 translate bits to color values?<br>
+WS2812 receive color data in the GRB order. For the first 8 bit of the received 24 bit data, it is recognized as data for Green channel, and the second and thrid 8 digits for Red and Blue channels respectively.
+
+4. How do you send a single 1 or 0 bit to the WS2812?<br>
+
+5. How many bits does it take to send a single color value?
+
+6. What happens if you send more bits than this in a packet?
+
+7. How do you tell a WS2812 you’re done sending data?
+
+8. How do you send data to more than one WS2812 in a chain?
