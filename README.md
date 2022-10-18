@@ -1,4 +1,4 @@
-# LAB WRITEUP #
+# LAB2A WRITEUP #
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2  
 
     Lihong Zhao  
