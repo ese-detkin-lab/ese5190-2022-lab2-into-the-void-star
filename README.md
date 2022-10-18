@@ -146,13 +146,14 @@ Below is the spreadsheet of the list of registers for PIO.
 </div>
 
 ## Reflection
--What were some strengths/weaknesses of working with paper?
-    -It is easy to write if you work with paper. But at the same time, when you make a mistake in writing, it is not easy to correct.
--What were some strengths/weaknesses of working with spreadsheets?
-    -The data can be better organized. For example, you can use some function formulas such as "sum".
-    -Better look and feel, more neat and tidy
--How might you approach this task using other tools available to you?
-    -I will use mind mapping software to sort out the whole experiment.
+- What were some strengths/weaknesses of working with paper?
+    - It is easy to write if you work with paper. But at the same time, when you make a mistake in writing, it is not easy to correct.
+    - When using paper, too many pages of records can cause confusion
+- What were some strengths/weaknesses of working with spreadsheets?
+    - The data can be better organized. For example, you can use some function formulas such as "sum".
+    - Better look and feel, more neat and tidy
+- How might you approach this task using other tools available to you?
+    - I will use mind mapping software to sort out the whole experiment.
 
 ## Reference
 -[RP2040 Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
