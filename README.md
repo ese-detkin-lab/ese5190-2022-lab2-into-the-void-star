@@ -156,7 +156,7 @@ Below is the spreadsheet of the list of registers for PIO.
     - I will use mind mapping software to sort out the whole experiment.
 
 ## Reference
--[RP2040 Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
--[Pico SDK Datasheet](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)
--[Pico C/C++ SDK](https://github.com/raspberrypi/pico-sdk)
--[Pico C/C++ SDK Examples](https://github.com/raspberrypi/pico-examples)
+- [RP2040 Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
+- [Pico SDK Datasheet](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)
+- [Pico C/C++ SDK](https://github.com/raspberrypi/pico-sdk)
+- [Pico C/C++ SDK Examples](https://github.com/raspberrypi/pico-examples)
