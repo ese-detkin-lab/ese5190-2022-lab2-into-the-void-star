@@ -46,7 +46,7 @@ While working with your modeling documents, I decided to list the points of info
 
 ## Part 3: Reflect on the tools
 
--What were some strengths/weaknesses of working with paper?
+- What were some strengths/weaknesses of working with paper?
 
 ## 4.0 HELLO, BLINKENLIGHT
 
