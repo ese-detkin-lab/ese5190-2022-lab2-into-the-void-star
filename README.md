@@ -40,7 +40,7 @@ Q)What role does the pioasm “assembler” play in the example, and how does th
 
 # 3.3 FOLLOW THE FLOW
 
-##  ANNOTATIONS FOR ws2812.C
+##  ANNOTATIONS FOR ws2812.c
 
 * The code for ```ws2812.c``` has been annotated with comments.
 
@@ -60,7 +60,7 @@ Q)What role does the pioasm “assembler” play in the example, and how does th
 
 
 
-##  ANNOTATIONS FOR WS2812.pio.h
+##  ANNOTATIONS FOR ws2812.pio.h
 
 * The code for ```ws2812.pio.h``` has been annotated with comments.
 
