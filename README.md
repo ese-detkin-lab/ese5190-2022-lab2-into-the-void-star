@@ -62,7 +62,9 @@ PIO_FILE) invokes pioasm automatically and adding the generated header to the in
 ![image](https://user-images.githubusercontent.com/23244847/196357340-3a1dd4b4-a10b-4bf0-94cb-b9970bb56d0c.png)
 ![image](https://user-images.githubusercontent.com/23244847/196357409-db32328f-08f9-4f09-9b8d-b6355a948313.png)
 
+## 3.4 Color By Number
 
+The following excel sheet contains the list of specified registers, addresses and values. [LINK](https://github.com/prateekbashista/ese5190-2022-lab2-into-the-void-star/blob/69fa405308230dad20a24261320bbfa69d83848d/3.4.xlsx)
 
 
 
