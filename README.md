@@ -102,7 +102,7 @@ Ans: We use the pioasm tool to convert the assembler code to binary. We use the 
 
 ## 3.4) COLOR BY NUMBER
 
-The following Excel file contains all the registers, values and adresses: [EXCEL](https://github.com/arnavgadre/ese5190-2022-lab2-into-the-void-star/blob/main/ESE5190-3.7.xlsx) 
+The following Excel file contains all the registers, values and adresses: [EXCEL](https://github.com/arnavgadre/ese5190-2022-lab2-into-the-void-star/blob/main/ESE519-Spreadsheet.xlsx) 
 
 ## 3.5) MODELLING TIME
 
@@ -116,6 +116,10 @@ The following Excel file contains all the registers, values and adresses: [EXCEL
 
 <br>
 
+## 3.6) ZOOMING IN AND TIMING DIAGRAM
 
+<br>
+
+The following Excel file contains timing data for packet transfer to `ws2812` module: [EXCEL](https://github.com/arnavgadre/ese5190-2022-lab2-into-the-void-star/blob/main/ESE5190-3.7.xlsx)
 
 
