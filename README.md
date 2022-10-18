@@ -69,8 +69,10 @@ In this part, I have picked red as my favorite color, and created a [spreadsheet
 In this part, PIO program is studied by following a list of items using charts. The items being included in this [paper model](https://github.com/shux3/ese5190-2022-lab2-into-the-void-star/blob/main/P3/3.5paper_model.pdf) include time interval, instrcution, delay cycles and so on.
 
 ## 3.6 Zooming in
+In this part, we have created a trace of the [packet transmission](https://github.com/shux3/ese5190-2022-lab2-into-the-void-star/blob/main/P3/3.6%20Zooming%20in.xlsx) including clock signals, PIO registers, GPIO registers, WS2812 RGBC registers, and fictitious APDS9960 output voltage. 
 
 ## 3.7 Timing Diagram
+[This diagram](https://github.com/shux3/ese5190-2022-lab2-into-the-void-star/blob/main/P3/3.7%20Timing%20Diagram.jpg) is a condensed timing diagram based on the transmission packet created in part 3.6.
 
 ## Summary for modeling tools
 In part 3, we have used both spreadsheets and handwriting models to answer the questions. In general, spreadsheets are feasible to follow dozens of values through different states, but it is kind of rigid to use since you don't have much options other than sheets. Handwriting models, on the other hand, are more flexible to explain abstract ideas and models, while it might be less organized and less efficient while dealing with too much information.
