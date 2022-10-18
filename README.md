@@ -28,6 +28,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2
 
 
 ## 3.3: Photos of annotated code printouts
+#### [ws2812.c](https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/blob/main/3.3_files/ws2812.c.pdf)
+#### [ws.2812.pio](https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/blob/main/3.3_files/ws.2812.pio.pdf)
 ## 3.4: Spreadsheet of initial PIO register states
 The WS2812 accepts color signals in GRB form, rather than the usual RGB form. the WS2812 takes the first 24 bits of the data representing the color from the PIO state machine and ignores the next 8 bits of the 32 bits. For the received 24 bits of data, it is automatically divided into three parts at 8 unit intervals. The three parts correspond to the green, red and blue lighted displays as showing in the following diagram.
 
