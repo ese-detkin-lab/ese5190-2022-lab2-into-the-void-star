@@ -1,10 +1,9 @@
-University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
+# LAB WRITEUP #
+University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2  
 
-    (TODO) YOUR NAME HERE
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
-
-(TODO: Your README)
+    Lihong Zhao  
+        LinkedIn: www.linkedin.com/in/lihong-zhao-a24789224  
+    Tested on: Lenovo Legion 5 Pro 16" Laptop, Intel Core i7-12700H， Windows11 
 
 ##3.2 PIO Q&A##
 
