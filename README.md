@@ -75,4 +75,21 @@ PIO Header file: https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-
 ### Output
 ![](https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/36518f5be5dad070610266429e872d5c1c16442f/op.gif)
 
-## Brief Responses to questions raised in into the (void):
+### Review on the lab :
+
+What were some strengths/weaknesses of working with paper?
+
+    Strength: better connection with the timing nuances.	
+
+    Weakness: Very archaeic and prone to repitition due to progression through errors.
+
+What were some strengths/weaknesses of working with spreadsheets?
+
+    Strength: Data representation, periodicity and repitition is easier to visualize on a spreadsheet.		
+
+    weakness: Data entry is very fatiguing and laborious.
+
+How might you approach this task using other tools available to you?
+    It may be much better to visualizethe register states using a program to access the memory locations, which I attempted but failed to achieve due to time crunch.
+    
+Final thoughts : Although very insightful, about registers and their tricky values, the lab 2A was mired in repititive labour which felt out of touch with the usual time frame for similar labs in other graduate subjects with a heavy lab content.
