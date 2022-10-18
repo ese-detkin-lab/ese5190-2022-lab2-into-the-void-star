@@ -145,20 +145,6 @@ The link is https://github.com/real-YingXu/ese5190-2022-lab2-into-the-void-star/
 
 
 
-##
-
-
-Reflect on the tools:
-
-weaknesses of working with paper：Spending too much time
-
-
-strengths of of working with spreadsheets: very detailed
-
-
-
-Need draw in the pictures.
-
 
 ##
 
@@ -171,7 +157,23 @@ PART 4: HELLO, BLINKENLIGHT
 
 The link is https://github.com/real-YingXu/ese5190-2022-lab2-into-the-void-star/tree/main/lab2part4
 
+##
+decisions:
+make a to do list and read the documents
 
+##
+
+
+Reflect on the tools:
+
+weaknesses of working with paper：Spending too much time
+
+
+strengths of of working with spreadsheets: very detailed
+
+
+
+Need to draw in the pictures.
 
 
 
