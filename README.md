@@ -69,7 +69,7 @@ This [link](https://github.com/MaxMa6150/ese5190-2022-lab2-into-the-void-star/bl
 The code folder named [lab2A](https://github.com/MaxMa6150/ese5190-2022-lab2-into-the-void-star/tree/main/Lab2A) includes both usb and ws2812 code.
 
 ## Decisions during modeling documents.
-At the beginning, we are confused about the register/value change/interaction between different code file. But some problems can be solved by carefully checking datasheet for some relavent infos. Datasheets would offer excellent helps.
+At the beginning, we are confused about the register/value change/interaction between different code file. But some problems can be solved by carefully checking datasheet for some relavent infos. Datasheets would offer excellent helps. For the modeling parts, we randomly choose green  00ff00, then carefully read the documents before modeling.
 
 ## Paper & Spreadsheet
 
