@@ -35,6 +35,9 @@ Select among the available 2 PIO instances. Load code to instruction memory. Mak
  ## 3.3: Follow the flow:
  ![IMG_0066](https://user-images.githubusercontent.com/64246696/196426266-7b2a6c0c-489e-4ae4-8000-de5cc18ce27d.PNG)
 ![IMG_0067](https://user-images.githubusercontent.com/64246696/196426270-9a84ea3c-b67d-4b8f-b496-9a4fbe8c6949.PNG)
+![IMG_0068](https://user-images.githubusercontent.com/64246696/196430947-24db1dbe-4a72-474e-99b2-bfe30bf599d3.PNG)
+
+
 
 ## 3.4: Color by Number
 
