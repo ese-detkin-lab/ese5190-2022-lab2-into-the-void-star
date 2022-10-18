@@ -82,7 +82,7 @@ The Excel file containing all the register  values can be accessed through the g
 
 ## 3.6  ZOOMING IN
 
-[Excel Link](https://github.com/Siddmathur14/ese5190-2022-lab2-into-the-void-star/blob/main/ESE5190-3.7%20(2).xlsx)
+The Excel File contains timing data for packet transfer to the **ws2812** module : Link [Excel Link](https://github.com/Siddmathur14/ese5190-2022-lab2-into-the-void-star/blob/main/ESE5190-3.7%20(2).xlsx)
 
 ## 4   HELLO BLINKENLIGHT
 
