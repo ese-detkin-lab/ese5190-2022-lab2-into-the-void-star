@@ -34,7 +34,7 @@ The link to our spreadsheet of initial PIO register states is https://github.com
 
 ## 3.5 MODELING TIME
 
-The link to our electronic paper model is https://github.com/ZhijingY/ese5190-2022-lab2-into-the-void-star/blob/main/3.5.pdf.
+The link to our electronic paper model is https://github.com/ZhijingY/ese5190-2022-lab2-into-the-void-star/blob/main/3.5.pdf. 
 
 ## 3.6 ZOOMING IN & 3.7 TIMING DIAGRAM
 
@@ -65,3 +65,5 @@ While working with your modeling documents, I decided to list the points of info
 ## 4.0 HELLO, BLINKENLIGHT
 
 The link to my working USB + WS2812 code folder is https://github.com/ZhijingY/ese5190-2022-lab2-into-the-void-star/tree/main/test.
+
+In this work, I imported two functions from ws2812.c into hello_usb.c via ws2812.h. Cmakelists.txt was edited to include the modified hello_usb.c and the header file of ws2812. When running the built hello_usb.uf2 on the RP2040, the pixel LED will blink in two colors periodically.
