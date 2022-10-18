@@ -66,6 +66,9 @@ For this part, I choose color 0X0000FF(BLUE).
 ## 3.7 TIMING DIAGRAM
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/Lab%202%20Prob3/3.7.jpg)
 
+## Reflection
+For this lab, I chose to use "Notability" in iPad to finish handwritting part. Although I think writing is not as fast as typing, drawing forms by hand sometimes is easier than creating proper forms on computer. What's more, I am not familiar with working with spreadsheets. Sometimes, I feel it takes me a lot of time on adjust the format of the spreadsheets. 
+
 # Part4 HELLO, BLINKENLIGHT 
 [part4 folder](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/tree/main/lab2%20prob4)
 
