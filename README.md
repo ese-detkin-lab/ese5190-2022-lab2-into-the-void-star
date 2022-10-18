@@ -45,7 +45,7 @@ This [link]() contains timing diagram
 
 ## 4 : Hello, Blinkenlight
 
-This [link]() directs to the folder that has the code and header files needed to blink the Neopixel when a certain Serial output is seen
+This [link](https://github.com/SurajMarthy1001/ese5190-2022-lab2-into-the-void-star/tree/main/ledhello) directs to the folder that has the code and header files needed to blink the Neopixel when a certain Serial output is seen
 
 ## Decisions Taken
 
