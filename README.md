@@ -46,6 +46,8 @@ While working with your modeling documents, I decided to list the points of info
 
 ## Part 3: Reflect on the tools
 
+-What were some strengths/weaknesses of working with paper?
+
 ## 4.0 HELLO, BLINKENLIGHT
 
 The link to my working USB + WS2812 code folder is https://github.com/ZhijingY/ESE519-lab2/tree/main/test.
