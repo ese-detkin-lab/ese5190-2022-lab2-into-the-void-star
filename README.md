@@ -90,6 +90,6 @@ What were some strengths/weaknesses of working with spreadsheets?
     weakness: Data entry is very fatiguing and laborious.
 
 How might you approach this task using other tools available to you?
-    It may be much better to visualizethe register states using a program to access the memory locations, which I attempted but failed to achieve due to time crunch.
+    It may be much better to visualizethe register states using a program to access the memory locations, which I attempted but failed to achieve due to time crunch. 
     
 Final thoughts : Although very insightful, about registers and their tricky values, the lab 2A was mired in repititive labour which felt out of touch with the usual time frame for similar labs in other graduate subjects with a heavy lab content.
