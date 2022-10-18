@@ -37,16 +37,22 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
     The pioasm assmebler generates the binary file from the .pio files. As the CMake function  pico_generate_pio_header(TARGET PIO_FILE) takes care of invoking pioasm and adding the generated header to the include path of the target TARGET for you.
 
 ## 3.3 Photos or Scans of Annotated Code Printouts
+WS2812.C
+
 <img width="526" alt="68040018a6363ef4c88a0b6763b01f8" src="https://user-images.githubusercontent.com/114255407/196352892-d7628c9d-80e8-473f-9e09-3dfa514d947f.png">
 <img width="488" alt="1573434d743bf39ceadd53d5a74beb8" src="https://user-images.githubusercontent.com/114255407/196352911-beac4202-47d5-48dd-8753-b2da6c576674.png">
 <img width="535" alt="0c3bc92885b5ccc0b94b6cd4039284d" src="https://user-images.githubusercontent.com/114255407/196352928-ed199262-e466-4cae-b2d7-09cd018bc7f5.png">
 
+ws2812.pio.h
+
+![403256377260324524](https://user-images.githubusercontent.com/114255407/196355178-663357d4-370b-4c76-8e0c-f46699803f02.jpg)
+![280885013862070077](https://user-images.githubusercontent.com/114255407/196355199-6db0dd75-75e4-4dc5-9548-a5080233f7e1.jpg)
+![198018244341097675](https://user-images.githubusercontent.com/114255407/196355216-957fecab-e5ff-4bd0-b515-141cad09437f.jpg)
 
 ## 3.4 Spreadsheet of initial PIO register states
+
 <img width="524" alt="ff8c0ae2ecfec676a77bed1e3bbaf23" src="https://user-images.githubusercontent.com/114255407/196347547-f09ce83d-b4fb-4af2-953c-f2a396236898.png">
 <img width="526" alt="47a9d1be5eb4023fdbbd4dae0e2fcdf" src="https://user-images.githubusercontent.com/114255407/196347565-782115ca-7849-4aa2-8bb5-2aed759a140e.png">
-
-
 
 ## 3.5 A photo or san of paper model
 ![image](https://user-images.githubusercontent.com/114255407/196347902-e2c541fa-82fc-4dbb-b7f4-a15a70a3f2a7.png)
@@ -61,6 +67,4 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 
 ## 4 USB + WS2812 Code Folder
-
-
-- 
+ - Uploaded the Folder.
