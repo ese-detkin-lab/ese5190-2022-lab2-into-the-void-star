@@ -7,6 +7,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 (TODO: Your README)
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
+
 # 1. Tools to install first:
 #### install homebrew
 $  /bin/bash -c "$(curl -fsSL
@@ -115,4 +116,74 @@ to run the code, the speed required by the board is 115200 bits per second.
 you can see the output below
 
 <img width="583" alt="Screen Shot 2022-10-13 at 01 03 36" src="https://user-images.githubusercontent.com/114199800/195733012-81619749-7bd7-41d1-b184-2efb95155653.png">
+
+
+
+
+
+
+
+
+
+# Part3
+### Part 3.2 Brief response to the reading questions in 3.2 of the PICO C SDK Mannual
+#### Q1. Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
+ANS: Laptop processors are not designed for bit-tapping. As processors have become faster and faster in terms of overwhelming data processing power, the layers of software and hardware between processors and the outside world have grown in number and size. To cope with the increasing distance between processor and memory, PC-grade processors keep hundreds of running instructions simultaneously on a single core, which is a drawback when trying to switch quickly between hard real-time tasks. That's why it's impractical to use bit tapping on our laptops.
+#### Q2. What are some cases where directly using the GPIO might be a better choice than using the PIO hardware?
+ANS: For slower protocols. In early days when processors were much slower and less tasks,the distance between the processor and memory was shorter, or the layer of software and hardware between processor and the outside was less and smaller, the GPIO could be a better choice. Or On simpler embedded system. LEDs and push buttons.
+#### Q3 How do you get data into a PIO state machine?
+ANS: From the transfer FIFO buffer, we take a data item and place it in the output Shift Register (OSR). This data is moved one word (32 bits) at a time from FIFO to OSR. OSR is able to move data one or more bits at a time to more distant destinations.\
+#### Q4 How do you get data out of a PIO state machine?
+ANS :First the state machine neeed to be told which GPIO to output to. and the GPIO also needs to be told that PIO is in control of it. If only pins are used for output, you need to ensure that the PIO driver output enable line is high. The PIO can programmatically drive the line up or down.
+#### Q5 How do you program a PIO state machine?
+ANS :First, select the PIO instance you want to use. Second, use pio_add_program() to load the program into PIO's instruction memory. Third, use pio_claim_unused_sm() to find the free state machine. Finally, you configure the out state machine to start and run the program by using the helper functions included in the.PIO file.
+#### Q6 In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
+ANS:  In the example, the pio_sm_put_blocking() function is responsible at the lowest level for telling the PIO to set the LED to a new color. It takes its input from the pixel_rgb.
+#### Q7 What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
+ANS: We use the pioasm tool to convert assembler code into binary code. We use the CMake function to call pioasm and add the resulting header file to the target's include path. The actual function used pico_generate_pio_header(TARGETPIO_FILE).
+### Part 3.3 Make notation on the two document baseed on the information on the pico_SDK mannul
+![Page1](https://user-images.githubusercontent.com/114199800/196409969-8d3dbfa4-df53-49d7-aa33-014f95b37a81.jpg)
+![Page2](https://user-images.githubusercontent.com/114199800/196410017-aee16013-28cd-48fb-b309-2d7669e9a953.jpg)
+![Page3](https://user-images.githubusercontent.com/114199800/196410085-5d5e784d-9643-4dec-b35f-8416ba35670b.jpg)
+![Page4](https://user-images.githubusercontent.com/114199800/196410110-cd15ab81-6d1d-4060-bca6-1a524d4498f2.jpg)
+
+### Part 3.4 Color by number
+The following excel contains the information that from the RP2040 Datasheet
+
+[Part 3.4 Zhuoling Li.xlsx](https://github.com/Zhuoling11/ese5190-2022-lab2-into-the-void-star/files/9809564/Part.3.4.Zhuoling.Li.xlsx)
+
+### Part 3.5 Modelling Time
+By reading the information on the chapter 3 of Pico_C_SDK, leanrned many usefal information like FIFO items, and learning their baisc functions and how it used. after rewriting the code in the part before, I drew the charts below
+
+
+![Page1 2](https://user-images.githubusercontent.com/114199800/196411477-f90ee673-eae2-4d4d-a972-da984f0c21f1.jpg)
+![Page2 2](https://user-images.githubusercontent.com/114199800/196411499-691a2ae1-6e68-4112-871c-cfe341dafc8a.jpg)
+
+### Part 3.6 Zooming IN
+After learning from part 5, I assumed some basic information in the charts like the voltage 
+
+<img width="2049" alt="Screen Shot 2022-10-18 at 06 58 32" src="https://user-images.githubusercontent.com/114199800/196412317-1b69d018-5929-4866-85c9-183b93b7e904.png">
+
+[3.6Zhuoling Li.xlsx](https://github.com/Zhuoling11/ese5190-2022-lab2-into-the-void-star/files/9809616/3.6Zhuoling.Li.xlsx)
+### Part 3.7 Timing diagram
+![3 7](https://user-images.githubusercontent.com/114199800/196412993-36ea3736-f00f-42ae-98af-c4925d400d8c.jpg)
+
+## Conclusion
+In this lab, I would prefer use papaer to work. 
+The strenths of working with paper: I can draw the plot more clearly and more reader confortale. And for user, it is more easy to operate.
+The Weaknesses of working with paper: The data shown drawn on the papaer may not be very accutrate
+The stengths of working with spreadsheet: It can show the data relationship very accurate and more easy to konw the information
+The Weaknesses of working with spreadsheet: Very hard to use when try to draw the clcok signal map
+The Tools: some vedios from the internet and the mannuls contains on this lab.
+
+## PART4 HELLO, BLINKENLIGHT
+Some steps when finish this part guided by the lab
+1. Creating a new folder outside the pico-examples, in my condition, it called 'test'
+2. Coping some documents from the pico-examples folder and modifying the CMakelists files, WS 2812C code
+3. Make a new Build folder to contain the program
+4. Drop the new uf2 file to the RP2040 and Run the file as mentioned in the Part 1
+
+The out put
+
+![IMG_5437](https://user-images.githubusercontent.com/114199800/196416614-6f0809eb-544b-4cfa-88a2-79422d2576a8.GIF)
 
