@@ -8,19 +8,23 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2
 ## 3.2 PIO Q&A ##
 
 - Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?  
-    - One of the main disadvatanges of bit-banging is that more communication errors (glitches and jitters) occur. On a laptop, it is incrredibly important that the communcaiton is pristine and thus bit-banging wouldn't be a good solution.
+    - The processor of a laptop is not intended for just just one task. The CPU cannot be used for other tasks if it is engaged in "bit-banging." Multiple tasks can be run at once on a laptop's processor. The efficiency with which a single task was handled is not particularly noteworthy.
+    -Bit-banging leads to more communication blunders (glitches and jitter). Running on a laptop has a significant impact on communication quality.
 - What are some cases where directly using the GPIO might be a better choice than using the PIO hardware?  
-    - Using a GPIO is a better choice when the interface speed is low. Push buttons are a great example. The communication can handle low frequencies so it can still receive and send signals in the time.
+    - When the processing speed of the processor is slow
+    - When there are fewer tasks to be processed
+    - When the distance between the processor and the memory is shorter
+    -When the interface speed is lower
 - How do you get data into a PIO state machine?
-    - You can get data into a PIO state machine via a FIFO queue. Each state machine is connected with FIFO queues to exchange data with the main program. Instructions like "out" can be used to get data into a PIO state machine from FIFO to memory.
+    - To retrieve information from the PIO state machines, use the TXn FIFO queue. For the purpose of exchanging data with the main program, each state machine is linked to a FIFO queue. To allow data to be sent from the OSR to the Scratch register, use the out command.
 - How do you get data out of a PIO state machine?  
-    - The logic is similar, but instead instructions like "pull" are used.
+    - With the use of an out instruction, the OSR moves this data out.
 - How do you program a PIO state machine? 
-    - Programming a PIO state machine requires pushing data into the TX FIFO from which it will be transmitted to the state machine and then executed.
+    - Pushing data into the TX FIFO, from where it will be sent to the state machine and then executed, is required when programming a PIO state machine.
 - In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
-    - The function that is used is pio_sm_put_blocking() which writes data to the TX FIFO queue and blocks it if it is full.
+    - This is done via pio sm put blocking(). It may be accessed by using the put pixel() call, which is made in the main method's pattern table[pat].pat(NUM PIXELS, t), which indexes an array of various patterns and selects one to execute by calling put pixel ().
 - What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
-    - The assmebler compiles Assembly code into a human readable format.
+    - By converting assembly code into machine-readable binary, Pioasm creates PIO programs. This enables automatic calling of pioasm by CMake.
 
 
 ## 3.3: Photos of annotated code printouts
