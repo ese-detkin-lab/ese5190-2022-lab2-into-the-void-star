@@ -173,14 +173,18 @@ Here is a GIF to show how our code works. <br />
 We used spreadsheets, handwritten paper work as well as commenting on editors. 
 
 o What were some strengths/weaknesses of
-working with paper?
-
+working with paper?<br /> 
+Most handy tool ever used.<br /> 
+But bad for visualisation or working with large datas.<br /> 
 o What were some strengths/weaknesses of
-working with spreadsheets?
-
+working with spreadsheets?<br /> 
+Spreadsheets helps in easy management of large data.<br /> 
+weakness is it can be overwhelming when looked at.
 o How might you approach this task using
-other tools available to you?
+other tools available to you?<br /> 
+For timing digram use of CRO or any dedicated softare for timing diagram simulation, would have been helpful to measure the real-time values.<br /> 
 
+# Thank You !!
 
 
 
