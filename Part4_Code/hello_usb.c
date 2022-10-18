@@ -11,6 +11,7 @@
 
 int main() {
     stdio_init_all();
+    sleep_ms(3000);
     printf("WS2812 Smoke Test, using pin %d", WS2812_PIN);
     // self defined init func for ws2812
     ws2812_init();
