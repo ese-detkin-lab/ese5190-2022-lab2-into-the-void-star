@@ -97,7 +97,7 @@ The command line should look like this if build successfully:
 1. Plug only RP2040 using a micro-USB cable in without the sensor, hold down the `BOOTSEL` button to force it into USB Mass Storage Mode. 
 2. Open **Device Manager** by searching for it in the Windows search box.
 3. **Important:** Check the port hte RP2040 uses. In my case, it is COM6, which is differnet from the port RP2040 used during Lab1[3]:
-<img src="./Images/2.5.1.jpg" alt="PuTTy_setting" width="600"/>
+<img src="./Images/2.5.1.jpg" alt="PuTTy_setting" width="400"/>
 
 #### 5.2 Run "Hello World"
 Copy the C:\Users\xue_q\Downloads\lab2\pico-examples\build\hello_world\usb\hello-usb.uf2 file and paste it to the RP2040.  
@@ -160,9 +160,16 @@ My favorite color is <font color=#C8A2C8>**lalic**</font>, with a RGB code <font
 
 ### 3.5 Modeling Time
 
+<img src=".\Images\3.5.jpg" alt="modeling" width="600"/>
+
 ### 3.6 Zooming In
 
+<img src=".\Images\3.6.jpg" alt="zooming_in" width="600"/>
+
 ### 3.7 Timing Diagram
+
+<img src=".\Images\3.7.jpg" alt="timing_diagram" width="600"/>
+
 
 ### Reflection
 #### Modeling Documents
@@ -181,3 +188,8 @@ My favorite color is <font color=#C8A2C8>**lalic**</font>, with a RGB code <font
 #### How might you approach this task using other tools?
 - I might use python or other script languages instead of using spreadsheets if the data invovling in the lab is huge.
 
+## PartIV - Hello, Blinkenlight
+
+The LED successfully brinking sychronously with print-out information: when green light shows, it outputs "Green!" on the serial port; when blue light shows, it outputs "Blue!" on the serial port.
+
+See code for detail.
