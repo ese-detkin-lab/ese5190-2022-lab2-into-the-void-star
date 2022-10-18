@@ -165,11 +165,11 @@ After the building process, copy-past the generated '.uf2' file on the microcont
   
 2. Adding the following 
 
-<div align=center><img width="800" height="200" src="WS_2812_Init.PNG"/></div>
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media_For_Lab2/WS_2812_Init.PNG）
 as a new init() function to initialize the ws2812 program.
 
 3. Create a new function called set_neopixel_color which transfer the r,g,b color into g,r,b format by shifting(bitwise shift) the corresponding usigned 32 bit int.
-<div align=center><img width="800" height="200" src="Set_neopixel_color.PNG"/></div>
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media_For_Lab2/Set_neopixel_color.PNG)
 
 The LED can successfully blinking synchronously with the corresponding output information displayed:
 
