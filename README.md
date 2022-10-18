@@ -73,6 +73,11 @@ ws2812.pio.h
 
 3.4 COLOR BY NUMBER
 
+
+
+![image](https://user-images.githubusercontent.com/114256663/196414020-6a7bac6b-9686-46e6-9a08-ee17388ed376.png)
+
+
 <img width="1100" alt="image" src="https://user-images.githubusercontent.com/114256663/196361243-cb8268c1-4792-4d60-ae2b-a67debcbbbda.png">
 <img width="1110" alt="image" src="https://user-images.githubusercontent.com/114256663/196361279-38707571-c132-4f1f-97a0-29fa8498bbf2.png">
 
