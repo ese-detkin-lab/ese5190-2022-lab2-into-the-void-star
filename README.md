@@ -35,3 +35,7 @@ The link to our spreadsheet of initial PIO register states is https://github.com
 ## 3.5 MODELING TIME
 
 The link to our electronic paper model is https://github.com/ZhijingY/ESE519-lab2/blob/main/hw2_writeup/3.5.pdf.
+
+## 3.6 ZOOMING IN & 3.7 TIMING DIAGRAM
+
+The link to our complete packet transmission spreadsheet and polished timing diagram is https://github.com/ZhijingY/ESE519-lab2/blob/main/hw2_writeup/3.6_3.7.xlsx.
