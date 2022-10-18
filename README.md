@@ -78,8 +78,11 @@ How is this function accessed from the main “application” code?
   
  3.6 ZOOMING IN
  
+   ![a](https://github.com/HaoliangYou/ese5190-2022-lab2-into-the-void-star/blob/main/3.6.jpg)
  
  3.7 TIMING DIAGRAM
+ 
+   ![a](https://github.com/HaoliangYou/ese5190-2022-lab2-into-the-void-star/blob/main/3.7.jpg)
  
  PART 4: HELLO, BLINKENLIGHT 
    
