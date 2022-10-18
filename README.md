@@ -82,6 +82,11 @@ The Timing Diagram is as shown below: <br>
 
 ![Part 3 5 diag](https://user-images.githubusercontent.com/114259992/196409947-02d70c26-f6c0-49de-aad5-90dba4d2e1ed.jpeg)
 
+## Your complete packet transmission spreadsheet ##
+
+Here the values we were calculating earlier for 1 bit are now calculated for 32 bit. You can access the Spreadsheet using the following link: <br>
+
+
 
 
 # Part 4: #
