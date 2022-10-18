@@ -123,7 +123,13 @@ Ans: Out instruction waits for data and keep side pin low.
 
 Ans: Connect DO of 1 module to DI of other and so on.
 
-3.6: Your complete packet transmission spreadsheet: https://docs.google.com/spreadsheets/d/12_uLVYzCS_PQK7ii11mfC0H6asqVYpEb/edit?usp=sharing&ouid=105381450260615402187&rtpof=true&sd=true
+# 3.6: Complete packet transmission spreadsheet
+
+Complete packet transmission spreadsheet: https://docs.google.com/spreadsheets/d/12_uLVYzCS_PQK7ii11mfC0H6asqVYpEb/edit?usp=sharing&ouid=105381450260615402187&rtpof=true&sd=true
+
+# 3.7: Your polished timing diagram
+
+Timing diagram: https://github.com/Sahil-M-M/ese5190-2022-lab2-into-the-void-star/tree/main/ESE5190%20Lab%202%20Q%203
 
 # 4. Code for Lab 2 Q 4
 
