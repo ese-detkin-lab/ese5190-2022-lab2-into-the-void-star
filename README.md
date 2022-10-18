@@ -71,10 +71,16 @@ The following excel sheet contains the list of specified registers, addresses an
 The following image elaborates the answers of question 3.5
 ![image](https://user-images.githubusercontent.com/23244847/196360622-3701969e-9517-4089-bf13-b268d84797e5.png)
 
+
 ## 3.6 - 3.7 Zooming In and Timing Diagram
 
 The following excel sheet contains the list of specified registers, addresses and values.[LINK](https://github.com/prateekbashista/ese5190-2022-lab2-into-the-void-star/blob/b68fe272b76521b4ef9d0a25a23f2c4e2a6cef8c/3.7-3.6.xlsx)
 
+The following logic is followed in the the making of this spreadsheet.
+
+1)1 Bit is resolved in 10 cycles. So to resolve 1 colour that is 8 bits, it takes 80 cycles.
+2) One colour can be switched on before any other colours are resolved.
+3) Total cycles for which the program run is 320 cycles with 80 cycles for each W,G,R,B
 # 4 HELLO BLINKEN,LIGHT
 
 Following is the Output for part 4.
