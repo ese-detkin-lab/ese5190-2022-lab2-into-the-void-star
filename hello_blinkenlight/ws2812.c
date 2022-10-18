@@ -12,7 +12,7 @@
 #include "hardware/clocks.h"
 #include "ws2812.pio.h"
 
-#include "/home/ruturajn/Git-Repos/pico/pico-sdk/src/boards/include/boards/adafruit_qtpy_rp2040.h"
+#include "/home/arnavgadre/pico/pico-sdk/src/boards/include/boards/adafruit_qtpy_rp2040.h"
 
 #define IS_RGBW true
 #define NUM_PIXELS 150
@@ -69,12 +69,12 @@ int main() {
 
     while(1){
         int user_inp = getchar_timeout_us(5000);
-        if(user_inp != 1){
+        if(user_inp != -1){
             set_neopixel_color(0xffafaf);
             sleep_ms(500);
             set_neopixel_color(0);
         }
-        sleep_ms(1000);
+            sleep_ms(500);
     }
     
     /* while(1){ */
