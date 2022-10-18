@@ -97,7 +97,7 @@ https://github.com/yash-mb/ese5190-2022-lab2-into-the-void-star/blob/67f1007e092
 
 Point to be noted here is that the changes in any values are not instantaneous.
 
-This gives an overview of the spreadsheet intriduced in part 3.6.
+This gives an overview of the spreadsheet introduced in part 3.6.
 
 <img src = "Q3.7.jpeg">
 
