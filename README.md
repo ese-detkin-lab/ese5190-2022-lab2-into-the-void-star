@@ -49,7 +49,7 @@ we can use it to build your PIO programs, for you to #include from your C or C++
 3.3 FOLLOW THE FLOW
 
 ws2812.c
-!https://github.com/real-YingXu/ese5190-2022-lab2-into-the-void-star/blob/main/ws2812_c.pdf
+![a](https://github.com/real-YingXu/ese5190-2022-lab2-into-the-void-star/blob/main/ws2812_c.pdf)
 
 
 
