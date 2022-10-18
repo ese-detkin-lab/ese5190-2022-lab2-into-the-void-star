@@ -124,7 +124,23 @@ The following Excel file contains timing data for packet transfer to `ws2812` mo
 
 <br>
 
-## 4) BLINKENLIGHT IMPLEMENTATION
+- Q1. What were some strengths/weaknesses of working with paper?
+
+Ans: Usage of paper helps us make changes and annotations easily within the available material. We can depict the information using interactive signs and symbols such as arrows and circles, which help us grasp the concept later in the future. A disadvantage is that we may not have all the documentation available in paper format always. In such cases, making annotations on our laptop/PC is the best option. 
+
+
+- Q2. What were some strengths/weaknesses of working with spreadsheets?
+
+Ans: Spreadsheets help us arrange large chunks of data in an easy readable format. Data can also be autopasted using the prediction algorithms available on spreadsheets. The in-built formulae help us run calculations and functions on available datasets. However, spreadsheets can be a bit binding if one doesn't know how to unleash their full potential. One needs to learn the full extent of spreadsheet's capabilities to make optimum use of them.
+
+
+- Q3. How might you approach this task using other tools available to you?
+
+Ans: I prefer making annotations on my laptop itself using comments in the code editor. This way, we have transferrable annotations for other users to refer along with the code, even in real time. Sometimes drawing timing diagrams on spreadsheets can be a bit tidious. In that case, I might use Draw.io to create graphs and tables in an easier fashion, just to get my point across successfully.
+
+<br>
+
+### PART 4: BLINKENLIGHT IMPLEMENTATION
 
 <br>
 
