@@ -38,4 +38,107 @@ A7:The pioasm "assembler" allow users to define the function of GPIO to solve th
 
 # 3.3 Follow the flow
 
-！[pdf](https://github.com/kop123meter/ese5190-2022-lab2-into-the-void-star/blob/main/LAB2_A/3.3.pdf)
+![img](https://github.com/kop123meter/ese5190-2022-lab2-into-the-void-star/blob/main/LAB2_A/3.3.png)
+
+# 3.4 spreadsheet of initial PIO register states 
+
+By reading the ws2812.pio.h and pio.c/h and ws2812.c, we can find the value of the registers.So,we can get the spreadsheet like the following link:
+
+[spreadsheet of initial PIO register states ](https://github.com/kop123meter/ese5190-2022-lab2-into-the-void-star/blob/main/LAB2_A/3.4_1.xlsx)
+
+# 3.5 MODELING TIME 
+
+![img](https://github.com/kop123meter/ese5190-2022-lab2-into-the-void-star/blob/main/LAB2_A/3_5.jpeg)
+
+# 3.6 ZOOMING IN 
+Pick the color 0x800000 in GRB,which can be rewrote to 1000 0000 0000 0000 0000.So, only first bit is 1 and other bit is 0.For convenience,we only take first and second bits as example since other bits' periods as same as second bit's.
+
+[transmission spreadsheet](https://github.com/kop123meter/ese5190-2022-lab2-into-the-void-star/blob/main/LAB2_A/3_6.xlsx)
+
+# 3.7 timing diagram  
+pick the RGB color 0x00f000 which can be rewrote 0xf00000 in GRB form.
+
+![img](https://github.com/kop123meter/ese5190-2022-lab2-into-the-void-star/blob/main/LAB2_A/TIMING.jpeg)
+
+# Part 4 Hello Blink
+
+## The first program is USB_C
+
+1.Create a new folder somewhere outside the examples folder
+
+2.Copy the USB_C.c pico_sdk_import.cmake into this folder
+
+3.write the CMakelists.txt as following:
+
+
+```
+cmake_minimum_required(VERSION 3.13)
+include(pico_sdk_import.cmake)
+project(test_project)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+set(PICO_EXAMPLES_PATH ${PROJECT_SOURCE_DIR})
+pico_sdk_init()
+include(example_auto_set_url.cmake)
+add_executable(hello_usb hello_usb.c)
+pico_enable_stdio_usb(hello_usb  1)
+pico_enable_stdio_uart(hello_usb  1)
+pico_add_extra_outputs(hello_usb )
+target_link_libraries(hello_usb  pico_stdlib)
+``` 
+
+open the terminal and link screen to RP2040, we can see:
+
+![img](https://github.com/kop123meter/ese5190-2022-lab2-into-the-void-star/blob/main/LAB2_A/LAB2A_code/USB_C/hello_world.jpeg)
+
+## Blink
+ In set_neopixel_color() function,we need to transfer RGB to GRB.So,the function could be defined in ws2812.c as following:
+ 
+ ```
+ void set_neopixel_color(uint32_t color) {
+    uint32_t r = color & 0xff0000;
+    uint32_t g = color & 0x00ff00;
+    uint32_t b = color & 0x0000ff;
+    uint32_t grb = ( r>>8| g<<8| b);
+    // todo get free sm
+    put_pixel(grb);
+
+} 
+ ```
+ 
+ The main code is :
+ 
+ ```
+ while(true){
+    //output example
+    int flag = rand() % 3;
+    printf(color_table[flag].name);
+    printf("\n");
+    set_neopixel_color(color_table[flag].color);
+    
+    /* input example
+    while((c=getchar_timeout_us(0))!= EOF){
+            putchar_raw(c);
+            my_toggle_flag=1;
+        }
+    
+        if(my_toggle_flag==1){
+            printf("send a char");
+            set_neopixel_color(0xff0000);
+            my_toggle_flag=0;
+        }
+        else{
+            set_neopixel_color(0x000000);
+        }*/
+
+        sleep_ms(1000);
+        //sleep_ms(5);
+    }
+ ```
+ For output example, we can see:
+ 
+ ![gif](https://github.com/kop123meter/ese5190-2022-lab2-into-the-void-star/blob/main/LAB2_A/LAB2A_code/Blink/tutieshi_640x360_11s.gif)
+ 
+ For input example, we can see:
+ 
+ If we press a button in keyboard, we can see the neopixel will be lighted.
