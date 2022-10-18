@@ -50,7 +50,7 @@ o How might you approach this task using other tools available to you?
 It will be helpful to use waveform simulation software on this project.  
 
 ## 4 : USB + WS2812 Folder
-The folder is here: 
+The folder is here: https://github.com/WillChan9/ese5190-2022-lab2-into-the-void-star/tree/main/pio  
 
 The program drive the LED light change in 3 colors alternatively: Red, Green, and Blue. And the serial is printing the color at the same time.
 
