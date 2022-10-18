@@ -1,12 +1,16 @@
-University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
+# University of Pennsylvania
+# ESE 5190: Intro to Embedded Systems
+## Lab 2A
 
-Shantanu Sampath
+### Shantanu Sampath
 Partner: Aamir Khambaty
+
 https://www.linkedin.com/in/shantanu-sampath/
-    Tested on: HP 17 (Windows 11)
+
+ Tested on: HP 17 (Windows 11)
 
 
-I)Responses to 3.2:
+### I)Responses to 3.2:
 
 1) Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
 
@@ -45,6 +49,28 @@ A. The pioasm is an assembler, which is used to convert the assembly code in the
 
 8) Brief discussion of decisions you made while working with your modeling documents.
 9)  At the end of your writeup of section 3, reflect on the tools you used for modeling from a user interface design perspective.
-II) What were some strengths/weaknesses of working with paper?
-III) What were some strengths/weaknesses of working with spreadsheets?
-IV) How might you approach this task using other tools available to you?
+
+### II) What were some strengths/weaknesses of working with paper?
+
+Strengths:
+1) Helps get a clear understanding of the mechanincs
+2) Helps to get ideas down quickly and intuitively
+
+Weakness:
+1) Hassle of printing and using so many sheets
+2) Not the neatest way to go about it
+
+### III) What were some strengths/weaknesses of working with spreadsheets?
+
+Strengths:
+1) Information can be presented clearly and effectively
+2) Easily sharable and scalable
+
+Weaknesses:
+1) Not an elegant method to represent simple concepts.
+
+### IV) How might you approach this task using other tools available to you?
+
+1) SDK documentation
+2) Stack Overflow
+3) Using a debugger and an IDE to step through code
