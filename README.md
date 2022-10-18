@@ -36,3 +36,5 @@ A method ws2812_default_program_config configures a PIO state machine based on u
 ```
 typedef void (*pattern)(uint len, uint t); It is accessed by pattern_table[pat].pat(NUM_PIXELS, t);
 ```
+• What role does the pioasm “assembler” play in the example, and how does this interact with CMake?<br>
+Gloss over the details of how the assembly program in the .pio file is translated into a binary program, ready to be loaded into the PIO state machine. pioasm can also be used directly, and has a few features not used by the C++ SDK, such as generating programs suitable for use with the MicroPython PIO library.<br>
