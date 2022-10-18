@@ -47,6 +47,9 @@ While working with your modeling documents, I decided to list the points of info
 ## Part 3: Reflect on the tools
 
 - What were some strengths/weaknesses of working with paper?
+    The strength of working with paper is that it is convenient to draw graph and illustrate ideas on paper.
+- dd
+- ddd
 
 ## 4.0 HELLO, BLINKENLIGHT
 
