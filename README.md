@@ -59,6 +59,10 @@ How is this function accessed from the main “application” code?
   
   ![a](3.3.4)
   
+  ![a](3.3.5)
+  
+  ![a](3.3.6)
+  
 3.4 COLOR BY NUMBER
   
   The spreadsheet of list of registors is attached to 3.4 List of registors.xlsx and shows as follows:
