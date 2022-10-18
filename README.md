@@ -4,9 +4,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
         haolyou@seas.upenn.edu
     Tested on: ROG Zephyrus (16-inch, 2022), Windows 11
 
-(TODO: Your README)
-
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
+PART 3: TALKING LEDS
 
 3.2 PIO
 
@@ -48,6 +46,46 @@ How is this function accessed from the main “application” code?
 
   Our program written in C language can be built to assembler with GCC.
   We can use CMake to generate uf2 file which can be recognized by the board.
+  
+3.3 FOLLOW THE FLOW
+
+  The annotated code is attached to 3.3 ws2812.pdf and shows as follows:
+  
+  ![a](3.3.1)
+  
+  ![a](3.3.2)
+  
+  ![a](3.3.3)
+  
+  ![a](3.3.4)
+  
+3.4 COLOR BY NUMBER
+  
+  The spreadsheet of list of registors is attached to 3.4 List of registors.xlsx and shows as follows:
+  
+  ![a](3.4)
+  
+3.5 MODELING TIME
+
+  The paper model is shown as follows:
+  
+  ![a](3.5)
+  
+  
+ 3.6 ZOOMING IN
+ 
+ 
+ 3.7 TIMING DIAGRAM
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
