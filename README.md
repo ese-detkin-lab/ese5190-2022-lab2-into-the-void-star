@@ -1,7 +1,7 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
     Siyun Wang
-     
+    https://github.com/Phoebe-www/ese5190-2022-lab2-into-the-void-star/blob/main/README.md 
     Tested on: DELL Inspiron 5505, Windows 10
 
 
