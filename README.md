@@ -96,10 +96,9 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2
 |SM2_INSTR   | 0x5020108            | 0x108  |Instruction currently addressed  by state machine 2's program counter | 0x00000000 | State machine 2 is not used.                                 |
 |SM3_INSTR   | 0x5020120            | 0x120  |Instruction currently addressed  by state machine 3's program counter | 0x00000000 | State machine 3 is not used.                                 |
 |SM0_PINCTRL  | 0x50200dc           | 0x0dc  |State machine 0 pin control                  | 0x00000000 | Correct instruction specific a  pin used to receive the value of side-set change. |
-|SM1_PINCTRL  | 0x50200f4           | 0x0f4  |State machine 1 pin control                  | 0x00000000 | State machine 1 is not used.                                 |
-|SM2_PINCTRL  | 0x502010c           | 0x10c  |State machine 2 pin control                  | 0x00000000 | State machine 2 is not used.                                 |
-|SM3_PINCTRL  | 0x5020124           | 0x124  |State machine 3 pin control                  | 0x00000000 | State machine 3 is not used.       
-|
+|SM1_PINCTRL  | 0x50200f4           | 0x0f4  |State machine 1 pin control                  | 0x00000000 | State machine 1 is not used. |
+|SM2_PINCTRL  | 0x502010c           | 0x10c  |State machine 2 pin control                  | 0x00000000 | State machine 2 is not used. |
+|SM3_PINCTRL  | 0x5020124           | 0x124  |State machine 3 pin control                  | 0x00000000 | State machine 3 is not used. |
 
 ## 3.5: Photo of paper model
 
