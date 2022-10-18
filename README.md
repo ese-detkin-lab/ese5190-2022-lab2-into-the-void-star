@@ -40,6 +40,12 @@ The link to our electronic paper model is https://github.com/ZhijingY/ESE519-lab
 
 The link to our complete packet transmission spreadsheet and polished timing diagram is https://github.com/ZhijingY/ESE519-lab2/blob/main/hw2_writeup/3.6_3.7.xlsx.
 
+## Part 3: Discussion of decisions
+
+While working with your modeling documents, I decided to list the points of information I needed, and search for relevant ideas in the documents based on the list.
+
+## Part 3: Reflect on the tools
+
 ## 4.0 HELLO, BLINKENLIGHT
 
 The link to my working USB + WS2812 code folder is https://github.com/ZhijingY/ESE519-lab2/tree/main/test.
