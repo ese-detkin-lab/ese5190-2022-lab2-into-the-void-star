@@ -73,8 +73,6 @@ Annotations are made using the "//" - comment in "C" language.
 
 ![This](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%203/Part%203.4.xlsx) is the link of the spreadsheet that I have prepared for this portion of the answer.
 
-[This](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%203/Part%203.4.xlsx)
-
 ## Which PIO instance is being used? Which state machine is being used with this PIO instance?
 In this code, 0 instace of PIO and 0 instance of State machine were used.
 
