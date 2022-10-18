@@ -92,7 +92,7 @@ In this section, we zoom in the time flow(clock cycle/2) to catch up the data fl
 Please check file [3.6&3.7.xlsx](https://github.com/anniepan8215/ese5190-2022-lab2-into-the-void-star/blob/main/Part3/3.6%263.7/3.6%263.7.xlsx) for more details.
 
 ## PART 4: HELLO, BLINKENLIGHT
-Here we design an interactable program in C which allow user to control the color of the LED located on WS2812 with certain key. See code in folder 
+Here we design an interactable program in C which allow user to control the color of the LED located on WS2812 with certain key. See code in folder [Part 4](https://github.com/anniepan8215/ese5190-2022-lab2-into-the-void-star/tree/main/lab2a_part4).
 Some manipulation instruction:
 - See 'Hello world' to confirm connection between RP2040 and PC.
 - Button for light control:
