@@ -6,7 +6,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 
 
-# TALKING LEDs
+# 3 TALKING LEDs
 
 # 3.2  PIO
 
