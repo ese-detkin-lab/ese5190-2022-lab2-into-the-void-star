@@ -53,27 +53,21 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 |SM0_PINCTRL|0x50200000|0x0dc|State machine pin control|0x20003000|side set 1, pin=12|
 ## 3.5 MODELING TIME
 ## Understand ws2812 protocol
-* Basic circuitry for WS2812 LED: <br>
-    shift 
-* How connect WS2812 to a microcontroller<br>
-    A serial data input to WS2812
-* how to send single 1 or 0 bit to ws2812<br>
-    > The width of the pulse determines whether it is a 1 or a 0 bit
-* how many bits for a single color value<br>
-  Three bytes in total for green, red and blue
-* what happens if send more bits than this in a packet<br>
-  Extra data will be retransmitted to the following WS2812
-* how do you tell you are done sending data<br>
-  Since autopull is enabled, if the PIO is stalled means it reaches its shift threshold, which means already sending data.
-* how do you send data to more than one ws2812<br>
-    Send a series of data, each ws2812 will keep the first three bytes of data and retransimts the rest of data to the next.
+- Basic circuitry for WS2812 LED: <br>
+    -shift 
+- How connect WS2812 to a microcontroller<br>
+    -A serial data input to WS2812
+- how to send single 1 or 0 bit to ws2812<br>
+    -The width of the pulse determines whether it is a 1 or a 0 bit
+- how many bits for a single color value<br>
+    -Three bytes in total for green, red and blue
+- what happens if send more bits than this in a packet<br>
+    -Extra data will be retransmitted to the following WS2812
+- how do you tell you are done sending data<br>
+    -Since autopull is enabled, if the PIO is stalled means it reaches its shift threshold, which means already sending data.
+- how do you send data to more than one ws2812<br>
+    -Send a series of data, each ws2812 will keep the first three bytes of data and retransimts the rest of data to the next.
 <font color=#56A4CD >**COLOR(GRB)   :0xA456CD<br>    0b101001000101011011001101**</font> 
-<img src=".\part3\chart3-5.jpg" style="zoom:70%"> <br>
-
----
-
-
-
 **Data flow:**
  (TX FIFO -> SM-> OSR)
 `SHIFTCTRL_OUT_SHIFTDIR=0`, so OSR shift **left**
