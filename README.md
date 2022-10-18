@@ -3,7 +3,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
     Zhijing Yao
     Tested on: MacBook Pro (13-inch, 2018), macOS Big Sur 11.7
 
-## 3.2 
+## 3.2 PIO
 
 1) The interface speed of WS2812 LED string is 400-1200KHz, but most of the processors on our laptop runs way faster than that. For my laptop, the processor used is 2.3GHz Intel Core i5. In this case, the speed of my processor is almost 2000 times faster than the speed of WS2812 LED string. According to the Pico C SDK manual, bit-banging becomes impractical at this point as it becomes too hard to deal with the timing uncertainty of actually entering an interrupt handler if using IRQ. 
 
@@ -22,3 +22,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
         }
 
 7) We can use it to build PIO programs, for us to #include from your C or C++ program. pioasm can also be used directly, and has a few features not used by the C++ SDK, such as generating programs suitable for use with the MicroPython PIO library. CMake function pico_generate_pio_header(TARGET PIO_FILE) takes care of invoking pioasm and adding the generated header to the include path of the target TARGET.
+
+
+## 3.3 FOLLOW THE FLOW
+
+The link to our annotated code printouts is https://github.com/ZhijingY/ESE519-lab2/blob/main/hw2_writeup/3.3.pdf.
