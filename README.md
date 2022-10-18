@@ -5,7 +5,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2
         LinkedIn: www.linkedin.com/in/lihong-zhao-a24789224  
     Tested on: Lenovo Legion 5 Pro 16" Laptop, Intel Core i7-12700H， Windows11 
 
-##3.2 PIO Q&A##
+## 3.2 PIO Q&A ##
 
 - Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?  
     - One of the main disadvatanges of bit-banging is that more communication errors (glitches and jitters) occur. On a laptop, it is incrredibly important that the communcaiton is pristine and thus bit-banging wouldn't be a good solution.
