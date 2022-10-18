@@ -40,6 +40,21 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/36518f5be5dad070610266429e872d5c1c16442f/AnnotationStuffpart%203.3.pdf
 
 ## 3.4 Color by number
+I found the answers to the clue questions by scouringthe program and calculating time from datasheet.
+
+1.	Which PIO instance is being used?  Pio0
+
+2.	Which state machine is being used with this PIO instance? sm0
+
+3.	Which pin is this state machine configured to control? (you can  either use settings from the example program, or for the Qt Py  LED pin yours will be connected to) : To the pin 2 by default, and we configured this to work with pin 11
+
+4.	How long is this state machine’s clock cycle? 0.8 MHz
+
+5.	How much is this state machine’s clock scaled down relative to the system clock? (i.e. the “clock divisor”)  133/8 = 16.625
+
+6.	In which direction will this state machine shift bits out of its  “output shift register”? LSB first (right shift)
+
+
 https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/36518f5be5dad070610266429e872d5c1c16442f/ESE_519_lab_2a_3.4.xlsx
 
 ## 3.5 Modelling Time
