@@ -6,7 +6,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 (Chenye Xiong)
 
-## Brief responses to the reading questions in 3.2 of the Pico C SDK manual
+# Brief responses to the reading questions in 3.2 of the Pico C SDK manual
 
 ### Why is bit-bang impractical on our laptop, despite it having a much faster processor than the RP2040 ?
 
@@ -47,8 +47,7 @@ The main ingredients in this recipe are:
 
 ### In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
 
-1. `put_pixel(rand())`
-2. `pattern_table()`
+ `pio_sm_put_blocking()`
 
 ### What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
 
@@ -58,6 +57,48 @@ The main ingredients in this recipe are:
 4. Within the SDK you do not need to invoke pioasm directly, as the CMake function `pico_generate_pio_header(TARDET PIO_FILE)` takes care of invoking pioasm and adding the generated header to the include path of the target TARGET for you.
 
 # Part 3.4
+
+Decisions:
+I checked the RP2040 datasheet and found all the registers then listed them and their information in my spreadsheet.
+
+My spreadsheet about registers:
+
+[link](https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/SPREADSHEET%20LAB2A.xlsx)
+
+# Part 3.5
+
+Decisions；
+
+I readed the  chapter 3 of pico_c_SDK manual carefully and then learned many items such as the FIFO. I also learned about their functions and when it was used. After annotating the code comprehensively, I drew the charts.
+
+
+My charts:
+
+<div align=center><img width="800" height="400" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/3.5%20(2).jpg"/></div>
+
+<div align=center><img width="800" height="500" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/3.5(3).jpg"/></div>
+
+<div align=center><img width="800" height="500" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/3.5.jpg"/></div>
+
+# Part 3.6
+
+Decision:
+I considered about the delay and the charts in Part 3.5. Also, I assumed the voltage according to the WS2812 datasheet.
+
+<div align=center><img width="800" height="200" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/voltage.png"/></div>
+
+My new spreadsheet:
+
+[link](https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/3.6%20spreadsheet.xlsx)
+
+# Part 3.7
+
+Decision:
+I considering the spreadsheet in part 3.6 and drew it on paper.
+
+My TIMING GIADRAM:
+
+<div align=center><img width="800" height="550" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/3.7.jpg"/></div>
 
 
 # Part 4: HELLO, BLINKENLIGHT
