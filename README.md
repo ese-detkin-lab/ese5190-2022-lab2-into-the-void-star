@@ -34,10 +34,10 @@ https://github.com/QSHANSSS/ese5190-2022-lab2-into-the-void-star/blob/main/timin
 4. blinking and hello world  
 Firstly, we need to initialize the ws2812, including GPIO setting and pio configuration.  
 Then we shall create the send_pixels for RGB packet transmission.
-<img width="411" alt="image" src="https://user-images.githubusercontent.com/64452307/196342692-35b0b1e4-d934-45af-8fa4-cb5fb682df78.png">
-Results is below:   
+<img width="411" alt="image" src="https://user-images.githubusercontent.com/64452307/196342692-35b0b1e4-d934-45af-8fa4-cb5fb682df78.png"> 
 <img width="626" alt="image" src="https://user-images.githubusercontent.com/64452307/196356757-dfc0d41e-f6d1-4912-ad4b-9de08ef9173b.png">
 
+Display result is below:
 ![result 00_00_00-00_00_30~1](https://user-images.githubusercontent.com/64452307/196343671-979a2d2a-f1be-4dd2-83f7-7cb3df65b4f4.gif)
 
 
