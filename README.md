@@ -42,9 +42,17 @@ Write the instructions in a .pio file. When using cmake, generate a header that 
 
 Translating assembly code into binary. The CMake function pico_generate_pio_header(TARGET PIO_FILE) takes care of invoking pioasm and adding the generated header to the include path of the target TARGET.
 
+## Part 3.3 Code Annotation
+See folder with name "lab2par3.3"
+
+## Part 3.4 spreadsheet of initial PIO register states
+
+![lab2par3 4register](https://user-images.githubusercontent.com/114244957/196347625-b2e75b01-4c3d-48fa-9b5c-73efd9416e57.png)
+
+## Part 3.5 Paper Model
+
 ## LAB WRITEUP: due Monday, Oct 17 at 8:30 AM ET on Github
 Include the following files in your repo:
-- 3.4: Your spreadsheet of initial PIO register states
 - 3.5: A photo or scan of your paper model
 - 3.6: Your complete packet transmission spreadsheet 
 - 3.7: Your polished timing diagram
@@ -55,10 +63,3 @@ Include the following files in your repo:
     - What were some strengths/weaknesses of working with paper?
     - What were some strengths/weaknesses of working with spreadsheets?
     - How might you approach this task using other tools available to you?
-  - Finally, submit a pull request with a link to your repo:
-- The title should be "LAB 2A: YOUR NAME", followed by “Worked with: LAB PARTNER(S)”
-- The comment section of your pull request should
-include:
-  - A mention of other students whose Github content you found helpful or who were able to help you with the lab, if any
-  - (Briefly) Any bells and whistles you want to highlight
-  - Feedback on your experience with the lab, if any
