@@ -117,7 +117,7 @@ To fill the vacuum, the out instruction pushes data out of the OSR and zeroes in
 We are using TX FIFO registers for sending data more than one WS2812 in a chain. The data that we are moving out of the OSR comes from the state machine's TX FIFO, which is more extensively documented in the RP2040 Datasheet. The TX FIFO is a data buffer between the state machine and the rest of the RP2040 that may be filled 
 either directly from the CPU or through system DMA, which is substantially quicker.
 
-A photo or scan of your paper model
+## A photo or scan of your paper model
 ![ ](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%203/Part%203.5.1.jpg)
 ![ ](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%203/Part%203.5.2.jpg)
 
