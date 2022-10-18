@@ -73,7 +73,7 @@ The code has been annotated with comments
 
 ## 3.4 COLOR BY NUMBER
 
-The Excel file containing all the register  values can be accessed through the given link: [Excel_link]( https://github.com/Siddmathur14/ese5190-2022-lab2-into-the-void-star/blob/main/ESE519-Spreadsheet.xlsx)
+The Excel file containing all the register  values can be accessed through the given link: [Excel link](https://github.com/Siddmathur14/ese5190-2022-lab2-into-the-void-star/blob/main/ESE519-Spreadsheet.xlsx)
 
 ## 3.5  MODELING TIME 
 
@@ -82,7 +82,7 @@ The Excel file containing all the register  values can be accessed through the g
 
 ## 3.6  ZOOMING IN AND TIMING DIAGRAM
 
-The Excel File contains timing data for packet transfer to the **ws2812** module : Link [Excel Link](https://github.com/Siddmathur14/ese5190-2022-lab2-into-the-void-star/blob/main/ESE5190-3.7%20(2).xlsx)
+The Excel File contains timing data for packet transfer to the **ws2812** module :[Excel Link](https://github.com/Siddmathur14/ese5190-2022-lab2-into-the-void-star/blob/main/ESE5190-3.7%20(2).xlsx)
 
 ## 4   HELLO BLINKENLIGHT
 
