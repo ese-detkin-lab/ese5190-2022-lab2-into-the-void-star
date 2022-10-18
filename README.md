@@ -4,7 +4,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
         www.linkedin.com/in/ruturajn
     Tested on: ASUS TUF DASH F15, Windows 11 (WSL)
 
-### PART 3 - TALKING LEDs
+### PART 3.2 : PIO
 
 - Q1: Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
     
@@ -47,5 +47,46 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
     
 - Q7: What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
 
-    **Ans:** The `pioasm` tool is used to translate assembly code into a binary. This is integrated with `CMake` using the `pico_generate_pio_header(TARGET_
-    PIO_FILE)` function, where the `TARGET_PIO_FILE` argument is used to address the `.pio` file.
+    **Ans:** The `pioasm` tool is used to translate assembly code into a binary. This is integrated with `CMake` using the 
+    `pico_generate_pio_header(TARGET_PIO_FILE)` function, where the `TARGET_PIO_FILE` argument is used to address the `.pio` file.
+
+### PART 3.3 : FOLLOW THE FLOW
+
+***NOTE: The code for `ws2812.c` is annotated with comments.***
+
+![embedded_c1](https://user-images.githubusercontent.com/56625259/196353886-8ab1ac11-11b7-4d9c-852f-69fb200b6f1b.JPG)
+
+![embedded_c2](https://user-images.githubusercontent.com/56625259/196353911-2a3abf8a-5ed9-48fa-89c1-5f8cd3131e9d.JPG)
+
+![embedded_c3](https://user-images.githubusercontent.com/56625259/196353943-ad4bbcfd-495c-4125-a17c-1e547465ae18.JPG)
+
+![embedded_c4](https://user-images.githubusercontent.com/56625259/196353958-42bd1563-5d20-4ed8-b79c-6ea496691426.JPG)
+
+![embedded_c5](https://user-images.githubusercontent.com/56625259/196353978-9eb261a6-7358-4a24-88a8-d79003e29a7c.JPG)
+
+<br>
+
+***NOTE: The code for `ws2812.h` is annotated with comments.***
+
+![embedded_h1](https://user-images.githubusercontent.com/56625259/196355871-9ff69497-3e40-469b-92b2-4a0b8e8e0638.JPG)
+
+![embedded_h2](https://user-images.githubusercontent.com/56625259/196355880-7f4df490-734d-45ab-ba91-926047ed2df4.JPG)
+
+![embedded_h3](https://user-images.githubusercontent.com/56625259/196355896-12d7cc68-e9f5-413c-bbe3-e0a19c59e79d.JPG)
+
+![embedded_h4](https://user-images.githubusercontent.com/56625259/196355915-23a340a0-abc5-4cc2-b672-159dce777a25.JPG)
+
+![embedded_h5](https://user-images.githubusercontent.com/56625259/196355941-5b8ec697-9194-4602-a597-06b6c0eafdc5.JPG)
+
+
+### PART 3.4 : COLOR BY NUMBER
+
+The Excel File contains the values for the registers : [Link]()
+
+### PART 3.5 : MODELLING TIME
+
+
+
+### PART 3.6 : ZOOMING IN AND TIMING DIAGRAM
+
+The Excel File contains timing data for packet transfer to the `ws2812` module : [Link]()
