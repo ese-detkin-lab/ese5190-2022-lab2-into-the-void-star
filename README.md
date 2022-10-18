@@ -51,29 +51,29 @@ How is this function accessed from the main “application” code?
 
   The annotated code is attached to 3.3 ws2812.pdf and shows as follows:
   
-  ![a](3.3.1)
+  ![a](https://github.com/HaoliangYou/ese5190-2022-lab2-into-the-void-star/blob/main/3.3.1.png)
   
-  ![a](3.3.2)
+  ![a](https://github.com/HaoliangYou/ese5190-2022-lab2-into-the-void-star/blob/main/3.3.2.png)
   
-  ![a](3.3.3)
+  ![a](https://github.com/HaoliangYou/ese5190-2022-lab2-into-the-void-star/blob/main/3.3.3.png)
   
-  ![a](3.3.4)
+  ![a](https://github.com/HaoliangYou/ese5190-2022-lab2-into-the-void-star/blob/main/3.3.4.png)
   
-  ![a](3.3.5)
+  ![a](https://github.com/HaoliangYou/ese5190-2022-lab2-into-the-void-star/blob/main/3.3.5.png)
   
-  ![a](3.3.6)
+  ![a](https://github.com/HaoliangYou/ese5190-2022-lab2-into-the-void-star/blob/main/3.3.6.png)
   
 3.4 COLOR BY NUMBER
   
   The spreadsheet of list of registors is attached to 3.4 List of registors.xlsx and shows as follows:
   
-  ![a](3.4)
+  ![a](https://github.com/HaoliangYou/ese5190-2022-lab2-into-the-void-star/blob/main/3.4.png)
   
 3.5 MODELING TIME
 
   The paper model is shown as follows:
   
-  ![a](3.5)
+  ![a](https://github.com/HaoliangYou/ese5190-2022-lab2-into-the-void-star/blob/main/3.5.jpg)
   
   
  3.6 ZOOMING IN
