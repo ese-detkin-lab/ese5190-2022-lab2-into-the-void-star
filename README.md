@@ -26,7 +26,7 @@ The codes have been added to the repo:
 
 ## Brief Responses to questions raised in into the (void):
 ### Reading questions in 3.2
-- Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040? <br>
+-Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040? <br>
 With the Moores law increase that we have seen, processors have scaled up to such an extent that a lot of processes run concurrently behind the scenes.This makes using hard resets like interrupts impractical. Smaller processors like those in micro-controllers respond better to bit-banging because they have a lot lesser on their plate. Bit-banging on a higher level processor like a pc could break the flow and cause timing issues and race conditions.
 
 -What are some cases where directly using the GPIO might be a better choice than using the PIO hardware?<br>
@@ -38,7 +38,7 @@ The data goes through an Rx FIFO and the ISR.
 -How do you get data out of a PIO state machine?<br>
 The data goes through the OSR and a Tx FIFO.
 
-- How do you program a PIO state machine?<br>
+-How do you program a PIO state machine?<br>
 PIO state machines can execute short, simple and binary programs. Needless to say they need to be programmed in assembly language. The PIO has a total of nine instructions to work with: JMP, WAIT, IN, OUT, PUSH, PULL, MOV, IRQ, and SET. 
 
 -In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?<br>
