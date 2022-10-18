@@ -56,9 +56,27 @@ The main ingredients in this recipe are:
 3. It can also be used directly, and it can generate programs suitable for use with the MicroPython PIO library.
 4. Within the SDK you do not need to invoke pioasm directly, as the CMake function `pico_generate_pio_header(TARDET PIO_FILE)` takes care of invoking pioasm and adding the generated header to the include path of the target TARGET for you.
 
+# Part 3.3
+Decision:
+
+I annotated the code based on the information on the pico_SDK manual
+
+My annotated code:
+
+(ws2812.h)
+
+<div align=center><img width="800" height="900" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/3.3%20FLOW/WS2812.C2.jpeg"/></div>
+<div align=center><img width="800" height="900" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/3.3%20FLOW/WS2812.C1.jpeg"/></div>
+
+(ws2812.c)
+
+<div align=center><img width="800" height="900" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/3.3%20FLOW/WS2812.H2.jpeg"/></div>
+<div align=center><img width="800" height="900" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/3.3%20FLOW/WS2812.H1.jpeg"/></div>
+
 # Part 3.4
 
 Decisions:
+
 I checked the RP2040 datasheet and found all the registers then listed them and their information in my spreadsheet.
 
 My spreadsheet about registers:
@@ -83,6 +101,7 @@ My charts:
 # Part 3.6
 
 Decision:
+
 I considered about the delay and the charts in Part 3.5. Also, I assumed the voltage according to the WS2812 datasheet.
 
 <div align=center><img width="800" height="200" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/voltage.png"/></div>
@@ -94,6 +113,7 @@ My new spreadsheet:
 # Part 3.7
 
 Decision:
+
 I considering the spreadsheet in part 3.6 and drew it on paper.
 
 My TIMING GIADRAM:
@@ -172,3 +192,15 @@ uint offset = pio_add_program(pio, &ws2812_program)
 4. Adding `printf("Hello, world!\n")` inside the `while` loop and outside the `for` loop
 
 <div align=center><img width="800" height="400" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/add%20print.png"/></div>
+
+## Building a new folder inside the test folder.
+
+Using terminal and runing several commands which were used in setup.
+
+## Running the new .uf2 file
+
+Draging the .uf2 file into the RP1-RP2 and then using the screen command in terminal, then:
+
+<div align=center><img width="600" height="800" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/part4.gif"/></div>
+
+I changed the name of the color to number to make the output more readable.
