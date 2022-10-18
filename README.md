@@ -122,4 +122,12 @@ The following Excel file contains all the registers, values and adresses: [EXCEL
 
 The following Excel file contains timing data for packet transfer to `ws2812` module: [EXCEL](https://github.com/arnavgadre/ese5190-2022-lab2-into-the-void-star/blob/main/ESE5190-3.7.xlsx)
 
+<br>
 
+## 4) BLINKENLIGHT IMPLEMENTATION
+
+<br>
+
+
+
+Here is the folder containing the code and build files: 
