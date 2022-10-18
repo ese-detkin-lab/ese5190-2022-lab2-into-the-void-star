@@ -64,3 +64,4 @@ https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/Lab%202
 ## 3.6 ZOOMING IN 
 
 ## 3.7 TIMING DIAGRAM
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/Lab%202%20Prob3/3.7.jpg)
