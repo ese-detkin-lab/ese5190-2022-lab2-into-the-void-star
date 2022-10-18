@@ -1,8 +1,8 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
-    (TODO) YOUR NAME HERE
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
+    Haoliangyou
+        haolyou@seas.upenn.edu
+    Tested on: ROG Zephyrus (16-inch, 2022), Windows 11
 
 (TODO: Your README)
 
