@@ -99,7 +99,7 @@ o How do you send a single 1 or 0 bit to the WS2812?
 
 
 o How many bits does it take to send a single color value?
-
+Three
 
 
 o What happens if you send more bits than this in a packet? o How do you tell a WS2812 you’re done sending data?
@@ -108,13 +108,14 @@ o What happens if you send more bits than this in a packet? o How do you tell a 
 o How do you send data to more than one WS2812 in a chain?
 
 
-
-
+![image](https://user-images.githubusercontent.com/114256663/196372898-1f544a0b-e089-413c-8719-7e1e9da1e46b.png)
 
 
 ##
 
 3.6 ZOOMING IN
+
+
 
 
 
