@@ -68,7 +68,7 @@ Weakness:
 1. Online Videos and Tutorials.
 2. SDK Documentation
 3. Use of an IDE to simplify coding.
-2. 
+
 
 
 
