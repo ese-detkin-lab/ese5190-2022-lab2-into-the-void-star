@@ -68,6 +68,8 @@ Below is the time diagram.
 
 # 4 WOrking USB + WS2812 code folder
 
+This is the code folder, everything except "build". 
+https://github.com/yangbozh/ese5190-2022-lab2-into-the-void-star/tree/main/ESE519_LAB2A_PART4
 
 # Discussion
 
