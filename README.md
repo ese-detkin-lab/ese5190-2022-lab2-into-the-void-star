@@ -54,11 +54,13 @@ While working with your modeling documents, I decided to list the points of info
     
 - What were some strengths/weaknesses of working with spreadsheets?
 
-    The strength of working with paper is that it is convenient to draw graph and illustrate ideas on paper.
+    The strength of working with spreadsheets is that modifying computing results can be really simple and fast.
     
-    The weakness of paper is that modifying written answers and performing computations can be troublesome.
+    The weakness of spreadsheets is that it can be troublesome to plot graphs based on clock signals.
     
-- ddd
+- How might you approach this task using other tools available to you?
+
+    I might choose to use online drawing website or eletronic tools like iPad to draw the timing graphs. [Online timing graph drawing tool](https://wavedrom.com/) can also be so helpful.
 
 ## 4.0 HELLO, BLINKENLIGHT
 
