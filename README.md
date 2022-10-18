@@ -47,7 +47,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
     
 - Q7: What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
 
-    **Ans:** The `pioasm` tool is used to translate assembly code into a binary. This is integrated with `CMake` using the 
+    **Ans:** The `pioasm` tool is used to translate assembly code into a header file. This is integrated with `CMake` using the 
     `pico_generate_pio_header(TARGET_PIO_FILE)` function, where the `TARGET_PIO_FILE` argument is used to address the `.pio` file.
 
 ### PART 3.3 : FOLLOW THE FLOW
