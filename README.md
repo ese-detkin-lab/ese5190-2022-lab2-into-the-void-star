@@ -67,4 +67,4 @@ ws2812.pio.h
 
 
 ## 4 USB + WS2812 Code Folder
- - Uploaded the Folder.
+ - Uploaded the "pio" Folder.
