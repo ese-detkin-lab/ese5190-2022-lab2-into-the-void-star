@@ -95,6 +95,8 @@ https://github.com/yash-mb/ese5190-2022-lab2-into-the-void-star/blob/67f1007e092
 
 # 3.7 Timing Diagram
 
+Point to be noted here is that the changes in any values are not instantaneous.
+
 This gives an overview of the spreadsheet intriduced in part 3.6.
 
 <img src = "Q3.7.jpeg">
@@ -133,4 +135,6 @@ Weaknesses: Regid way of representation (only tabular)
 ## How might you approach this task using other tools available to you?
 
 Ans: Flowchart can also be used to show the flow of the code
+
+
 
