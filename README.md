@@ -93,6 +93,12 @@ This is a complex process. Every bit of the color input takes 10 cycles, thus 24
 
 https://github.com/yash-mb/ese5190-2022-lab2-into-the-void-star/blob/67f1007e0927a6a07d0ddb5ab72c1bfaa1de1d28/Q3.6.xlsx
 
+# 3.7 Timing Diagram
+
+This gives an overview of the spreadsheet intriduced in part 3.6.
+
+<img src = "Q3.7.jpeg">
+
 
 # 4. Hello Blinkenlight
 
