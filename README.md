@@ -32,3 +32,7 @@ The pull instruction takes one data item from the transmit FIFO buffer, and plac
 The state machine needs to be told which GPIO or GPIOs to output to. There are four different pin groups which are used by different instructions in different situations. The OSR is able to shift this data out, one or more bits at a time, to further destinations, using an out instruction. The out instruction here takes one bit from the data we just pull-ed from the FIFO, and writes that data to some pins.<br>
 • How do you program a PIO state machine?<br>
 A method ws2812_default_program_config configures a PIO state machine based on user parameters.<br>
+• In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code
+```
+typedef void (*pattern)(uint len, uint t); It is accessed by pattern_table[pat].pat(NUM_PIXELS, t);
+```
