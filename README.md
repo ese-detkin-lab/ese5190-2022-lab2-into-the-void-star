@@ -23,6 +23,13 @@ We have selected Pi0 as base and value of registers is found using the RP2040 da
 
 Link - https://github.com/yash-mb/ese5190-2022-lab2-into-the-void-star/blob/6939f813a4b906ff0e74e16c7b73f252bca62d65/Q3.4%20-%20Registers.xlsx
 
+# 3.5 Modeling Time
+
+The color we have choosed is green - 0x00FF0000. The process flow of one bit into the instruction code is show. The timing diagram is shown for both the cases of x {0 and 1}. But the table is shown for case when x=0 as our input's first bit will be zero.
+
+<img src = "Q-3.5_1.jpeg">
+<img src = "Q-3.5_2.jpeg">
+
 
 # 4. Hello Blinkenlight
 
