@@ -3,7 +3,8 @@
     Katrina Ji, Worked with: Yuchen Wang
     Tested on: MacBook Pro (14-inch, 2021), macOS Monterey 12.6
 
-## Part 3.2 Q&A [Pico C SDK manual](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)
+## Part 3.2 Q&A 
+Referred to [Pico C SDK manual](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)
 1. Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
 
 As processors have become faster in terms of overwhelming number-crunching brute force, the layers of software and hardware between the processor and the outside world have also grown in number and size. In response to the growing distance between processors and memory, PC-class processors keep many hundreds of instructions in-flight on a single core at once, which has drawbacks when trying to switch rapidly between hard real time tasks.
@@ -52,12 +53,10 @@ See folder with name "lab2par3.3"
 ## Part 3.5 Paper Model
 
 ## LAB WRITEUP: due Monday, Oct 17 at 8:30 AM ET on Github
-Include the following files in your repo:
 - 3.5: A photo or scan of your paper model
 - 3.6: Your complete packet transmission spreadsheet 
 - 3.7: Your polished timing diagram
-- Update your README.md by filling in the TODOs along with the following content.
-- Present your work for parts 3 and 4 as a cohesive writeup, linking and giving context for each file you uploaded. Include the following in your writeup:
+
   - Brief discussion of decisions you made while working with your modeling documents.
   - At the end of your writeup of section 3, reflect on the tools you used for modeling from a user interface design perspective.
     - What were some strengths/weaknesses of working with paper?
