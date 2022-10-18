@@ -6,7 +6,22 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 (TODO: Your README)
 
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
+##3.2 PIO Q&A##
+
+- Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?  
+    - One of the main disadvatanges of bit-banging is that more communication errors (glitches and jitters) occur. On a laptop, it is incrredibly important that the communcaiton is pristine and thus bit-banging wouldn't be a good solution.
+- What are some cases where directly using the GPIO might be a better choice than using the PIO hardware?  
+    - Using a GPIO is a better choice when the interface speed is low. Push buttons are a great example. The communication can handle low frequencies so it can still receive and send signals in the time.
+- How do you get data into a PIO state machine?
+    - You can get data into a PIO state machine via a FIFO queue. Each state machine is connected with FIFO queues to exchange data with the main program. Instructions like "out" can be used to get data into a PIO state machine from FIFO to memory.
+- How do you get data out of a PIO state machine?  
+    - The logic is similar, but instead instructions like "pull" are used.
+- How do you program a PIO state machine? 
+    - Programming a PIO state machine requires pushing data into the TX FIFO from which it will be transmitted to the state machine and then executed.
+- In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
+    - The function that is used is pio_sm_put_blocking() which writes data to the TX FIFO queue and blocks it if it is full.
+- What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
+    - The assmebler compiles Assembly code into a human readable format. 
 
 
 |          |ADDRESS                 |OFFSET  |NAME                                         |VALUE|Notes|
