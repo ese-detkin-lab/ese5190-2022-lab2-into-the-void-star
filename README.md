@@ -65,6 +65,25 @@ As shown in the model, 10 SM clock cycles take place from when color data is wri
 ### 3.6 - 3.7
 This [link](https://github.com/MaxMa6150/ese5190-2022-lab2-into-the-void-star/blob/main/3.6-3.7%20data%20and%20model.xlsx) is the complete packet transmission spreadsheet and timing diagram.
 
+## Hello, Blinkenlight
+The code folder named [lab2A](https://github.com/MaxMa6150/ese5190-2022-lab2-into-the-void-star/tree/main/Lab2A) includes both usb and ws2812 code.
+
+## Decisions during modeling documents.
+At the beginning, we are confused about the register/value change/interaction between different code file. But some problems can be solved by carefully checking datasheet for some relavent infos. Datasheets would offer excellent helps.
+
+## Paper & Spreadsheet
+
+### Paper:
+1）Strength: easy to draw models, easy to view the change of variables.
+2) Weakness: hard for data recording and calculation. Only can do some qualitative analysis(hard for bit change visualization). Time consuming.
+
+### Spreadsheet
+1) easy for quantitative analysis, easy for data recording and data visualization. Saving time
+2) need to organize the data, hard for plotting.
+
+### additional tools:
+Electronic device, which could reduce drawing time, but still easy to execute.
+
 
 
 
