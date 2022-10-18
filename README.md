@@ -29,3 +29,5 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 ![image](https://github.com/IndigoQuadratic/ese5190-2022-lab2-into-the-void-star/blob/44cf3a90f34fbbf224ca9f7cd6a5a9a07c01714b/ws2812_00.png)
 ![image](https://github.com/IndigoQuadratic/ese5190-2022-lab2-into-the-void-star/blob/b63bb793e03e17da55170429981f42fc92ad487b/ws2812_01.png)
 ![image](https://github.com/IndigoQuadratic/ese5190-2022-lab2-into-the-void-star/blob/e6e6341b007635ef08d5fb1629217944bb9e8d46/ws2812_02.png)
+![image](https://github.com/IndigoQuadratic/ese5190-2022-lab2-into-the-void-star/blob/271024adfa63f6d21dda2dd87e3fbcdef16d2182/ws2812_03.png)
+![image]
