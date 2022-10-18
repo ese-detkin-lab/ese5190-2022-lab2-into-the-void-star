@@ -36,3 +36,16 @@ we can use it to build your PIO programs, for you to #include from your C or C++
 ### generated/ws2812.pio.h
 ![692268138041952490](https://user-images.githubusercontent.com/114196821/196307753-90ce332d-dc73-482b-a90c-da3b9793dd6c.png)
    
+# 3.4 Your spreadsheet of initial PIO register states
+[RegistersList.pdf](https://github.com/wenxiwei00/ese5190-2022-lab2-into-the-void-star/files/9809040/RegistersList.pdf)
+
+# 3.5 A photo or scan of your paper model
+[3.5.pdf](https://github.com/wenxiwei00/ese5190-2022-lab2-into-the-void-star/files/9809048/3.5.pdf)
+
+# 3.6 & 3.7 Your complete packet transmission spreadsheet & Your polished timing diagram
+[3.6_3.7.xlsx](https://github.com/wenxiwei00/ese5190-2022-lab2-into-the-void-star/files/9809050/3.6_3.7.xlsx)
+
+# 4 Your working USB + WS2812 code folder
+It shows in the folder outside readme.
+
+
