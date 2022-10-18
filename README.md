@@ -121,7 +121,7 @@ Below is the spreadsheet of the list of registers for PIO.
 ![image](https://user-images.githubusercontent.com/113971230/196328448-04d9c4dd-af83-4578-9538-cdd34f56b568.png)
 ![image](https://user-images.githubusercontent.com/113971230/196334879-98b8dead-cf35-425a-9746-df8c393654e2.png)
 
-_3.5 Q&A_
+**_3.5 Q&A_**
 - How do you connect a WS2812 to a microcontroller?
     - Control pins for data signal output (DOUT), control pins for data signal input (DIN), power supply control circuit (VCC), NC, power supply LED (VDD), and ground are all present on the WS2812 board (VSS). With the aid of these pins, the WS2812 can successfully establish a connection with the RP2040 microcontroller.
 - How does a WS2812 translate bits to color values?
