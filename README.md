@@ -55,6 +55,30 @@ then GRB is 0001 0000 0000 000 0011 0001
 
 
 
+## 4.HELLO, BLINKENLIGHT 
+
+[folder](https://github.com/Sharonun/ese5190-2022-lab2-into-the-void-star/tree/main/ws2812)
+
+To make WS2812 example working on RP2040, we need to enable power to LED.
+1. find the right pin to set for NeoPixel power
+
+<img width="857" alt="image" src="https://user-images.githubusercontent.com/114169032/196422135-f4c08c17-94dc-4184-9c5a-344a7c629db1.png">
+
+2.initialize this pin via the SDK
+
+`gpio_init(11);` 
+
+3.set the pin as an “output,” and set the pin “high,”
+
+` gpio_put(11, 1);`
+
+And we need to make some changes in the CMakelists file in ws2812 folder to enable usb output.
+Add:
+
+`pico_enable_stdio_usb(pio_ws2812 1)`
+
+`pico_enable_stdio_uart(pio_ws2812 0)`
+
 
 
 
