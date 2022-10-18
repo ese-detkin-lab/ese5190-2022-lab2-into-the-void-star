@@ -36,7 +36,7 @@ Write the instructions in a .pio file. When using cmake, generate a header that 
 
 6. In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
 
-`pio_sm_put_blocking()` will tell PIo to set LED to new color. This function is probably initilized with the `pio_sm_config c = ws2812_program_defaul_config(offset)` instruction mentioned in the header. This is included in the `ws2812_program_init` function.
+`pio_sm_put_blocking()` will tell PIo to set LED to new color. This function is probably initilized by one of the included header. The machine will look into the target header and perform instructions.
 
 7. What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
 
