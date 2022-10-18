@@ -110,7 +110,7 @@ Just set the GPIO pin high and add one header file to the Blink Example to make 
 
 
 
-https://user-images.githubusercontent.com/114259992/196414985-e6df86c3-9598-4050-9d2a-aa439b0e73df.mp4
+
 
 
 
@@ -130,6 +130,9 @@ https://user-images.githubusercontent.com/114259992/196354763-01e3d8c7-099b-4e12
 
 
 ### At the end of your writeup of section 3, reflect on the tools you used for modeling from a user interface design perspective. ###
+
+**Brief discussion of decisions you made while working with your modeling documents.**
+While working on my modeling document discussion of decision were like the register values especially the assumptions that we should take to calculate them, and how the timing diagram works.
 
 **What were some strengths/weaknesses of working with paper?**
 
