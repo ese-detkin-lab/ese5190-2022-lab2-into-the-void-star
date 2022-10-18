@@ -9,7 +9,7 @@ Tested on:DELL Inspiron 16 Plus (16-inch, 2022), Windows 11 Home 21H2<br />
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
-Link to set up guide (Part 1 & 2): [Set Up Gide for Windows](https://github.com/satyajeetburla/-Lab-2-SETUP-GUIDE)
+# Link to set up guide (Part 1 & 2): [Set Up Gide for Windows](https://github.com/satyajeetburla/-Lab-2-SETUP-GUIDE)
 
 # 3.2
 ## Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
