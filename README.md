@@ -26,19 +26,19 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 ## 3.3 FOLLOW THE FLOW
 
-The link to our annotated code printouts is https://github.com/ZhijingY/ESE519-lab2/blob/main/hw2_writeup/3.3.pdf.
+The link to our annotated code printouts is https://github.com/ZhijingY/ese5190-2022-lab2-into-the-void-star/blob/main/3.3.pdf.
 
 ## 3.4 COLOR BY NUMBER
 
-The link to our spreadsheet of initial PIO register states is https://github.com/ZhijingY/ESE519-lab2/blob/main/hw2_writeup/3.4_RegistersList.docx.
+The link to our spreadsheet of initial PIO register states is https://github.com/ZhijingY/ese5190-2022-lab2-into-the-void-star/blob/main/3.4_RegistersList.docx.
 
 ## 3.5 MODELING TIME
 
-The link to our electronic paper model is https://github.com/ZhijingY/ESE519-lab2/blob/main/hw2_writeup/3.5.pdf.
+The link to our electronic paper model is https://github.com/ZhijingY/ese5190-2022-lab2-into-the-void-star/blob/main/3.5.pdf.
 
 ## 3.6 ZOOMING IN & 3.7 TIMING DIAGRAM
 
-The link to our complete packet transmission spreadsheet and polished timing diagram is https://github.com/ZhijingY/ESE519-lab2/blob/main/hw2_writeup/3.6_3.7.xlsx.
+The link to our complete packet transmission spreadsheet and polished timing diagram is https://github.com/ZhijingY/ese5190-2022-lab2-into-the-void-star/blob/main/3.6_3.7.xlsx.
 
 ## Part 3: Discussion of decisions
 
@@ -64,4 +64,4 @@ While working with your modeling documents, I decided to list the points of info
 
 ## 4.0 HELLO, BLINKENLIGHT
 
-The link to my working USB + WS2812 code folder is https://github.com/ZhijingY/ESE519-lab2/tree/main/test.
+The link to my working USB + WS2812 code folder is https://github.com/ZhijingY/ese5190-2022-lab2-into-the-void-star/tree/main/test.
