@@ -100,6 +100,6 @@ of zero cycles)<BR>
 * How many SM clock cycles take place from when color data is written to the FIFO up until the first full bit is sent, and make a numbered column for each time window
   10 cycles for 1 bit. For 24 bits, there's total 240cycles. But because the configuation is set to send RGBW, so total of 320 cycles.
 ## 3.6 & 3.7
-![image]()
+![image](https://github.com/IndigoQuadratic/ese5190-2022-lab2-into-the-void-star/blob/5a3b736502ee904fe61e897822c4777707174eb6/3.6&3.7.jpg)
     
   
