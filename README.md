@@ -3,6 +3,38 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
     Sugata Sen, worked with Harish Ramesh
     https://www.linkedin.com/in/sugata-sen/, https://www.linkedin.com/in/harishramesh1998/
     Tested on: Lenovo Legion Slim-7, Windows-11; ASUS ROG GL-552 VW, Windows-10
+## 3.2 : Answers to the Reading related questions
+
+- Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
+
+    - In bit banging, we effectively emulate a peripheral using software signals. Even though a laptop has high processing power than the RP2040, for timings which occur at rates much slower than processor clock speed, it is tough to implement accurately the real time peripheral IO by bit banging on laptop. The bit banging is practical for the rp2040 as it is easy to implement using the PIO module.
+
+- What are some cases where directly using the GPIO might be a better choice than using the PIO hardware?
+
+    - GPIO is usually better for simpler use cases, like driving single pin outputs etc, for example for direct pulse control of a pin like for LED blinking. PIO is useful when there is repeated R/W of information and temporal accuracy is of importance.
+
+- How do you get data into a PIO state machine?
+
+    - The data flow is mentioned in the datasheet when it explains the Ooutput shift register and FIFO functionality. The data goes into the PIO state machine through a FIFO queue. In fact the “pull” instruction loads data from the TXFIFO to OSR (32 bits).
+
+- How do you get data out of a PIO state machine?
+
+    - The "out" instruction can be used to shift data from the Input Shift Register into RXFIFO. From there we can get output via a pin if required.
+
+- How do you program a PIO state machine?
+
+    - A .pio program elaborates how the PIO state machine must work. It is made of instructions: JMP, WAIT, IN, OUT, PUSH, PULL, MOV, IRQ, and SET. Thus the assembly language can be used to program a pio state machine.
+
+- In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?
+
+    - pio_sm_put_blocking() is used to block the FIFO, if it is full, and acts as a flag. It also allows writing data to the TX FIFO queue if vacant. 
+
+    - The function is accessed by calling the put_pixel() in the main code.
+
+- What role does the pio asm “assembler” play in the example, and how does this interact with CMake?
+
+    - This pioasm processes a PIO assembly input text file. This can have multiple programs, and creates assembled code. The assembled code is visible in form of C headers. The cmake function pico_generate_pio_header(TARGET PIO_FILE) invokes the pioasm. 
+
 
 ## 3.3 Follow the flow
 https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/36518f5be5dad070610266429e872d5c1c16442f/AnnotationStuffpart%203.3.pdf
