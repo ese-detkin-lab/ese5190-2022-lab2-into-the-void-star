@@ -1,6 +1,6 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
-    (TODO) Zhuoling Li
+    (TODO) Zhuoling Li Working with Chenye Xiong 
         (TODO) zhuoling@seas.upenn.edu
     Tested on: (TODO) MacBook Pro (13-inch, 2018), macOS Monterey 12.6
 
