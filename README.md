@@ -36,7 +36,7 @@ Q) In the example, which low-level C SDK function is directly responsible for te
 
 Q)What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
 
-- The assmebler compiles Assembly code into a human readable format.
+- The assmebler compiles Assembly code into a human readable format. CMake function pico_generate_pio_header(TARGET PIO_FILE) invokes pioasm automatically and adding the generated header to the include path of the target TARGET.
 
 # 3.3 FOLLOW THE FLOW
 
