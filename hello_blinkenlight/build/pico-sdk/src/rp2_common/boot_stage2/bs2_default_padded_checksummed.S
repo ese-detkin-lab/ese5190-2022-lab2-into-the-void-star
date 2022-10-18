@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/ruturajn/Git-Repos/hello_blinkenlight/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/ruturajn/Git-Repos/ese5190-2022-lab2-into-the-void-star/hello_blinkenlight/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

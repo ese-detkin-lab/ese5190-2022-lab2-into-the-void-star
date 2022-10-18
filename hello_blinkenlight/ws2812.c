@@ -12,7 +12,7 @@
 #include "hardware/clocks.h"
 #include "ws2812.pio.h"
 
-#include "/home/arnavgadre/pico/pico-sdk/src/boards/include/boards/adafruit_qtpy_rp2040.h"
+#include "/home/ruturajn/Git-Repos/pico/pico-sdk/src/boards/include/boards/adafruit_qtpy_rp2040.h"
 
 #define IS_RGBW true
 #define NUM_PIXELS 150
@@ -68,9 +68,11 @@ int main() {
     ws2812_program_init(pio, sm, offset, WS2812_PIN, 800000, IS_RGBW);
 
     while(1){
+        // Get user input
         int user_inp = getchar_timeout_us(5000);
+        // If there is a user input blink the LED
         if(user_inp != -1){
-            set_neopixel_color(0xffafaf);
+            set_neopixel_color(0x00fafd);
             sleep_ms(500);
             set_neopixel_color(0);
         }

@@ -1,5 +1,5 @@
 
-/home/ruturajn/Git-Repos/hello_blinkenlight/build/pio_ws2812_parallel.elf:     file format elf32-littlearm
+/home/ruturajn/Git-Repos/ese5190-2022-lab2-into-the-void-star/hello_blinkenlight/build/pio_ws2812_parallel.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -46,7 +46,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
  20 .debug_frame  00000060  00000000  00000000  00008808  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
-/home/ruturajn/Git-Repos/hello_blinkenlight/build/pio_ws2812_parallel.elf:     file format elf32-littlearm
+/home/ruturajn/Git-Repos/ese5190-2022-lab2-into-the-void-star/hello_blinkenlight/build/pio_ws2812_parallel.elf:     file format elf32-littlearm
 
 
 Disassembly of section .boot2:
