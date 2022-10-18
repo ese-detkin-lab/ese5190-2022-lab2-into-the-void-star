@@ -127,7 +127,7 @@ Your complete packet transmission spreadsheet.
 
 # 3.7
 Timing Diagram
-![ ](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%203/Part%203.7.jpg)
+[ ](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%203/Part%203.7.jpg)
 
 
 # 4 HELLO, BLINKENLIGHT
