@@ -16,6 +16,8 @@ Here is the list of resources and references we used in this lab:
   - Pico C/C++ SDK Example
 - WS2812
   - WS2812 Datasheet
+- Fictitious APDS-9960 photodiode
+  - APDS-9960 Datasheet
 
 ### Part 3.2 PIO
 - **Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?**
