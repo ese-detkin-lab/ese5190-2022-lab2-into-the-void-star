@@ -17,7 +17,7 @@ The codes in ws2812 folder of pico-examples has been annotated and numbered acco
 
 Link - https://github.com/yash-mb/ese5190-2022-lab2-into-the-void-star/blob/8c79a5e3339b28333234f7ff783bbc1e88a8266b/Code%20annotation.pptx
 
-# 3.4 Registors
+# 3.4 Registers
 
 We have selected Pi0 as base and value of registers is found using the RP2040 datasheet.
 
