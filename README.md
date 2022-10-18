@@ -79,6 +79,8 @@ The following excel sheet contains the list of specified registers, addresses an
 
 Following is the Output for part 4.
 
-![image](https://github.com/prateekbashista/ese5190-2022-lab2-into-the-void-star/blob/b5a7778f584a77c8b4265624bd83662f8eb63ccb/Part%204%20Video.mp4)
+
+https://user-images.githubusercontent.com/23244847/196365598-cfbc9300-9ce2-4d3a-896d-cc5df9d8d454.mp4
+
 
 
