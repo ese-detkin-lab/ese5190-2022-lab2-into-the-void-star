@@ -179,7 +179,7 @@ But bad for visualisation or working with large datas.<br />
 o What were some strengths/weaknesses of
 working with spreadsheets?<br /> 
 Spreadsheets helps in easy management of large data.<br /> 
-weakness is it can be overwhelming when looked at.
+weakness is it can be overwhelming when looked at.<br /> 
 o How might you approach this task using
 other tools available to you?<br /> 
 For timing digram use of CRO or any dedicated softare for timing diagram simulation, would have been helpful to measure the real-time values.<br /> 
