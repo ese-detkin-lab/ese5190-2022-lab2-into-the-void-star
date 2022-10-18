@@ -72,6 +72,9 @@ In this part, PIO program is studied by following a list of items using charts. 
 
 ## 3.7 Timing Diagram
 
+## Summary for modeling tools
+In part 3, we have used both spreadsheets and handwriting models to answer the questions. In general, spreadsheets are feasible to follow dozens of values through different states, but it is kind of rigid to use since you don't have much options other than sheets. Handwriting models, on the other hand, are more flexible to explain abstract ideas and models, while it might be less organized and less efficient while dealing with too much information.
+
 # Part 4 Hello, Blinkenlight
 This is the final task of this lab. In [this part](https://github.com/shux3/ese5190-2022-lab2-into-the-void-star/tree/main/P4_code), we will modify the given RP2040 example *hello_usb* and *WS2812* to combine a new project that makes the neopixel blink when users send serial commands. This part is a good practice to build on existing files and modify the code to fit in a different device.
 
