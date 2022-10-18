@@ -55,6 +55,9 @@ The explantion for the files below is done throughtly in the uploaded PDF's for 
 • ws2812.c <br>
 • generated/ws2812.pio.h <br>
 
+https://github.com/AkshayaBhati/ese5190-2022-lab2-into-the-void-star/tree/main/3.3%20Scans%20of%20annotated%20code%20printouts
+Here is a link to access those files
+
 ## Spreadsheet of initial PIO register states ##
 
 https://docs.google.com/spreadsheets/d/13l0bCfyE5TmSJbdV2kjk0inrah82hIrh6xzRkMsBtd8/edit?usp=sharing <br>
@@ -69,7 +72,17 @@ Here we are using the PIO0 as the PIO instance. The SM0 state machine will be us
 <img width="361" alt="2a2" src="https://user-images.githubusercontent.com/114259992/196343685-3b29457e-4ae9-426d-ab23-cd975bd1d427.png">
 
 
-The basic circuitry WS2812 LED needs to operate is data pins, a capacitor, a resistoe with value 150 and the supply. You connect a WS2812 to a microcontroller by connecting GNDs of both microcontroller and WS2812, and then to a DI pin of WS2812 the GPIO pin of microcontroller is controlled. It translates bits to color values by making the LED turn On and off really fast so that we can see the color we want as generated. Using the data pin of microcontroller we will make DI high and low. OUT instruction and the low side pin tells a WS2812 that it's data sending is done. To send a single color value 8 bits are used. If we connect DO of one to DI of another module and so on we can send data to more than one WS2812 in a chain. If you send more bits than packet then it will not give the right color. 
+The basic circuitry WS2812 LED needs to operate is data pins, a capacitor, a resistoe with value 150 and the supply. You connect a WS2812 to a microcontroller by connecting GNDs of both microcontroller and WS2812, and then to a DI pin of WS2812 the GPIO pin of microcontroller is controlled. It translates bits to color values by making the LED turn On and off really fast so that we can see the color we want as generated. Using the data pin of microcontroller we will make DI high and low. OUT instruction and the low side pin tells a WS2812 that it's data sending is done. To send a single color value 8 bits are used. If we connect DO of one to DI of another module and so on we can send data to more than one WS2812 in a chain. If you send more bits than packet then it will not give the right color. <br>
+
+![Part 3 5](https://user-images.githubusercontent.com/114259992/196408750-732a5116-5209-4b6d-aedc-787e2aa0aec4.jpeg)
+
+As you can see Here I'm taking Green Color so according to the Loop example given the first Current Instruction L1 will occur right shift and therefore the value will become 0X007F8000, here LED pin state will be low. So after that when L2 occurs then the value remains the same. After that L3 will occur and the value will remain same. Lastly L4 but the loop still goes on. Then again right shift will occur. The LED pin state changes to low again after high ones in the middle. The FIFO is always Full as there is always some value in it.  <br>
+
+The Timing Diagram is as shown below: <br> 
+
+![Part 3 5 diag](https://user-images.githubusercontent.com/114259992/196409947-02d70c26-f6c0-49de-aad5-90dba4d2e1ed.jpeg)
+
+
 
 # Part 4: #
 
