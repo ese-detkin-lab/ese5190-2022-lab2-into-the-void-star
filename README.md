@@ -1,12 +1,10 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
-    (TODO) SIDDHANT MATHUR
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: HP PAVILION X360, WINDOWS 10
+    SIDDHANT MATHUR
+    www.linkedin.com/in/siddhantmathur14
+    Tested on: HP PAVILION X360, WINDOWS 10 (WSL)
 
-(TODO: Your README)
 
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
 # TALKING LEDs
 
@@ -41,6 +39,8 @@ Q)What role does the pioasm “assembler” play in the example, and how does th
 - The assmebler compiles Assembly code into a human readable format.
 
 # 3.3 ANNOTATIONS FOR ws2812.C
+
+The code has been annotated with comments
 
 ![embedded_c1](https://user-images.githubusercontent.com/114244849/196307976-05af9e2a-d3d2-4847-a077-d6c97631ee3d.JPG)
 
