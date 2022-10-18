@@ -30,9 +30,9 @@ We can use the "pull" instruction to takes one data item from the transmit FIFO 
 **5. How do you program a PIO state machine?**
 We need to load our program into instruction memory before any of our state machines can run the program. The function pio_add_program() finds free space for our program in a given PIO’s instruction memory, and loads it.
 
-**6.In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code? 
+**6.In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? How is this function accessed from the main “application” code?**
 
-pio_sm_put_blocking is directly responsible for telling the PIO to set the LED to a new color. This function is accessed from put_pixel.
+`pio_sm_put_blocking` is directly responsible for telling the PIO to set the LED to a new color. This function is accessed from `put_pixel`.
 
 **7.What role does the pioasm “assembler” play in the example, and how does this interact with CMake?**
 
@@ -40,6 +40,20 @@ Programs that translates assembly code into binary are generally referred to as 
 
 
 ## 3.3
+[ws2812.c](https://github.com/Sharonun/ese5190-2022-lab2-into-the-void-star/blob/main/3.3/ws2812.pdf)
+
+[ws2812.pio.h](https://github.com/Sharonun/ese5190-2022-lab2-into-the-void-star/blob/main/3.3/ws2812.pio.h.pdf)
+
+
+## 3.4
+
+If I choose RGB:0x001031
+
+then GRB is 0001 0000 0000 000 0011 0001
+
+[spreadsheet of initial PIO register states](https://github.com/Sharonun/ese5190-2022-lab2-into-the-void-star/blob/main/3.4.xls)
+
+
 
 
 
