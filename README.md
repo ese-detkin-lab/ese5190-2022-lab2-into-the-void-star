@@ -30,7 +30,7 @@ The link to our annotated code printouts is https://github.com/ZhijingY/ese5190-
 
 ## 3.4 COLOR BY NUMBER
 
-The link to our spreadsheet of initial PIO register states is https://github.com/ZhijingY/ese5190-2022-lab2-into-the-void-star/blob/main/3.4_RegistersList.docx.
+The link to our spreadsheet of initial PIO register states is https://github.com/ZhijingY/ese5190-2022-lab2-into-the-void-star/blob/main/3.4_RegistersList.pdf.
 
 ## 3.5 MODELING TIME
 
