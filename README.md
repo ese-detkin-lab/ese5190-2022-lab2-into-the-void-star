@@ -52,8 +52,13 @@ See folder with name "lab2par3.3"
 
 ## Part 3.5 Paper Model
 
+![IMG_0672](https://user-images.githubusercontent.com/114244957/196542652-24f42f4e-b2a4-4f6f-b0e6-e3b21cad2705.jpg)
+
+## Part 3.6 Packet transmission spreadsheet
+
+
+
 ## LAB WRITEUP: due Monday, Oct 17 at 8:30 AM ET on Github
-- 3.5: A photo or scan of your paper model
 - 3.6: Your complete packet transmission spreadsheet 
 - 3.7: Your polished timing diagram
 
