@@ -88,24 +88,35 @@ shift
 o How do you connect a WS2812 to a microcontroller?
 
 A serial data input to WS2812： 
+
 WS2812: DIN port receives data from the controller，RP2040: GPIO port 12 sends data to WS2812
 
 
 o How does a WS2812 translate bits to color values? 
+
 The width of the pulse
 
-o How do you send a single 1 or 0 bit to the WS2812? 
-
-
-
 o How many bits does it take to send a single color value?
+
+
 Three
 
 
-o What happens if you send more bits than this in a packet? o How do you tell a WS2812 you’re done sending data?
+o What happens if you send more bits than this in a packet? 
+
+
+Extra data will be retransmitted to the following WS2812
+
+
+o How do you tell a WS2812 you’re done sending data?
+
+
+the PIO is stalled
+
 
 
 o How do you send data to more than one WS2812 in a chain?
+each ws2812 will keep the first three bytes of data
 
 
 ![image](https://user-images.githubusercontent.com/114256663/196372898-1f544a0b-e089-413c-8719-7e1e9da1e46b.png)
@@ -113,8 +124,19 @@ o How do you send data to more than one WS2812 in a chain?
 
 ##
 
-3.6 ZOOMING IN
 
+3.6 ZOOMING IN & 3.7 ZOOMING IN
+
+
+<img width="1312" alt="image" src="https://user-images.githubusercontent.com/114256663/196404874-5abcbc78-47e7-40f5-8bb9-ab12d1982319.png">
+
+The link is 
+
+
+
+##
+
+Reflect on the tools:
 
 
 
