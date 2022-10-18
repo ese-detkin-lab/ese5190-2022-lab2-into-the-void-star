@@ -44,9 +44,6 @@ We chose the color: 0x0000ff(Blue)
 
 ## 3.5
 
-
-
-
-
+[3.5.pdf](https://github.com/Phoebe-www/ese5190-2022-lab2-into-the-void-star/files/9807482/3.5.pdf)
 
 
