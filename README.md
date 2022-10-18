@@ -38,3 +38,8 @@ typedef void (*pattern)(uint len, uint t); It is accessed by pattern_table[pat].
 ```
 • What role does the pioasm “assembler” play in the example, and how does this interact with CMake?<br>
 Gloss over the details of how the assembly program in the .pio file is translated into a binary program, ready to be loaded into the PIO state machine. pioasm can also be used directly, and has a few features not used by the C++ SDK, such as generating programs suitable for use with the MicroPython PIO library.<br>
+# Reflect on the tools
+•What were some strengths/weaknesses of working with paper?<br>
+It can be easily writen but hard to store and review<br>
+•What were some strengths/weaknesses of working with spreadsheets?<br>
+We can search the information easily but it takes a lot of time to complete<br>
