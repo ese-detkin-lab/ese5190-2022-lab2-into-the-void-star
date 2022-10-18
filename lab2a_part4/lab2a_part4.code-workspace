@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../pico-examples"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio_usb.h": "c"
+		}
+	}
+}
