@@ -154,6 +154,9 @@ example. Some questions to guide your reading:
 <img src="./Images/3.3.h.3.jpg" alt="ws2812.pio.h" width="600"/>
 
 ### 3.4 Color by Number
+My favorite color is <font color=#C8A2C8>**lalic**</font>, with a RGB code <font color=#C8A2C8>**#C8A2C8**</font>, and the 24 bit binary number as expected by the NeoPixel, which is GRB, is <font color=#C8A2C8>**0xA2C8C8**</font>.
+
+<img src=".\Images\3.4.jpg" alt="register_list" width="600"/>
 
 ### 3.5 Modeling Time
 
@@ -161,10 +164,20 @@ example. Some questions to guide your reading:
 
 ### 3.7 Timing Diagram
 
-### Modeling Documents
-
 ### Reflection
+#### Modeling Documents
+- The instructor suggested we used paper and pen, but I decided to use my ipad to do the work that needed to be done on paper. I am not prefer to carry paper and pen with me since I always forgot where I put them. My ipad is quite new, so I do not need to recharge it very ofter. I also used the spreadsheets as the isntructor suggested since markdown support those kind of tools.
+
 #### What were some strengths/weaknesses of working with paper?
+- Strengths: Paper and pen do not need electricity to support their funcitons, so I can work with them at any time and place.
+
+- Weaknessed: It is hard to organize papers, and they are easy be losed.
+
 #### What were some strengths/weaknesses of working with spreadsheets?
-#### How might you approach this?
+- Strengths: Spreadsheets have a straightforward user-interface so it is easy to use when analyzing data.
+
+- Weaknessed: Spreadsheets require user to input data manually, so it is time-consuming when dealing with huge data.
+
+#### How might you approach this task using other tools?
+- I might use python or other script languages instead of using spreadsheets if the data invovling in the lab is huge.
 
