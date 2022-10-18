@@ -56,7 +56,7 @@ For this part, I tried to describe the definition of the functions and their run
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/Lab%202%20Prob3/ws2812.pio.h2.jpg)
 
 ## 3.4 COLOR BY NUMBER
-
+For this part,
 ## 3.5 MODELING TIME
 
 ## 3.6 ZOOMING IN 
