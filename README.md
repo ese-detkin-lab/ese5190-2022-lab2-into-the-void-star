@@ -44,3 +44,7 @@ We can use it to build your PIO programs, for you to ```#include``` from your C 
 
 And CMake function pico_generate_pio_header(TARGET PIO_FILE) takes care of invoking pioasm and adding the generated header to the include path of the target TARGET.
 
+### 3.3 Follow the Flow
+ws2812.c
+
+ws2812.pio.h
