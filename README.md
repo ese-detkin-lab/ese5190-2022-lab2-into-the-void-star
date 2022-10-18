@@ -55,7 +55,7 @@ Note: WS2812 LED's luminance and voltages are shown as below.
 #### Decision I made
 I decided to pick out the most relative signals and registers to see their values. After I go through two bit, I see the pattern of its transmission, since I was working on iPad, it's not as easy as excel to copy and paste, so I decided to stall there. Maybe for this question it's better to work with excel spreadsheet.
 
-### 3.7
+### 3.7 (reference Haoze Wu)
 ![3 7](https://user-images.githubusercontent.com/84453030/196327032-9730b76f-5b62-4476-acf0-fcfb1b0ed6b0.jpeg)
 
 #### Decision I made
