@@ -31,3 +31,23 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 ![image](https://github.com/IndigoQuadratic/ese5190-2022-lab2-into-the-void-star/blob/e6e6341b007635ef08d5fb1629217944bb9e8d46/ws2812_02.png)
 ![image](https://github.com/IndigoQuadratic/ese5190-2022-lab2-into-the-void-star/blob/271024adfa63f6d21dda2dd87e3fbcdef16d2182/ws2812_03.png)
 ![image](https://github.com/IndigoQuadratic/ese5190-2022-lab2-into-the-void-star/blob/906a8a0536331f81ccdfd6e4acee27abdfe39088/ws2812_04.png)
+## 3.4 COLOR BY NUMBER
+<font color=#56A4CD >**COLOR(RGB):0x56A4CD**</font> 
+|   |ADDRESS|OFFSET|NAME|VALUE|notes|
+|:-|:--|:--|:--|:--|:--|
+|Base       |0x50200000|       0|   PIO0_BASE|       |       init with pio0|
+|CTRL       |0x50200000|0x000   |PIO control register|0x00000001      |pio=0,sm=0       |
+|FSTAT      |0x50200000|0x004   |FIFO status register|0x00010f00|TX Full,RX empty|
+|FDEBUG     |0x50200000|0x008   |FIFO debug register|0x01000f00||
+|FLEVEL     |0x50200000|0x00c   |FIFO levels    |0x00000000||
+|TXF0       |0x50200000|0x010   |TX FIFO for SM0|0x00A456CD|GRB value, use RX as TX|
+|RXF0       |0x50200000|0x020   |RM FIFO for SM0|0x00000000||
+|INSTR_MEM0 |0x50200000|0x048   |Instruction memory location 0|0x00000000||
+|INSTR_MEMn|      |||0x00000000|Mem0-Mem31 all 0       |
+|INSTR_MEM31|0x50200000|0x0c4   |Instruction memory location 31|0x00000000||
+|SM0_CLKDIV |0x50200000|0x0c8   |Clock divisor register for SM0|0x000fa000|CLKDIV_INT=0xf0000,CLKDIV_FRAC=0xa000, f=clock f/|
+|SM0_EXECCTRL|0x50200000|0x0cc  |Execution settings for state machine N|0x0001fe00||
+|SM0_SHIFTCTRL|0x50200000|0x0d0 |Control behaviour of the input/output shift registers|0x40060000|use RX fifo as TX, output left,autopull |
+|SM0_ADDR   |0x50200000|0x0d4   |   |0x0000001c|current instruction address (0x1c)|
+|SM0_INSTR  |0x50200000|0x0d8   |   |0x00006221||
+|SM0_PINCTRL|0x50200000|0x0dc|State machine pin control|0x20003000|side set 1, pin=12|
