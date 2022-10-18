@@ -13,12 +13,11 @@ Link to set up guide (Part 1 & 2): [Set Up Gide for Windows](https://github.com/
 
 # 3.2
 ## Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
-Because PIO state machines allow for repeated readings and writes from GPIOs. Furthermore, it performs data transfer operations 
-more efficiently than "Bit-Bangling."
+Bit-banging is the periodic polling of the GPIO pins by the CPU, which makes it challenging to finish other activities. The system's real-time performance would be impacted by this. Furthermore, because modern laptop CPUs are supposed to handle multiple difficult jobs, even a brief interruption could result in a "Bit-Banging" fatal fault.
 
 
 ## What are some cases where directly using the GPIO might be a better choice than using the PIO hardware? 
-We can use Bit-Bangling in tasks that require slower protocols. We can use IRQ-based bit banging on simpler embedded systems. LEDs and push buttons are the most common applications for software GPIO access.
+LEDs and push buttons.
 
 ## How do you get data into a PIO state machine?
 The OSR serves as a holding place for data entering the state machine through the TX FIFO. Data is loaded into the OSR one 32-bit 
@@ -27,22 +26,16 @@ the left or right and sending the bits that fall off the end to one of a few pot
 
 
 ## How do you get data out of a PIO state machine? 
-GPIO mapping logic enables each state machine to see and manipulate up to 30 GPIOs. Here, we must define the GPIO Pins and PIO 
-instances that will be synchronized for data to exit the PIO state machine.
+OUT instruction shift bit count bits out of the Output Shift Register (OSR), and write those bits to Destination. Additionally, increase the output shift count by Bit count, saturating at 32.
 
 ## In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? 
 put_pixel() helper method above to output a sequence of pixel values while setting LED to a new color value.
 
 ## How is this function accessed from the main “application” code?
-The PIO file we just looked at, WS2812.pio, is automatically turned (we'll learn how later) into a header containing our built 
-PIO program binary, any assistance functions we put in the file, and other valuable program information. This is coded as 
-WS2812.pio.h.
+pio_sm_put_blocking(), PIO is instructed to change the LED's color. It isn't accessed directly from the main code. Instead, the desired grb values are input using the put_pixel() function, and the presigned pio(either pio0 or pio1) is configured with the correct grb values using the pio_sm_put_blocking() function.
 
 ## What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
-Our.pio file's assembly program is converted into a binary program. Assembler programs are those that handle the task of 
-converting assembly code into binary. A CMake file explains how to compile them into a binary that can be loaded into your 
-Raspberry Pi Pico or other RP2040-based board. The CMake function pico generate pio header(TARGET PIO FILE) handles executing 
-pioasm and putting the resulting header to the target TARGET's inclusion path. 
+pioasm is the program that handles the assembly program in the .pio file and translate it into the binary program to be loaded into the PIO state machine. In the example, the pioasm binary under build/tools/pioasm directory, which is built automatically. 
 
 
 
