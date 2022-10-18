@@ -102,4 +102,7 @@ Ans: We use the pioasm tool to convert the assembler code to binary. We use the 
 
 ## 3.4) COLOR BY NUMBER
 
-The following Excel file contains the values for all the registers: EXCEL_FILE 
+The following Excel file contains the values for all the registers: [EXCEL](https://github.com/arnavgadre/ese5190-2022-lab2-into-the-void-star/blob/main/ESE5190-3.7.xlsx) 
+
+## 3.5) 
+
