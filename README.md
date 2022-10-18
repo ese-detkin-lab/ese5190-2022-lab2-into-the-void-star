@@ -39,7 +39,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 [ws2812.pio.h.pdf](/assets/ws2812.pio.h.pdf) is the pdf file for annotated header file.
 
 ## Link to 3.4 Spreadsheet
-[Lists of Registers.xlsx](/assets/Lists of Registers.xlsx).
+[Lists of Registers.xlsx](https://github.com/ryanhpan/ese5190-2022-lab2-into-the-void-star/blob/main/assets/List%20of%20Registers.xlsx)
 
 ## Discussion of Modeling in 3.5
     First we got the main loop of the state machine from line 18-26 in ws2812.pio.h, 
@@ -47,7 +47,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
     WS2812 translates bits to color values by receiving 24 bits of data, G,R,B all 8 bits.
     
 ## Link to 3.6 Spreadsheet and Time Diagram in 3.7
-[Picture](/assets/3.6 & Time Diagram.jpg).
+[Picture](https://github.com/ryanhpan/ese5190-2022-lab2-into-the-void-star/blob/main/assets/3.6%20%26%20time%20diagram.jpg).
 
 ## Reflection on tools
     Working with paper: 
