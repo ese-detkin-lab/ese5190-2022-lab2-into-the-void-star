@@ -89,6 +89,11 @@ How is this function accessed from the main “application” code?
    The project for Part4 is uploaded to the repo.
   
   
+  Conclusion
+  
+      In this experiment, I consulted a large number of datasheets for learning and application, and presented the results through 
+    spreadsheets and hand drawings.The advantage of spreadsheets is that the information is concise and clear, but it also has the
+    disadvantage of incomplete information displaying. More high-quality, moderately long online instructional videos may be helpful.
   
   
   
