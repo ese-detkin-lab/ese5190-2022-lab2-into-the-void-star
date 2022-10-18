@@ -120,6 +120,21 @@ My TIMING GIADRAM:
 
 <div align=center><img width="800" height="550" src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab2-into-the-void-star/blob/main/images/3.7.jpg"/></div>
 
+## Conclusion:
+
+The weaknesses of working with paper: I can draw the plot clearly and more readable. Also, it is much easier to operate.
+
+The strengths of working with paper: Maybe not very accurate.
+
+The weaknesses of working with spreadsheet: It is a little hard to operate and spend more time.
+
+The strengths of working with spreadsheet: It is accurate and easy to modify.
+
+The tools:
+
+- Some videos about registers in youtube
+
+- Lots of manuals
 
 # Part 4: HELLO, BLINKENLIGHT
 
