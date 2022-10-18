@@ -9,4 +9,4 @@ Chenwei Tang
 # Introduction
 This lab guides us to gain practice with documentation, by taking careful notes and posting a setup guide on Github, then we would take a deep dive into the programmable I/O (PIO) module
 # 3.3
-The scans of your annotated code printouts can be found [here](https://github.com/Chenwei-Tang/ese5190-2022-lab2-into-the-void-star/blob/main/Part3/3.3.pdf)
+The scans of your annotated code printouts(ws2812.c and generated/ws2812.pio.h) can be found [here](https://github.com/Chenwei-Tang/ese5190-2022-lab2-into-the-void-star/blob/main/Part3/3.3.pdf)
