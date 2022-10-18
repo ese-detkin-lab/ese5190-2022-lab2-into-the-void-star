@@ -97,7 +97,7 @@ effective method of addressing unique RGB data to any number of LEDs linked in a
 
 # 3.5
 ## How do you connect a WS2812 to a microcontroller?
-WS2812 is connected to Microcontroller by Connecting with PCB Board with soldering.
+WS2812 contains pins for controlling data signal output(DOUT), Control Data Signal Input(DIN), Power supply control circuit(VCC), NC, Power Supply LED(VDD), and Ground(VSS). These pins helps WS2812 in estrablishing a good connectivity with RP2040 Microcontroller.
 
 ## How does a WS2812 translate bits to color values?
 When serial data is supplied to the LED's input, it takes the first three bytes (red, green, blue) and passes the remainder to its 
