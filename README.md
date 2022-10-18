@@ -1,8 +1,8 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
-Harish Ramesh, Sugata Sen
-    https://www.linkedin.com/in/harishramesh1998/ ; https://www.linkedin.com/in/sugata-sen/
-Tested on: Lenovo Legion Slim-7, Windows-11; ASUS ROG GL-552 VW, Windows-10
+    Sugata Sen, worked with Harish Ramesh
+    https://www.linkedin.com/in/sugata-sen/, https://www.linkedin.com/in/harishramesh1998/
+    Tested on: Lenovo Legion Slim-7, Windows-11; ASUS ROG GL-552 VW, Windows-10
 
 ## 3.3 Follow the flow
 https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/36518f5be5dad070610266429e872d5c1c16442f/AnnotationStuffpart%203.3.pdf
