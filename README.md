@@ -14,7 +14,7 @@ https://docs.google.com/spreadsheets/d/1iRsQCAwo6xrsGQcdKzWXdB_pM1_v_IVhFM-M53KP
 https://github.com/harishramesh98/ese5190-2022-lab2-into-the-void-star/blob/3a815c42360a7faf1715b66e33a4eccf398051eb/3_5_Zooming_in.pdf
 
 ## 3.6 & 3.7 Zooming In and Timing Diagram
-https://github.com/harishramesh98/ese5190-2022-lab2-into-the-void-star/blob/3a815c42360a7faf1715b66e33a4eccf398051eb/ese_519_lab2a_3_6_7.xlsx
+https://github.com/harishramesh98/ese5190-2022-lab2-into-the-void-star/blob/3a815c42360a7faf1715b66e33a4eccf398051eb/ese_519_lab2a_3_6_7.xlsx <br>
 For the timing diagram in 3.7, we have mentioned the value of the clock at clock cycle period and mentioned the value at each time instant. Graphically representing the clock was becoming tedious after starting it.
 
 ## Hello Blinkenlight
