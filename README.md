@@ -9,6 +9,7 @@ Tested on: ASUS TUF Gaming F15, Windows 11
 ## 3.2
 
 Reading questions: 
+
 **1. Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?**
 
  For slower protocols you might be able to use an IRQ to wake up the processor. But when above certain speeds，IRQs become impractical, in part due to the timing uncertainty of actually entering an interrupt handler. And it's a tough job to make sure the GPIO reading and writing happens on the exact cycle required.
