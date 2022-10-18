@@ -63,3 +63,6 @@ The TX FIFO will be empty, and the SM will stalled.
 8. How do you send data to more than one WS2812 in a chain?<br>
 When serial data is presented at the LED’s input, it takes the first three bytes for itself (Green, Red, Blue) and the remainder is passed along to its serial data output. Often these LEDs are connected in a single long chain, each LED connected to a common power supply, and each LED’s data output connected through to the next LED’s input. A long burst of serial data to the first in the chain will deposit three bytes of GRB data in each LED, so their colour and brightness can be individually programmed.
 
+Chart of System State Step Through:
+
+![3 5](https://user-images.githubusercontent.com/108168201/196312780-8918dbd1-8ad7-4b82-a321-4df8b580e704.jpeg)
