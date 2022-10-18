@@ -68,4 +68,6 @@ https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.5_C
 ![3 5](https://user-images.githubusercontent.com/108168201/196312780-8918dbd1-8ad7-4b82-a321-4df8b580e704.jpeg)
 
 ## 3.6 Zooming In
-A trace of the entire packet transmission:
+
+A trace of the entire packet transmission:<br>
+https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.6_A%20trace%20of%20the%20entire%20packet%20transmission.xlsx
