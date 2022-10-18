@@ -122,17 +122,17 @@ Below is the spreadsheet of the list of registers for PIO.
 ![image](https://user-images.githubusercontent.com/113971230/196334879-98b8dead-cf35-425a-9746-df8c393654e2.png)
 
 ### 3.5 Q&A 
--How do you connect a WS2812 to a microcontroller?
-    -Control pins for data signal output (DOUT), control pins for data signal input (DIN), power supply control circuit (VCC), NC, power supply LED (VDD), and ground are all present on the WS2812 board (VSS). With the aid of these pins, the WS2812 can successfully establish a connection with the RP2040 microcontroller.
+- How do you connect a WS2812 to a microcontroller?
+    - Control pins for data signal output (DOUT), control pins for data signal input (DIN), power supply control circuit (VCC), NC, power supply LED (VDD), and ground are all present on the WS2812 board (VSS). With the aid of these pins, the WS2812 can successfully establish a connection with the RP2040 microcontroller.
 
--How does a WS2812 translate bits to color values?
-    -The LED takes the first three bytes (red, green, and blue) from any serial data that is fed into its input before sending the remaining bytes to its output, which is also a serial data stream. The majority of the time, these LEDs are linked together in a single, continuous chain, with each LED being powered by a single source and having its data output connected to the input of the following LED.
+- How does a WS2812 translate bits to color values?
+    - The LED takes the first three bytes (red, green, and blue) from any serial data that is fed into its input before sending the remaining bytes to its output, which is also a serial data stream. The majority of the time, these LEDs are linked together in a single, continuous chain, with each LED being powered by a single source and having its data output connected to the input of the following LED.
     
--How do you send a single 1 or 0 bit to the WS2812?
-    -Through the WS2812 line format. A wide positive pulse is employed to represent a 1, whereas a narrow positive pulse represents a 0.
+- How do you send a single 1 or 0 bit to the WS2812?
+    - Through the WS2812 line format. A wide positive pulse is employed to represent a 1, whereas a narrow positive pulse represents a 0.
 
--What happens if you send more bits than this in a packet?
-    -The out instruction pushes data out of the OSR and zeroes in from the other end to fill the void. After shifting out a total of 32 bits, you will start to see zeroes because the OSR is 32 bits wide. Data is explicitly removed from the TX FIFO and placed in the OSR via a pull command.
+- What happens if you send more bits than this in a packet?
+    - The out instruction pushes data out of the OSR and zeroes in from the other end to fill the void. After shifting out a total of 32 bits, you will start to see zeroes because the OSR is 32 bits wide. Data is explicitly removed from the TX FIFO and placed in the OSR via a pull command.
 
 
 ## 3.6: Complete packet transmission spreadsheet
