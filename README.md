@@ -57,6 +57,9 @@ The main ingredients in this recipe are:
 3. It can also be used directly, and it can generate programs suitable for use with the MicroPython PIO library.
 4. Within the SDK you do not need to invoke pioasm directly, as the CMake function `pico_generate_pio_header(TARDET PIO_FILE)` takes care of invoking pioasm and adding the generated header to the include path of the target TARGET for you.
 
+# Part 3.4
+
+
 # Part 4: HELLO, BLINKENLIGHT
 
 1. Creating a new test folder outside the pico-examples folder.
