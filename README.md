@@ -143,6 +143,51 @@ Below is the spreadsheet of the list of registers for PIO.
 ![image](https://user-images.githubusercontent.com/113971230/196361137-cc360726-1be3-4e48-9af4-7caf1623bd73.png)
 
 ## 4: Hello, Blinkenlight!
+-Process
+1. Outside of the pico-examples folder, making a new test folder.
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/113971230/196368681-20e4265a-e71c-4dec-9c52-e743a6b5c94f.png" width="450">  
+</div>
+
+2. Transferring couple of files from the pico-examples folder.
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/113971230/196368718-0ffdd15f-085e-4b2d-91af-c96aa4615ef7.png" width="450">  
+</div>
+
+3. Altering the CMakelists files.
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/113971230/196369200-c4f874ef-c4f3-43ec-ad01-2d52360ef843.png" width="450">  
+</div>
+
+4. Modifing the WS2812 code.
+
+- Enable pixel pins
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/113971230/196369493-9ed225b6-5b94-4dba-9400-fb57e747adb3.png" width="450">  
+</div>
+
+- Set the color of LED
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/113971230/196369594-ff7c3eac-8314-4049-9054-66b63505de32.png" width="450">  
+</div>
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/113971230/196369635-55981fc1-5f70-49ad-9874-d4b195d4a58b.png" width="450">  
+</div>
+
+5. Build .uf2 file and drag and drop it into the chip disk.
+
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/113971230/196369746-8a85456c-fa16-4de3-a7a3-02a47e9706fc.png" width="450">  
+</div>
+
+
 - [Code Folder](https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/tree/main/pico-diy)
 
 - Result
@@ -151,15 +196,7 @@ Below is the spreadsheet of the list of registers for PIO.
 <img src="https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/blob/main/part4_gif.gif" width="450">  
 </div>
 
-1. Outside of the pico-examples folder, making a new test folder.
 
-2. Transferring files from the pico-examples folder.
-
-3. Altering the CMakelists files.
-
-4. Modifing the WS2812 code.
-
-5. Build .uf2 file and drag and drop it into the chip disk.
 
 ## Reflection
 - What were some strengths/weaknesses of working with paper?
