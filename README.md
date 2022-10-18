@@ -77,8 +77,9 @@ How is this function accessed from the main “application” code?
  
  3.7 TIMING DIAGRAM
  
-  
-  
+ PART 4: HELLO, BLINKENLIGHT 
+   
+   The project for Part4 is uploaded to the repo.
   
   
   
