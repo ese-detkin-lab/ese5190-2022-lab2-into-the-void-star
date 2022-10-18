@@ -115,6 +115,20 @@ Below is the spreadsheet of the list of registers for PIO.
 ![image](https://user-images.githubusercontent.com/113971230/196328448-04d9c4dd-af83-4578-9538-cdd34f56b568.png)
 ![image](https://user-images.githubusercontent.com/113971230/196334879-98b8dead-cf35-425a-9746-df8c393654e2.png)
 
+### 3.5 Q&A 
+-How do you connect a WS2812 to a microcontroller?
+    -Control pins for data signal output (DOUT), control pins for data signal input (DIN), power supply control circuit (VCC), NC, power supply LED (VDD), and ground are all present on the WS2812 board (VSS). With the aid of these pins, the WS2812 can successfully establish a connection with the RP2040 microcontroller.
+
+-How does a WS2812 translate bits to color values?
+    -The LED takes the first three bytes (red, green, and blue) from any serial data that is fed into its input before sending the remaining bytes to its output, which is also a serial data stream. The majority of the time, these LEDs are linked together in a single, continuous chain, with each LED being powered by a single source and having its data output connected to the input of the following LED.
+    
+-How do you send a single 1 or 0 bit to the WS2812?
+    -Through the WS2812 line format. A wide positive pulse is employed to represent a 1, whereas a narrow positive pulse represents a 0.
+
+-What happens if you send more bits than this in a packet?
+    -The out instruction pushes data out of the OSR and zeroes in from the other end to fill the void. After shifting out a total of 32 bits, you will start to see zeroes because the OSR is 32 bits wide. Data is explicitly removed from the TX FIFO and placed in the OSR via a pull command.
+
+
 ## 3.6: Complete packet transmission spreadsheet
 
 ![image](https://user-images.githubusercontent.com/113971230/196360043-d9801d83-1311-4c4b-8ff3-b5f33b964bc7.png)
@@ -130,3 +144,18 @@ Below is the spreadsheet of the list of registers for PIO.
 <div align=center>
 <img src="https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/blob/main/part4_gif.gif" width="450">  
 </div>
+
+## Reflection
+-What were some strengths/weaknesses of working with paper?
+    -It is easy to write if you work with paper. But at the same time, when you make a mistake in writing, it is not easy to correct.
+-What were some strengths/weaknesses of working with spreadsheets?
+    -The data can be better organized. For example, you can use some function formulas such as "sum".
+    -Better look and feel, more neat and tidy
+-How might you approach this task using other tools available to you?
+    -I will use mind mapping software to sort out the whole experiment.
+
+## Reference
+-[RP2040 Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
+-[Pico SDK Datasheet](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)
+-[Pico C/C++ SDK](https://github.com/raspberrypi/pico-sdk)
+-[Pico C/C++ SDK Examples](https://github.com/raspberrypi/pico-examples)
