@@ -28,8 +28,14 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2
 
 
 ## 3.3: Photos of annotated code printouts
-#### [ws2812.c](https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/blob/main/3.3_files/ws2812.c.pdf)
-#### [ws.2812.pio](https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/blob/main/3.3_files/ws.2812.pio.pdf)
+- [ws2812.c](https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/blob/main/3.3_files/ws2812.c.pdf)
+- [ws.2812.pio](https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/blob/main/3.3_files/ws.2812.pio.pdf)
+### Decision Made
+When you can't understand the code or CMake, you can't go wrong by looking through the manual.
+- [RP2040 Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
+- [Pico SDK Datasheet](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)
+- [Pico C/C++ SDK](https://github.com/raspberrypi/pico-sdk)
+- [Pico C/C++ SDK Examples](https://github.com/raspberrypi/pico-examples)
 ## 3.4: Spreadsheet of initial PIO register states
 The WS2812 accepts color signals in GRB form, rather than the usual RGB form. the WS2812 takes the first 24 bits of the data representing the color from the PIO state machine and ignores the next 8 bits of the 32 bits. For the received 24 bits of data, it is automatically divided into three parts at 8 unit intervals. The three parts correspond to the green, red and blue lighted displays as showing in the following diagram.
 
@@ -155,8 +161,4 @@ Below is the spreadsheet of the list of registers for PIO.
 - How might you approach this task using other tools available to you?
     - I will use mind mapping software to sort out the whole experiment.
 
-## Reference
-- [RP2040 Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
-- [Pico SDK Datasheet](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)
-- [Pico C/C++ SDK](https://github.com/raspberrypi/pico-sdk)
-- [Pico C/C++ SDK Examples](https://github.com/raspberrypi/pico-examples)
+
