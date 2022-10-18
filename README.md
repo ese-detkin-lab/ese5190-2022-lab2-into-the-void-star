@@ -62,6 +62,8 @@ The model/chart with the code is attached below:
 
 As shown in the model, 10 SM clock cycles take place from when color data is written to the FIFO up until the first full bit is sent, and make a numbered column for each time window.
 
+### 3.6 - 3.7
+This [link](https://github.com/MaxMa6150/ese5190-2022-lab2-into-the-void-star/blob/main/3.6-3.7%20data%20and%20model.xlsx) is the complete packet transmission spreadsheet and timing diagram.
 
 
 
