@@ -43,3 +43,5 @@ Gloss over the details of how the assembly program in the .pio file is translate
 It can be easily writen but hard to store and review<br>
 •What were some strengths/weaknesses of working with spreadsheets?<br>
 We can search the information easily but it takes a lot of time to complete<br>
+•How might you approach this task using other tools available to you? <br>
+I use Wavedrom to help me draw the sequence diagram<br>
