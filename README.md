@@ -54,6 +54,11 @@ And CMake function pico_generate_pio_header(TARGET PIO_FILE) takes care of invok
 We choose the color blue with value 0x00ff00：
 Here is the [list of register](https://github.com/MaxMa6150/ese5190-2022-lab2-into-the-void-star/blob/main/RegisterList_3.4.xlsx).
 
+### 3.5 Modeling Time
+The model/chart with the code is attached below:
+![e0b00783580c2c6e7955fce979ce67e](https://user-images.githubusercontent.com/114200453/196373103-88f8a259-ec6f-437a-9601-0142a0195496.jpg)
+
+
 
 
 
