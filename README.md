@@ -74,3 +74,5 @@ https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.6_A
 
 ## 3.7 Timing Diagram
 ![3 7_Timing diagram](https://user-images.githubusercontent.com/108168201/196334146-b81e5c36-1412-45d7-b714-939891156365.jpeg)
+
+## 4. HELLO, BLINKENLIGHT
