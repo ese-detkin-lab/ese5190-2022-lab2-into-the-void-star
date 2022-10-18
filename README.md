@@ -237,7 +237,7 @@ Now let's stretch the time to 4 bits. Suppose that we are first sending blue and
 
 The observed bits is bolded as shown. The first 32 bits are blue bits, and then the following 32 bits are the green bits, and the next 32 bits are still green.
 
-And the timing diagram is shown below ([zoom in.xlsx](zoom in.xlsx))
+And the timing diagram is shown below ( [zoomin.xlsx](zoomin.xlsx) )
 
 ![image-20221017215825118](README.assets/image-20221017215825118.png)
 
