@@ -34,11 +34,12 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
     Pioasm creates static variables describing the program, it also helps configure PIO state machine. We should call pico_generate_pio_header file to invoke pioasm.
     
 ## Scans of annotated code printouts in 3.3
-    [ws2812.c.pdf](ws2812.c.pdf) is the pdf file for annotated .c file.
-    [ws2812.pio.h.pdf](ws2812.pio.h.pdf) is the pdf file for annotated header file.
+
+[ws2812.c.pdf](/assets/ws2812.c.pdf) is the pdf file for annotated .c file.
+[ws2812.pio.h.pdf](/assets/ws2812.pio.h.pdf) is the pdf file for annotated header file.
 
 ## Link to 3.4 Spreadsheet
-    See [Lists of Registers](Lists of Registers.xlsx).
+[Lists of Registers.xlsx](/assets/Lists of Registers.xlsx).
 
 ## Discussion of Modeling in 3.5
     First we got the main loop of the state machine from line 18-26 in ws2812.pio.h, 
@@ -46,9 +47,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
     WS2812 translates bits to color values by receiving 24 bits of data, G,R,B all 8 bits.
     
 ## Link to 3.6 Spreadsheet and Time Diagram in 3.7
-    
-    See [Picture](3.6 & Time Diagram.jpg).
-    
+[Picture](/assets/3.6 & Time Diagram.jpg).
+
 ## Reflection on tools
     Working with paper: 
     It's convenient, flexible and intuitive to show; 
