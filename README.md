@@ -44,7 +44,7 @@ The graphs below shows the annotations I made for my interpretation of how the w
 ![](Part3/3.3/lab2apart3.3.png)
 
 ### Part 3.4 COLOR BY NUMBER
-Some questions are answered below and []() shows our results of registers tracking.
+Some questions are answered below and [3.4.xlsx](https://github.com/anniepan8215/ese5190-2022-lab2-into-the-void-star/blob/main/Part3/3.4/PIO%20Lisf%20of%20Registers.xlsx) shows our results of registers tracking.
 - **Which PIO instance is being used?**
     - PIO 0
 - **Which state machine is being used with this PIO instance?**
@@ -62,28 +62,45 @@ Some questions are answered below and []() shows our results of registers tracki
 
 
 ### Part 3.5 MODELING TIME
+In this part, we want to follow up the state machine's states and operations relays to a color packet to the NeoPixel.
 #### Part 3.5.1 WS2812 protocal
-- What basic circuitry does a WS2812 LED need to operate?
-    - Control circuit and RGB chip, signal reshaping circuit, electric reset circuit and power lost reset circuit.
-- How do you connect a WS2812 to a microcontroller?
+- **What basic circuitry does a WS2812 LED need to operate?**
+  - ![](Part3/3.5/Pasted Graphic.png)
+  - Control circuit and RGB chip, signal reshaping circuit, electric reset circuit and power lost reset circuit.
+- **How do you connect a WS2812 to a microcontroller?**
     - WS2812: DIN port receives data from the controller
     - RP2040: GPIO port 12 sends data to WS2812
-- How does a WS2812 translate bits to color values?
+- **How does a WS2812 translate bits to color values?**
     - the first pixel collects initial 24bit data and is then sent to the internal data latch, the other data reshaped by the internal signal reshaping amplification circuit is sent to the next cascade pixel through the DO port. After transmission for each pixel, the signal to reduce by 24bit.
-- How do you send a single 1 or 0 bit to the WS2812?
-￼
-- How many bits does it take to send a single color value?
+- **How do you send a single 1 or 0 bit to the WS2812?**
+  - ![](Part3/3.5/RET code.png)
+  - T0H:0.35us; T1H:0.7us; T0L:0.8us; T1L:0.6us.
+- **How many bits does it take to send a single color value?**
     - 24 bits for all three colors, 8 for each.
-- What happens if you send more bits than this in a packet?
-    - pixel adopt auto reshaping transmit technology, making the pixel cascade number not limited to the signal transmission, only depending on the speed of signal transmission.
-- How do you tell a WS2812 you’re done sending data?
+- **What happens if you send more bits than this in a packet?**
+    - Keep the first three bytes and pass the remaining data to the output port.
+- **How do you tell a WS2812 you’re done sending data?**
     - Sending reset code for at least 50us.
-- How do you send data to more than one WS2812 in a chain?
+- **How do you send data to more than one WS2812 in a chain?**
+  - Send data serially. WS2812 will catch up first three bytes and pass the reminder to the WS2812.
 
 #### Part 3.5.2 Time flow chart
 ![](Part3/3.5/3.5.jpg)
 
 ### Part 3.6&3.7 ZOOMING IN with TIMING DIAGRAM
-Please check file 
+In this section, we zoom in the time flow(clock cycle/2) to catch up the data flow. 
+Please check file [3.6&3.7.xlsx](https://github.com/anniepan8215/ese5190-2022-lab2-into-the-void-star/blob/main/Part3/3.6%263.7/3.6%263.7.xlsx) for more details.
 
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
+## PART 4: HELLO, BLINKENLIGHT
+Here we design an interactable program in C which allow user to control the color of the LED located on WS2812 with certain key. See code in folder 
+Some manipulation instruction:
+- See 'Hello world' to confirm connection between RP2040 and PC.
+- Button for light control:
+  - 'w' or 'W': White
+  - 'b' or 'B': Blue
+  - 'g' or 'G': Green
+  - 'r' or 'R': Red
+  - 'p' or 'P': Purple
+  - 'c' or 'C': Cyan
+  - 'y' or 'Y': Yellow
+
