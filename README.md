@@ -169,7 +169,7 @@ Here is a GIF to show how our code works. <br />
 ![](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%204/Hello%20World%20%2B%20Blink%20GIF.gif)
 
 
-# Brief discussion of decisions you made while working with your modeling documents.
+* Brief discussion of decisions you made while working with your modeling documents.
 We used spreadsheets, handwritten paper work as well as commenting on editors. 
 
 o What were some strengths/weaknesses of
