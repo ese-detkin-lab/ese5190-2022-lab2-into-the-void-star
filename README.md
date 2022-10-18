@@ -30,6 +30,12 @@ The color we have choosed is green - 0x00FF0000. The process flow of one bit int
 <img src = "Q-3.5_1.jpeg">
 <img src = "Q-3.5_2.jpeg">
 
+# 3.6 Zooming In:
+
+This is a complex process. Every bit of the color input takes 10 cycles, thus 24 bits will take 240 cycles and after that only the microcontroller will know that green signal is expected. The details can be found in the spreadsheet:
+
+https://github.com/yash-mb/ese5190-2022-lab2-into-the-void-star/blob/67f1007e0927a6a07d0ddb5ab72c1bfaa1de1d28/Q3.6.xlsx
+
 
 # 4. Hello Blinkenlight
 
