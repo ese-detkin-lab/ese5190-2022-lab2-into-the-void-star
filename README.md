@@ -6,12 +6,22 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 # 3.2 PIO
 
-The questions given in the section 3.2 are answered in the following file - "Answers to Qs in 3.2.pdf". The source for information and learning are RP2040 Datasheet and Raspberry Pi Pico C/C++ SDK manual.
+The questions given in the section 3.2 are answered in the following file - "Answers to Qs in 3.2.pdf". The source for information and learning are RP2040 Datasheet and Raspberry Pi Pico C/C++ SDK manual. 
+
+Link - https://github.com/yash-mb/ese5190-2022-lab2-into-the-void-star/blob/8c79a5e3339b28333234f7ff783bbc1e88a8266b/Answers%20to%20Qs%20in%203.2.pdf
+
 
 # 3.3 Code Annotations
 
 The codes in ws2812 folder of pico-examples has been annotated and numbered according to instructions given - details can be found in "Lab2_assign.pdf" page 19. For better visualization and flow the annotations are done in microsoft ppt and can be accessed in "Code Annotations.pptx".
 
+Link - https://github.com/yash-mb/ese5190-2022-lab2-into-the-void-star/blob/8c79a5e3339b28333234f7ff783bbc1e88a8266b/Code%20annotation.pptx
+
+# 3.4 Registors
+
+We have selected Pi0 as base and value of registers is found using the RP2040 datasheet.
+
+Link - https://github.com/yash-mb/ese5190-2022-lab2-into-the-void-star/blob/6939f813a4b906ff0e74e16c7b73f252bca62d65/Q3.4%20-%20Registers.xlsx
 
 
 # 4. Hello Blinkenlight
