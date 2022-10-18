@@ -81,7 +81,7 @@ of zero cycles)<BR>
 • An IRQ WAIT instruction which has set an IRQ flag, and is waiting for it to clear<br>
 • An OUT instruction when autopull is enabled, and OSR has already reached its shift threshold<br>
 • An IN instruction when autopush is enabled, ISR reaches its shift threshold, and the RX FIFO is full
-
+![image](https://github.com/IndigoQuadratic/ese5190-2022-lab2-into-the-void-star/blob/22475f1c31279941fc1ac15a82006ee478359a05/3.5.jpg)
 
 ||0|1|2|3|4|5|6|7|8|9|10|notes|
 |:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
@@ -99,3 +99,5 @@ of zero cycles)<BR>
 
 * How many SM clock cycles take place from when color data is written to the FIFO up until the first full bit is sent, and make a numbered column for each time window
   10 cycles for 1 bit. For 24 bits, there's total 240cycles. But because the configuation is set to send RGBW, so total of 320 cycles.
+## 3.6 ZOOMING IN
+  
