@@ -17,8 +17,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
    static inline void put_pixel(uint32_t pixel_grb) {
    
-   pio_sm_put_blocking(pio0, 0, pixel_grb << 8u);
+        pio_sm_put_blocking(pio0, 0, pixel_grb << 8u);
    
    }
 
-7) s
+7) We can use it to build PIO programs, for us to #include from your C or C++ program. pioasm can also be used directly, and has a few features not used by the C++ SDK, such as generating programs suitable for use with the MicroPython PIO library. CMake function pico_generate_pio_header(TARGET PIO_FILE) takes care of invoking pioasm and adding the generated header to the include path of the target TARGET.
