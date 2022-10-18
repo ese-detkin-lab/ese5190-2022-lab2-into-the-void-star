@@ -9,25 +9,53 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
 
-|          |ADDRESS                 |OFFSET|NAME|VALUE|Notes|
-| :---:    | :---:                  | :---:  | :---:                                   | :---: | :---: |
+|          |ADDRESS                 |OFFSET  |NAME                                         |VALUE|Notes|
+| :---:    | :---:                  | :---:  | :---:                                       | :---: | :---: |
 |BASE      | 0x5020000              | NONE   |PIO0_BASE<br>PIO1_BASE|NONE|Base address for PIO0_BASE and PIO1_BASE                   |
-|CLTR      | 0x5020000              | 0x000  |PIO control register                     | 0x00000001 | 12:31 digits are reserved, and  state machine 0 is enabled.  |
-|FSTAT     | 0x5020004              | 0x004  |FIFO status register                     | 0x0f000f01 | State machine 0's TX FIFO is  filled with color data while its RX FIFO is not used.     Other 3 state machine is not enabled. |
-|FDEBUG    | 0x5020008              | 0x008  |FIFO debug register                      | 0x01000f00 | State machine 0's TX FIFO is  full and its RX is not used here.     Other 3 state machine is not enabled. |
-|FLEVEL    | 0x502000c              | 0x00c  |FIFO level register                      | 0x00000000 | Only state machine 0's TX is  used, no level specficed for other TX or RX register |
-|TXF0      | 0x5020010              | 0x010  |TXF0 register                         | 0000 0000<br />1111 1111<br />0000  0000<br />0000 0000 | The color 0xFF0000 is used here  for state machine 0. Since the WS2812 takes onlt GRB channel orders, the RGB  is transmitted in the form of GRB after transform. |
-|TXF1      | 0x5020014              | 0x014  |TXF1 register                         | 0000 0000<br />0000 0000<br />0000  0000<br />0000 0000 | Not used, keep  default.                                     |
-|TXF2      | 0x5020018              | 0x018  |TXF2 register                         | 0000 0000<br />0000 0000<br />0000  0000<br />0000 0000 | Not used, keep  default.                                     |
-|TXF3      | 0x502001c              | 0x01c  |TXF3 register                         | 0000 0000<br />0000 0000<br />0000  0000<br />0000 0000 | Not used, keep  default.                                     |
-|RXF0      | 0x5020020              | 0x020  |RXF0 rigister                         |                          EMPTY                          | Not used, default  empty.                                    |
-|RXF1      | 0x5020024              | 0x024  |RXF1 rigister                         |                          EMPTY                          | Not used, default  empty.                                    |
-|RXF2      | 0x5020028              | 0x028  |RXF2 rigister                         |                          EMPTY                          | Not used, default  empty.                                    |
-|RXF3      | 0x502002c              | 0x02c  |RXF3 rigister                         |                          EMPTY                          | Not used, default  empty.                                    |
-|INSTR_MEM0   | 0x5200048           | 0x048  |WO ACCESS TO INSTRUCTION MEMORY  0              | 0000 0000<br />0000 0000<br />0110  0010<br />0010 0001 | Store the first instruction  out  x, 1 side 0 [2] here in the 15-0  digits while reserving 31-16 digits. |
-|INSTR_MEM1   | 0x502004c           | 0x04c  |WO ACCESS TO INSTRUCTION MEMORY  1              | 0000 0000<br />0000 0000<br />0001  0001<br />0010 0011 | Store the first instruction  out  jmp !x, 3 side 1 [1] here in the  15-0 digits while reserving 31-16 digits. |
-|      ...      |    ...     |  ...   |                             ...                              |                           ...                           | ...                                                          |
-|INSTR_MEM31  | 0x50200c4           | 0x0c4  |WO ACCESS TO INSTRUCTION MEMORY  31              | 0000 0000<br />0000 0000<br />0000  0000<br />0000 0000 | Apart from those 4 slots used  for the 4 instructions, other instruction memories are not used and allow WO  access. |
+|CLTR      | 0x5020000              | 0x000  |PIO control register                         | 0x00000001 ||
+|FSTAT     | 0x5020004              | 0x004  |FIFO status register                         | 0x0f000f01 | State machine 0's TX FIFO is  filled with color data while its RX FIFO is not used.     Other 3 state machine is not enabled. |
+|FDEBUG    | 0x5020008              | 0x008  |FIFO debug register                          | 0x01000f00 | State machine 0's TX FIFO is  full and its RX is not used here.     Other 3 state machine is not enabled. |
+|FLEVEL    | 0x502000c              | 0x00c  |FIFO level register                          | 0x00000000 | Only state machine 0's TX is  used, no level specficed for other TX or RX register |
+|TXF0      | 0x5020010              | 0x010  |TXF0 register                                | 0x00000000 | The color 0xFF0000 is used here  for state machine 0. Since the WS2812 takes onlt GRB channel orders, the RGB  is transmitted in the form of GRB after transform. |
+|TXF1      | 0x5020014              | 0x014  |TXF1 register                                | 0x00000000 ||
+|TXF2      | 0x5020018              | 0x018  |TXF2 register                                | 0x00000000 ||
+|TXF3      | 0x502001c              | 0x01c  |TXF3 register                                | 0x00000000 ||
+|RXF0      | 0x5020020              | 0x020  |RXF0 rigister                                | 0xb6cf6b00 ||
+|RXF1      | 0x5020024              | 0x024  |RXF1 rigister                                | 0x7fb2cd2f ||
+|RXF2      | 0x5020028              | 0x028  |RXF2 rigister                                | 0xf1addb6c ||
+|RXF3      | 0x502002c              | 0x02c  |RXF3 rigister                                | 0x47d836d7 ||
+|INSTR_MEM0   | 0x5200048           | 0x048  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM1   | 0x502004c           | 0x04c  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM2   | 0x502004c           | 0x050  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM3   | 0x502004c           | 0x054  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM4   | 0x502004c           | 0x058  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM5   | 0x502004c           | 0x05c  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM6   | 0x502004c           | 0x060  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM7   | 0x502004c           | 0x064  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM8   | 0x502004c           | 0x068  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM9   | 0x502004c           | 0x06c  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM10  | 0x502004c           | 0x070  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM11  | 0x502004c           | 0x074  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM12  | 0x502004c           | 0x078  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM13  | 0x502004c           | 0x07c  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM14  | 0x502004c           | 0x080  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM15  | 0x502004c           | 0x084  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM16  | 0x502004c           | 0x088  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM17  | 0x502004c           | 0x08c  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM18  | 0x502004c           | 0x090  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM19  | 0x502004c           | 0x094  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM20  | 0x502004c           | 0x098  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM21  | 0x502004c           | 0x09c  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM22  | 0x502004c           | 0x0a0  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM23  | 0x502004c           | 0x0a4  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM24  | 0x502004c           | 0x0a8  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM25  | 0x502004c           | 0x0ac  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM26  | 0x502004c           | 0x0b0  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM27  | 0x502004c           | 0x0b4  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM28  | 0x502004c           | 0x0b8  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM29  | 0x502004c           | 0x0bc  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM30  | 0x502004c           | 0x0c0  |Write-only access to instruction memory location 0              | 0x00000000 ||
+|INSTR_MEM31  | 0x50200c4           | 0x0c4  |Write-only access to instruction memory location 0              | 0x00000000 ||
 |SM0_CLKDIV   | 0x50200c8           | 0x0c8  |Clock Divisor register for SM 0                | 0000 0000<br />0000 1111<br />1010  0000<br />0000 0000 | Since the default clk_sys is  150MHz, the assigned frequency is 800000 and the cycles per bit is 8, so the  INT is 15 and the FRAC is 0.625 |
 |SM1_CLKDIV   | 0x50200e0           | 0x0e0  |Clock Divisor register for SM 1                | 0000 0000<br />0000 0000<br />0000  0000<br />0000 0000 | State machine 1 is not used.                                 |
 |SM2_CLKDIV   | 0x50200f8           | 0x0f8  |Clock Divisor register for SM 2                | 0000 0000<br />0000 0000<br />0000  0000<br />0000 0000 | State machine 2 is not used.                                 |
