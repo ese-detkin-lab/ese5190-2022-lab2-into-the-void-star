@@ -56,7 +56,7 @@
 
 # Part 3.3
 
-Check the file 【**part3.3**】
+Check the file 【**part3.3**】, some annotaions were wirtten in the code of file【**part4**】.
 
 # Part 3.4
 
