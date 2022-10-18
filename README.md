@@ -32,7 +32,7 @@ Ans: From the transmit FIFO buffer, we take one data item and place it in the ou
 Ans: The state machine needs to be told which GPIO or GPIOs to output to. There are four different pin groups which are used by different instructions in different situations. The GPIO also needs to be told that PIO is in control of it (GPIO function select). PIO can drive the ‘output enable’ line up and down programmatically using certain instructions.
 
 
-### Q5. How do you program a PIO state machine
+### Q5. How do you program a PIO state machine?
 
 Ans: The RP2040 has two PIO blocks, each of them with four state machines. Each PIO block has a 32-slot instruction memory which is visible to the four state machines in the block. Our program needs to be loaded into this instruction memory before any of our state machines can run the program. Once the program is loaded, we find a free state machine and tell it to run our program. We can order multiple state machines to run the same program, or tell each state machine to run a different program. The state machine stalls if we don’t provide any data in the TX FIFO, for which it is waiting. We need to write a function to push the data into the TX FIFO. In this way, we can successfully program a PIO state machine.
 
@@ -55,34 +55,44 @@ Ans: We use the pioasm tool to convert the assembler code to binary. We use the 
 ### WS2812.C Code Annotation. The Annotation is done using comments in Green color.
 
 ![embedded_c1](https://user-images.githubusercontent.com/52575718/196354721-58f1fe1b-f936-4453-9854-2248099a5413.JPG)
+
 <br>
 
 ![embedded_c2](https://user-images.githubusercontent.com/52575718/196354978-dc76b0a1-ed89-4588-b047-5f740c3d97d5.JPG)
+
 <br>
 
 ![embedded_c3](https://user-images.githubusercontent.com/52575718/196355030-ab5977db-06a4-4883-952c-93794ec79f19.JPG)
+
 <br>
 
 ![embedded_c4](https://user-images.githubusercontent.com/52575718/196355048-f00341ff-e6b2-4946-87c0-20fb15f3f1de.JPG)
+
 <br>
 
 ![embedded_c5](https://user-images.githubusercontent.com/52575718/196355085-1c009907-676d-47d0-b91f-ab31425e6808.JPG)
+
 <br>
 
 ### WS2821.PIO.H Code Annotation. The Annotation is done in comments with Green color.
 
 ![embedded_h1](https://user-images.githubusercontent.com/52575718/196355544-2ff5f411-4be3-4de4-afa7-3f2d315c884c.JPG)
+
 <br>
 
 ![embedded_h2](https://user-images.githubusercontent.com/52575718/196355588-be5c93d2-1044-4f6a-9162-4c3c677c84b3.JPG)
+
 <br>
 
 ![embedded_h3](https://user-images.githubusercontent.com/52575718/196355633-360a6667-0480-49ab-844c-fa8274985abd.JPG)
+
 <br>
 
 ![embedded_h4](https://user-images.githubusercontent.com/52575718/196355720-fb5777d0-2f4f-49d2-9cd4-4f31b7a9b344.JPG)
+
 <br>
 
 ![embedded_h5](https://user-images.githubusercontent.com/52575718/196355783-178e387c-a5c9-4641-afbb-0297245c00c9.JPG)
+
 <br>
 
