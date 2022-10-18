@@ -15,10 +15,10 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 5) We need to program a pio configuration file using functions such as pio_gpio_init(pio, pin); pio_set_consecutive_pindirs(pio, sm, pin, 1, true);  pio_sm_config c = ws2812_program_default_config(offset); sm_config_sideset_pins(&c, pin); sm_config_out_shift(&c, false, true, rgbw ? 32 : 24); int cycles_per_bit = ws2812_T1 + ws2812_T2 + ws2812_T3; float div = clock_get_hz(clk_sys) / (freq * cycles_per_bit); sm_config_clkdiv(&c, div); pio_sm_init(pio, sm, offset, &c); pio_sm_enable(pio, sm, true) to configure the state machine arguments.
 6) It's the 
 
-   static inline void put_pixel(uint32_t pixel_grb) {
+        static inline void put_pixel(uint32_t pixel_grb) {
    
         pio_sm_put_blocking(pio0, 0, pixel_grb << 8u);
    
-   }
+        }
 
 7) We can use it to build PIO programs, for us to #include from your C or C++ program. pioasm can also be used directly, and has a few features not used by the C++ SDK, such as generating programs suitable for use with the MicroPython PIO library. CMake function pico_generate_pio_header(TARGET PIO_FILE) takes care of invoking pioasm and adding the generated header to the include path of the target TARGET.
