@@ -127,7 +127,7 @@ Your complete packet transmission spreadsheet.
 
 # 3.7
 Timing Diagram
-
+![ ](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%203/Part%203.7.jpg)
 
 
 # 4 HELLO, BLINKENLIGHT
@@ -169,8 +169,18 @@ Here is a GIF to show how our code works. <br />
 ![](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%204/Hello%20World%20%2B%20Blink%20GIF.gif)
 
 
+# Brief discussion of decisions you made while working with your modeling documents.
+We used spreadsheets, handwritten paper work as well as commenting on editors. 
 
- 
+o What were some strengths/weaknesses of
+working with paper?
+
+o What were some strengths/weaknesses of
+working with spreadsheets?
+
+o How might you approach this task using
+other tools available to you?
+
 
 
 
