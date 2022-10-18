@@ -60,7 +60,7 @@ Some questions are answered below and [3.4.xlsx](https://github.com/anniepan8215
 - **In which direction will this state machine shift bits out of its “output shift register”?**
     - Take the MSB and shift left.
 - Which TxFn is used for sending and RxFn used for receiving?
-  - From the pio.h, TxF1 is used for sending and RxF2 used for receiving.
+  - From the pio.h, TxF0 is used for sending and RxF0 used for receiving.
 
 
 ### Part 3.5 MODELING TIME
