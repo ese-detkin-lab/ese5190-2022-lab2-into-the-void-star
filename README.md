@@ -106,7 +106,13 @@ cmake .. -G "MinGW Makefiles"
 mingw32-make -j6
 
 ```
-Just set the GPIO pin high and add one header file to the Blink Example to make it work. 
+Just set the GPIO pin high and add one header file to the Blink Example to make it work. As you can see below:
+
+
+
+https://user-images.githubusercontent.com/114259992/196414985-e6df86c3-9598-4050-9d2a-aa439b0e73df.mp4
+
+
 
 Let's get started with our **Final Task**
 
