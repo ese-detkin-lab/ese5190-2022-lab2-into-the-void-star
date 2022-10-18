@@ -105,7 +105,8 @@ Below is the spreadsheet of the list of registers for PIO.
 |SM3_PINCTRL  | 0x5020124           | 0x124  |State machine 3 pin control                  | 0x00000000 | State machine 3 is not used. |
 
 ## 3.5: Photo of paper model
-![image](https://user-images.githubusercontent.com/113971230/196323273-841ebb02-1126-4d35-a0ae-5a517a9d86ab.png)
+
+![image](https://user-images.githubusercontent.com/113971230/196324816-d1f1cc4f-600e-4268-9c7e-d5c45b38bd59.png)
 
 ## 3.6: Complete packet transmission spreadsheet
 
