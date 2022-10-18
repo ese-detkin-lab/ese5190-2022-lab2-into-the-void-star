@@ -42,7 +42,7 @@ Q)What role does the pioasm “assembler” play in the example, and how does th
 
 ##  ANNOTATIONS FOR ws2812.C
 
-*The code for **ws2812.c** has been annotated with comments.
+* The code for **ws2812.c** has been annotated with comments.
 
 ![embedded_c1](https://user-images.githubusercontent.com/114244849/196307976-05af9e2a-d3d2-4847-a077-d6c97631ee3d.JPG)
 
@@ -62,7 +62,7 @@ Q)What role does the pioasm “assembler” play in the example, and how does th
 
 ##  ANNOTATIONS FOR WS2812.pio.h
 
-*The code for **ws2812.pio.h** has been annotated with comments.
+* The code for **ws2812.pio.h** has been annotated with comments.
 
 ![embedded_h1](https://user-images.githubusercontent.com/114244849/196355989-a4ea90cf-5813-4533-aba3-f1060ab84ee2.JPG)
 
