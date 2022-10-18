@@ -46,14 +46,14 @@ The role of the pioasm assembler is to translating assembly code into binary. If
 ## 3.3 FOLLOW THE FLOW
 For this part, I tried to describe the definition of the functions and their runing sequence.
 ### ws2812.c
-![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/ws2812.c1.jpg)
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/Lab%202%20Prob3/ws2812.c1.jpg)
 
-![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/ws2812.c2.jpg)
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/Lab%202%20Prob3/ws2812.c2.jpg)
 
 ### ws2812.pio.h
-![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/ws2812.pio.h1.jpg)
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/Lab%202%20Prob3/ws2812.pio.h1.jpg)
 
-![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/ws2812.pio.h2.jpg)
+![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/Lab%202%20Prob3/ws2812.pio.h2.jpg)
 
 ## 3.4 COLOR BY NUMBER
 
