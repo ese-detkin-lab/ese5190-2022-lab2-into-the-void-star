@@ -24,7 +24,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 
 # decision we made
-Before the modeling, I am not confident with the coding, so we look up to the datasheet and find out the meaning of each line of coding. Finally, we choose green as the color as do the following modeling. 
+Before the modeling, I am not confident with the coding, so we look up to the datasheet and find out the meaning of each line of coding. Finally, we choose green as the color as do the following modeling. The code we use is below:
+https://github.com/sudong-wang/ese5190-2022-lab2-into-the-void-star/blob/main/code(2).txt
 
 # 3.6 transmission spreadsheet & 3.7 time diagram
 ![a22b48994d02aeb2971234b711fa02b](https://user-images.githubusercontent.com/113209201/196409415-258fef86-8e38-4abe-903b-32fd86d52118.jpg)
@@ -33,6 +34,7 @@ Before the modeling, I am not confident with the coding, so we look up to the da
 
 # part 4
 ![WeChat_20221018033724 (1)](https://user-images.githubusercontent.com/113209201/196409324-724e298f-e7f4-401a-8444-a17e7222ec19.gif)
+The code:
 
 https://github.com/sudong-wang/ese5190-2022-lab2-into-the-void-star/tree/main/p4
 # Feedback
