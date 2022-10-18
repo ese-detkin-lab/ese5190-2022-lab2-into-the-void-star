@@ -142,7 +142,7 @@ Below is the spreadsheet of the list of registers for PIO.
 ## 3.7: Polished timing diagram
 ![image](https://user-images.githubusercontent.com/113971230/196361137-cc360726-1be3-4e48-9af4-7caf1623bd73.png)
 
-## 4: Working USB + WS2812 code folder
+## 4: Hello, Blinkenlight!
 - [Code Folder](https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/tree/main/pico-diy)
 
 - Result
@@ -150,6 +150,16 @@ Below is the spreadsheet of the list of registers for PIO.
 <div align=center>
 <img src="https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/blob/main/part4_gif.gif" width="450">  
 </div>
+
+1. Outside of the pico-examples folder, making a new test folder.
+
+2. Transferring files from the pico-examples folder.
+
+3. Altering the CMakelists files.
+
+4. Modifing the WS2812 code.
+
+5. Build .uf2 file and drag and drop it into the chip disk.
 
 ## Reflection
 - What were some strengths/weaknesses of working with paper?
