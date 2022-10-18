@@ -33,15 +33,18 @@ This [link](https://github.com/SurajMarthy1001/ese5190-2022-lab2-into-the-void-s
 
 ## 3.4 : Color by Number
 
-This [link]() contains the spreadsheet of initial registers
+This[3.4 Lab2.xlsx](https://github.com/SurajMarthy1001/ese5190-2022-lab2-into-the-void-star/files/9810321/3.4.Lab2.xlsx)
+ contains the spreadsheet of initial registers
 
 ## 3.5 : Modeling Time
+[Part 3.5suraj.pdf](https://github.com/SurajMarthy1001/ese5190-2022-lab2-into-the-void-star/files/9810326/Part.3.5suraj.pdf)
 
-This [link]() contains paper model of SM's operation as it relays a color packet to the Neopixel
+This  contains paper model of SM's operation as it relays a color packet to the Neopixel
 
 ## 3.6 & 3.7 : Zooming In & Timing Diagram
+[3.7 lab2.xlsx](https://github.com/SurajMarthy1001/ese5190-2022-lab2-into-the-void-star/files/9810322/3.7.lab2.xlsx)
 
-This [link]() contains timing diagram
+This  contains timing diagram
 
 ## 4 : Hello, Blinkenlight
 
