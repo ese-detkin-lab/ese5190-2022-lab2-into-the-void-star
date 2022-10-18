@@ -1,9 +1,9 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
     Prateek Bashista
+    Linkedin: https://www.linkedin.com/in/prateek-bashista-27858216a/
     Tested on: HP Pavillion Gaming Ryzen 5 4600H CPU, 16GB RAM
 
-(TODO: Your README)
 
 
 # PART 3: TALKING LEDS
@@ -49,6 +49,18 @@ PIO_FILE) invokes pioasm automatically and adding the generated header to the in
 ## 3.3 Follow the Flow
 
 1) Annotated C code images
+
+![image](https://user-images.githubusercontent.com/23244847/196356604-d61ee6ab-8138-4580-a667-5e183f4bfda9.png)
+![image](https://user-images.githubusercontent.com/23244847/196356648-ffe50536-3c96-44aa-b8b5-ffd4e7bfd924.png)
+![image](https://user-images.githubusercontent.com/23244847/196356711-20bb3e23-838a-40ba-9b15-99b3d377e5bd.png)
+![image](https://user-images.githubusercontent.com/23244847/196356735-e41f4f11-b509-43d8-a315-e833057739a0.png)
+
+2) Annotated Assembly Code
+![image](https://user-images.githubusercontent.com/23244847/196357169-06171cb9-e6e2-490f-a9cd-0dd9c43e1c4f.png)
+![image](https://user-images.githubusercontent.com/23244847/196357235-9495be98-9416-4b58-8c2b-104756b1e703.png)
+![image](https://user-images.githubusercontent.com/23244847/196357301-08fedd5e-c848-4b6a-9cb1-d6a96e1acaad.png)
+![image](https://user-images.githubusercontent.com/23244847/196357340-3a1dd4b4-a10b-4bf0-94cb-b9970bb56d0c.png)
+![image](https://user-images.githubusercontent.com/23244847/196357409-db32328f-08f9-4f09-9b8d-b6355a948313.png)
 
 
 
