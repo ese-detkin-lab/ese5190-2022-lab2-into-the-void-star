@@ -50,5 +50,6 @@ we can use it to build your PIO programs, for you to #include from your C or C++
 
 ## 3.4
 
+[ Photos or scans of your annotated code printouts](file:///F:/WeChat%20Files/wxid_0tt0orv1f6qw22/FileStorage/File/2022-10/3.3.pdf)
 
 
