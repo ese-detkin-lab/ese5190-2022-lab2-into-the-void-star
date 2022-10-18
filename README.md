@@ -84,10 +84,11 @@ https://github.com/Thea-E/ese5190-2022-lab2-into-the-void-star/tree/main/WS2812_
 ## Feedback
 I really appreciate that professor draft this thorough and detail worksheet for us, to help us approach to a deeper understanding step by step. However, I think the structure can be more brief and instruction can be more clear. 
 
-Firstly, I hope the worksheet can clearly state as 'written part' and 'coding part', it would make the structure more clear and help us better arrange the time before coming to the lab for code checking.
+Firstly, maybe the worksheet can clearly state as 'written part' and 'coding part', which would make the structure more clear and help us better arrange the time before coming to the lab for code checking.
 
-Secondly, I hope the instruction can be more straightforward and clear.
-For example, in 3.4 register table, if you could give us just a one-line example for the register table, explaining where to check in the datasheet and how to derive the value, it would be much clearer and save us lots of time being confused. 
+Secondly, I hope the instruction can be more straightforward and clear. For example, in 3.4 register table, if a one-line example for the register table is provided, explaining how the value is being derived, that would definitely adds to the clarity and save us lots of time being confused. 
 
-Similar in 3.4, 3.5, 3.6, we spent lots of time to figure out what exactly should we present. The instruction is so vague to me, even now I am not sure what we should do in 3.6 and 3.7. I believe it would not only help us better understand the purpose but also help TAs a lot when grading if you could include a sample spreadsheet(showing rows and columns names) and let us fill out the values/waveforms. 
+Similar in 3.4, 3.5, 3.6, comparing to the time we spent in deriving the diagrams, we spent much more time struggling to figure out what exactly we should present. The instruction is vague to me, honestly I am still not sure what we should present in 3.6 and 3.7. I believe it would not only help us better understand the purpose but also help TAs a lot when grading if a sample spreadsheet(showing rows and columns names) could be provided and let us fill out the values/waveforms. 
+
 Again, thank you so much for preparing all the lab materials! We've really learned a lot from this lab!
+Best regards.
