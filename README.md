@@ -1,6 +1,6 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
-SOUMYA RANJAN DASH DASH<br />
+SOUMYA RANJAN DASH<br />
 https://www.linkedin.com/in/srd00/<br />
 Tested on:DELL Inspiron 14 2-in-1 (14-inch, 2022), Windows 11 Home 21H2<br />
 
