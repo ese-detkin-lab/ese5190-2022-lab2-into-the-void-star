@@ -8,6 +8,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
+
+PART 3: TALKING LEDS
 ##
 
 3.2
@@ -63,6 +65,8 @@ ws2812.pio.h
 ![image](https://user-images.githubusercontent.com/114256663/196361042-5f670421-c243-4e08-a9da-32ad88367e9e.png)
 ![image](https://user-images.githubusercontent.com/114256663/196361083-42576315-242e-4bef-8f69-724077189e98.png)
 
+##
+
 
 
 3.4 COLOR BY NUMBER
@@ -74,7 +78,7 @@ ws2812.pio.h
 
 
 
-
+##
 
 3.5 MODELING TIME
 
@@ -82,9 +86,20 @@ o What basic circuitry does a WS2812 LED need to operate?
 shift
 
 o How do you connect a WS2812 to a microcontroller?
-A serial data input to WS2812
 
-o How does a WS2812 translate bits to color values? o How do you send a single 1 or 0 bit to the WS2812? o How many bits does it take to send a single color value?
+A serial data input to WS2812： 
+WS2812: DIN port receives data from the controller，RP2040: GPIO port 12 sends data to WS2812
+
+
+o How does a WS2812 translate bits to color values? 
+The width of the pulse
+
+o How do you send a single 1 or 0 bit to the WS2812? 
+
+
+
+o How many bits does it take to send a single color value?
+
 
 
 o What happens if you send more bits than this in a packet? o How do you tell a WS2812 you’re done sending data?
@@ -97,8 +112,16 @@ o How do you send data to more than one WS2812 in a chain?
 
 
 
+##
+
 3.6 ZOOMING IN
 
+
+
+##
+
+
+PART 4: HELLO, BLINKENLIGHT
 
 
 
