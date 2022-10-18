@@ -110,21 +110,21 @@ This can be visualized in the following:
 # At the end of your writeup of section 3, reflect on the tools you used for modeling from a user interface design perspective.
 
 
-o What were some strengths/weaknesses of working with paper?
+## What were some strengths/weaknesses of working with paper?
 
-strengths: Flexibility in representation	
+Strengths: Flexibility in representation	
 
-weaknesses: time consuming and making changes is difficult
-
-
-o What were some strengths/weaknesses of working with spreadsheets?
-
-strengths: much cleaner than paper model and saves time		
-
-weaknesses: Regid way of representation (only tabular)
+Weaknesses: time consuming and making changes is difficult
 
 
-o How might you approach this task using other tools available to you?
+## What were some strengths/weaknesses of working with spreadsheets?
+
+Strengths: much cleaner than paper model and saves time		
+
+Weaknesses: Regid way of representation (only tabular)
+
+
+## How might you approach this task using other tools available to you?
 
 Ans: Flowchart can also be used to show the flow of the code
 
