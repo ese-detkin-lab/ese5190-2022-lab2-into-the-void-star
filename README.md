@@ -51,18 +51,24 @@ we can use it to build your PIO programs, for you to #include from your C or C++
 ws2812.c
 
 
-https://github.com/real-YingXu/ese5190-2022-lab2-into-the-void-star/blob/main/ws2812_h.pdf
+
+![image](https://user-images.githubusercontent.com/114256663/196360794-c3925af2-80cd-4cfb-8d8b-11c713c27ce4.png)
+![image](https://user-images.githubusercontent.com/114256663/196360918-9e946275-6ce9-401b-a2ea-d163311c171c.png)
+![image](https://user-images.githubusercontent.com/114256663/196360945-bf6d4822-034f-4a37-8a3d-2a60c3b98d4d.png)
 
 
 ws2812.pio.h
 
-!https://github.com/real-YingXu/ese5190-2022-lab2-into-the-void-star/blob/main/ws2812_h.pdf
+![image](https://user-images.githubusercontent.com/114256663/196360995-afff3ecc-8e01-42b1-ab8d-5872e657991e.png)
+![image](https://user-images.githubusercontent.com/114256663/196361042-5f670421-c243-4e08-a9da-32ad88367e9e.png)
+![image](https://user-images.githubusercontent.com/114256663/196361083-42576315-242e-4bef-8f69-724077189e98.png)
 
 
 
 3.4 COLOR BY NUMBER
 
-
+<img width="1100" alt="image" src="https://user-images.githubusercontent.com/114256663/196361243-cb8268c1-4792-4d60-ae2b-a67debcbbbda.png">
+<img width="1110" alt="image" src="https://user-images.githubusercontent.com/114256663/196361279-38707571-c132-4f1f-97a0-29fa8498bbf2.png">
 
 
 
@@ -71,6 +77,25 @@ ws2812.pio.h
 
 
 3.5 MODELING TIME
+
+o What basic circuitry does a WS2812 LED need to operate?
+shift
+
+o How do you connect a WS2812 to a microcontroller?
+A serial data input to WS2812
+
+o How does a WS2812 translate bits to color values? o How do you send a single 1 or 0 bit to the WS2812? o How many bits does it take to send a single color value?
+
+
+o What happens if you send more bits than this in a packet? o How do you tell a WS2812 you’re done sending data?
+
+
+o How do you send data to more than one WS2812 in a chain?
+
+
+
+
+
 
 3.6 ZOOMING IN
 
