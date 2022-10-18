@@ -43,20 +43,33 @@ There are 4 PIO state machines.There is a shared instruction memory for all thes
 In the pico SDK the pioasm is an assembler that translates the assmebly code from the pio.h file into the binary code needed to be loaded in the state machine.
 In the CMake file tehre exists a function known as pico_generate_pio_header(TARGETPIO_FILE) which invokes the Pioasm, which makes it easier as we dont have to invoke it from the C-SDK.
 
-8.
+### II) What were some strengths/weaknesses of working with paper?
+
+Strengths:
+1. Easier to initate the design and proptptype the model
+2. Clear understanding by simplification.
+3. Helps to put down ideas.
+
+Weakness:
+1. Large number of sheets to be printed and referred to.
+2. Connecting data from different sheets is difficult.
+
+### III) What were some strengths/weaknesses of working with spreadsheets?
+
+Strengths:
+1. Data and information represented systematically.
+2. Data can be imported easily.
+
+Weakness:
+1. Difficult to explain details about the data.
+2. Sometimes too much information could be overwhelming.
+
+### IV) How might you approach this task using other tools available to you?
+1. Online Videos and Tutorials.
+2. SDK Documentation
+3. Use of an IDE to simplify coding.
+2. 
 
 
 
-Brief responses to the reading questions in 3.2. 
-• Brief discussion of decisions you made while 
-working with your modeling documents. 
-• At the end of your writeup of section 3, reflect 
-on the tools you used for modeling from a user 
-interface design perspective. 
-o What were some strengths/weaknesses of 
-working with paper? 
-o What were some strengths/weaknesses of 
-working with spreadsheets?  
-o How might you approach this task using 
-other tools available to you?  
 
