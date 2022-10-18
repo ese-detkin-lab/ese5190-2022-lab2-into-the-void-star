@@ -69,8 +69,6 @@ The value in the register for sequential address is then given as follows:
 ![](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media_For_Lab2/Print_Value_3.png)
 ![](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media_For_Lab2/Print_Value_4.png)
 
-<div align=center><img width="400" height="300" src="Print_Value_3.png"/></div>
-<div align=center><img width="400" height="300" src="Print_Value_4.png"/></div>
 The detailed PDF is given as follows:  
 
 3.4 Table [COLOR BY NUMBER](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/3.4_Register_List.pdf) 
@@ -80,7 +78,7 @@ There are 10 SM clock cycles for 1 bit color data written into the FIFO. For 24 
 
 T1 = 2, T2 =5, T3 = 3
 
-<img src="18to26.jpg" style="zoom:70%"> <br> 
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media_For_Lab2/18to26.jpg)
 l1 is an out instruction .out takes some bits from the output shift register(OSR) and writes them somewhere else.  
  [T3-1] is responisble calculating number of delay cycles.  
 
@@ -89,7 +87,7 @@ x denotes the destination of the write data
 
 sdie 1 on the side-set pin
 The flow for the required drawing is given as follows:
-<img src="3.5.jpg" style="zoom:70%"> <br> 
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media_For_Lab2/3.5.jpg)
 The above diagram would start when data ready at the TX FIFO and ends when the first bit sent to the GPIO pin to WS2812. In our drawing, different bits(0 or 1) is being considered. 
 
 A limitation of the drawing is the time dealy here could not be depicted very precise, which may affect the control of the clock. Since the time required to transmit a signal is 1.25us while it is also the time period for ws2812 to receive a signal.
@@ -122,14 +120,14 @@ refills the OSR from the TX FIFO (an automatic pull) when a configured number of
   3.6 Table [Zooming in](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/3.6_Zoom_In.pdf) 
 
 The voltage for the emitting color for WS2812'S LED and the data transfer time for T0H T1H...T0L T1L and RES are given in the following graph:
-<img src="WS_2812_LED'S_LUMINANCE.PNG" style="zoom:70%"> <br>   
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media_For_Lab2/WS_2812_LED'S_LUMINANCE.PNG)
 
 # 3.7 Timing Diagram 
 General sequence:  
 FIFO->SM->WS2812->APDS-9960  
 
 Refer to the following link [3.7](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/3.6_Zoom_In.pdf) and the below timing diagram:
-<img src="3.7.jpg" style="zoom:70%"> <br>   
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media_For_Lab2/3.7.jpg)
 
 # Tools Comparison  
 
