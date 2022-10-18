@@ -85,9 +85,12 @@ The Timing Diagram is as shown below: <br>
 ## Your complete packet transmission spreadsheet ##
 
 Here the values we were calculating earlier for 1 bit are now calculated for 32 bit. You can access the Spreadsheet using the following link: <br>
+https://github.com/AkshayaBhati/ese5190-2022-lab2-into-the-void-star/blob/main/Part%203.6%20ESE%20519.xlsx
 
+## Your polished timing diagram ##
 
-
+The timing diagram to summarize the behavior of the system from the FIFO message delivery all the way to the LED visibly changing color is as follows: <br>
+![Timing Diagram  3 7](https://user-images.githubusercontent.com/114259992/196412038-66dddbea-b16f-42d9-9ede-90da9e9e1e1f.PNG)
 
 # Part 4: #
 
