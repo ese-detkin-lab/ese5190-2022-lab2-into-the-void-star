@@ -23,3 +23,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 ![f7c56668b91fc16e9577ff7c5d8541d](https://user-images.githubusercontent.com/113209201/196402005-6227246c-9303-4a68-a4ce-9b9c79d3a583.jpg)
 
 # 3.6 transmission spreadsheet
+
+
+#part 4
+https://github.com/sudong-wang/ese5190-2022-lab2-into-the-void-star/tree/main/p4
