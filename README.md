@@ -49,11 +49,17 @@ The connection between WS2812 and the RP2040 is wired connection. More specific,
 WS2812 receive color data in the GRB order. For the first 8 bit of the received 24 bit data, it is recognized as data for Green channel, and the second and thrid 8 digits for Red and Blue channels respectively.
 
 4. How do you send a single 1 or 0 bit to the WS2812?<br>
+WS2812 uses a non-return-to-zero protocol to communicate with other hardware: the length of the time period a high voltage continues identifies two different digits.  When the high voltage lasts 0.7us and followed by a low voltage input lasts 0.6us would be recognized as digit 1.  When the high voltage lasts 0.35us, which is shorter than the length of digit 1's high voltage input, followed by a low voltage input lasting 0.8us would be recognized as digit 0.
 
-5. How many bits does it take to send a single color value?
+5. How many bits does it take to send a single color value?<br>
+It takes 24 bits.
 
-6. What happens if you send more bits than this in a packet?
+6. What happens if you send more bits than this in a packet?<br>
+Extra bits will be output from the first WS2812 LED and send to the rest of WS2812 LED.
 
-7. How do you tell a WS2812 you’re done sending data?
+7. How do you tell a WS2812 you’re done sending data?<br>
+The TX FIFO will be empty, and the SM will stalled.
 
-8. How do you send data to more than one WS2812 in a chain?
+8. How do you send data to more than one WS2812 in a chain?<br>
+When serial data is presented at the LED’s input, it takes the first three bytes for itself (Green, Red, Blue) and the remainder is passed along to its serial data output. Often these LEDs are connected in a single long chain, each LED connected to a common power supply, and each LED’s data output connected through to the next LED’s input. A long burst of serial data to the first in the chain will deposit three bytes of GRB data in each LED, so their colour and brightness can be individually programmed.
+
