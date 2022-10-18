@@ -123,7 +123,7 @@ either directly from the CPU or through system DMA, which is substantially quick
 
 # 3.6
 Your complete packet transmission spreadsheet.
-[This](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%203/Part%203.6.xlsx) is the link of the spreadsheet that I have prepared for this portion of the answer. 
+![This](https://github.com/satyajeetburla/ese5190-2022-lab2-into-the-void-star/blob/main/Part%203/Part%203.6.xlsx) is the link of the spreadsheet that I have prepared for this portion of the answer. 
 
 # 3.7
 Timing Diagram
