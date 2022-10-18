@@ -51,7 +51,13 @@ While working with your modeling documents, I decided to list the points of info
     The strength of working with paper is that it is convenient to draw graph and illustrate ideas on paper.
     
     The weakness of paper is that modifying written answers and performing computations can be troublesome.
-- dd
+    
+- What were some strengths/weaknesses of working with spreadsheets?
+
+    The strength of working with paper is that it is convenient to draw graph and illustrate ideas on paper.
+    
+    The weakness of paper is that modifying written answers and performing computations can be troublesome.
+    
 - ddd
 
 ## 4.0 HELLO, BLINKENLIGHT
