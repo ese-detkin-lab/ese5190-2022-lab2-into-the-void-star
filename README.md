@@ -66,6 +66,15 @@ PIO_FILE) invokes pioasm automatically and adding the generated header to the in
 
 The following excel sheet contains the list of specified registers, addresses and values. [LINK](https://github.com/prateekbashista/ese5190-2022-lab2-into-the-void-star/blob/69fa405308230dad20a24261320bbfa69d83848d/3.4.xlsx)
 
+## 3.5 Modelling Time
+
+The following image elaborates the answers of question 3.5
+![image](https://user-images.githubusercontent.com/23244847/196360622-3701969e-9517-4089-bf13-b268d84797e5.png)
+
+## 3.6 - 3.7 Zooming In and Timing Diagram
+
+The following excel sheet contains the list of specified registers, addresses and values.[LINK](https://github.com/prateekbashista/ese5190-2022-lab2-into-the-void-star/blob/b68fe272b76521b4ef9d0a25a23f2c4e2a6cef8c/3.7-3.6.xlsx)
+
 
 
 
