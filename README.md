@@ -1,9 +1,6 @@
-University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
+# 3.2
+## Code illustration
+![111](https://user-images.githubusercontent.com/113371324/196418504-09bea314-2fb5-4f9a-b376-2f30b960ee88.png)
+![222](https://user-images.githubusercontent.com/113371324/196418513-aa2190b0-d24d-4335-be25-023ccbd652d9.png)
+![333](https://user-images.githubusercontent.com/113371324/196418517-622a5e96-9994-4cfa-b4a2-065145171495.png)
 
-    (TODO) YOUR NAME HERE
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
-
-(TODO: Your README)
-
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
