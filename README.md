@@ -109,6 +109,10 @@ Check the file 【**part3.5**】
 
 Check the file 【**Spreadsheet of initial PIO register states.xlsx**】
 
+# Part 4
+
+Check the file 【**part4**】for detailed code.
+
 # Reflection
 
 The data sheet of MCU and sensor and the handout for SDK is really a good resource to check when we begin to code our onw project. But the data they contain is huge, creating our own sheet for data we need to check oftenly will help a lot when we encounter some specifc question like address issures.
