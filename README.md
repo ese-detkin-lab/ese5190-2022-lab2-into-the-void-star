@@ -90,3 +90,8 @@ The Excel File contains the values for the registers : [Link](https://github.com
 ### PART 3.6 : ZOOMING IN AND TIMING DIAGRAM
 
 The Excel File contains timing data for packet transfer to the `ws2812` module : [Link](https://github.com/Ruturajn/ese5190-2022-lab2-into-the-void-star/blob/main/ESE5190-3.7.xlsx)
+
+### PART 4 : HELLO BLINKENLIGHT
+
+
+https://user-images.githubusercontent.com/56625259/196392029-b82e49ca-d3dc-409e-9239-3145cd341b79.mp4
