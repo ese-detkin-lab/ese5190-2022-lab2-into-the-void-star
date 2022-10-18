@@ -3,9 +3,6 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
     Wenxiwei
     Tested on: XiaoXinPro 16ACH 2021
 
-
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
-
 ### 1.Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?
 One reason is that the timing uncertainty of actually entering an interrupt handler. When the processor is doing the "bit-banging", it cannot be used for other tasks. And also the processor speed is much higher than protocol speed, therefore there will waste mauch time to waiting.
 
@@ -28,4 +25,6 @@ We need to use these functions, like pio_gpio_init(pio, pin); pio_set_consecutiv
    
 ### 7.  What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
 we can use it to build your PIO programs, for you to #include from your C or C++ program. pioasm can also be used directly, and has a few features not used by the C++ SDK, such as generating programs suitable for use with the MicroPython PIO library. And CMake function pico_generate_pio_header(TARGET PIO_FILE) takes care of invoking pioasm and adding the generated header to the include path of the target TARGET.
+   
+   
    
