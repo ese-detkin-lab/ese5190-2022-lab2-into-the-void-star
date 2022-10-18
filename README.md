@@ -48,6 +48,7 @@ The function used is the put_pixel function. This is declared using the Pio_sm_p
 The PIO assembler is included with the SDK, and is referred to as pioasm. This program processes a PIO assembly input text file, which may contain multiple programs, and writes out the assembled programs ready for use. For the SDK these assembled programs are emitted in form of C headers, containing constant arrays. the CMake function pico_generate_pio_header(TARGET PIO_FILE) takes care of invoking pioasm and adding the generated header to the include path of the target TARGET for you.
 
 ### Reading questions in 3.4
+
 -Which PIO instance is being used?<br>
 From the code we can see that pio0 is used as the sm used is set to 0.
 
@@ -63,14 +64,14 @@ As the code is written it uses pin 2. We rewrite it to work with pin 11.
 -How much is this state machine’s clock scaled down relative to the system clock? (i.e. the “clock divisor”)<br>
 16.625
 
-- In which direction will this state machine shift bits out of its “output shift register”?<br>
+-In which direction will this state machine shift bits out of its “output shift register”?<br>
 Right Shift
 
 ## Decisions taken during modelling
 We decided to use blue light of the highest intensity at the very beginning as the light to be transmitted. This made it so that the data that we would transmit would be 0x000000FF which made computations and demonstrations slightly easier.
 
 ## Reflections
-- What were some strengths/weaknesses of working with paper and spreadsheets?<br>
+-What were some strengths/weaknesses of working with paper and spreadsheets?<br>
 Strengths: Poring through documentation tends to make you understand atleast 50% of what's happening at the register level in the board.<br>
 Weaknesses: Considering the size of the documentation, without some sort of guidance at the start you feel like you are thrown off the deep end. In addition following the the code at the bit level is very tedious and when you are not aware how each register functions at an atomic scale, it becomes very hard to track and follow through. Despite having an electronics background I found it difficult, time-consuming and error-prone to follow through some parts of the assignment writeup. Students from other disciplines would have had a rougher time.
 
