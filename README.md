@@ -100,6 +100,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2
 |SM2_PINCTRL  | 0x502010c           | 0x10c  |State machine 2 pin control                  | 0x00000000 | State machine 2 is not used.                                 |
 |SM3_PINCTRL  | 0x5020124           | 0x124  |State machine 3 pin control                  | 0x00000000 | State machine 3 is not used.       
 |
+
 ## 3.5: Photo of paper model
 
 ## 3.6: Complete packet transmission spreadsheet
