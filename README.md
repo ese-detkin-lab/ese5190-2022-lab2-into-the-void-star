@@ -27,3 +27,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 ## 3.3 FOLLOW THE FLOW
 
 The link to our annotated code printouts is https://github.com/ZhijingY/ESE519-lab2/blob/main/hw2_writeup/3.3.pdf.
+
+## 3.4 COLOR BY NUMBER
+
+The link to our spreadsheet of initial PIO register states is https://github.com/ZhijingY/ESE519-lab2/blob/main/hw2_writeup/3.4_RegistersList.docx.
