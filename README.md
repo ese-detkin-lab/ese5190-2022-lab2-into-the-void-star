@@ -128,6 +128,8 @@ The following Excel file contains timing data for packet transfer to `ws2812` mo
 
 <br>
 
+https://user-images.githubusercontent.com/52575718/196387462-d7f4a053-e6cd-499d-80c0-7f6df370626e.mp4
 
+<br>
 
-Here is the folder containing the code and build files: 
+Here is the folder containing the code files: [CODE](https://github.com/arnavgadre/ese5190-2022-lab2-into-the-void-star/tree/main/hello_blinkenlight)
