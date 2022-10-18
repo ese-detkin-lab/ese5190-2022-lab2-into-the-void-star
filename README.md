@@ -84,7 +84,7 @@ To begin, we first answer the following questions:
 
     And then we can calculate 
     
-    div=(125*10^{6})/(800000*10)=15.625
+    div=(125x10^{6})/(800000x10)=15.625
     
 
 - In which direction will this state machine shift bits out of its “output shift register”?
