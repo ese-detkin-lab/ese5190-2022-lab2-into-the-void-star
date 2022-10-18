@@ -39,5 +39,14 @@ we can use it to build your PIO programs, for you to #include from your C or C++
 
 ## 3.4
 
+We chose the color: 0x0000ff(Blue)
+[RegistersList.pdf](https://github.com/Phoebe-www/ese5190-2022-lab2-into-the-void-star/files/9806768/RegistersList.pdf)
+
+## 3.5
+
+
+
+
+
 
 
