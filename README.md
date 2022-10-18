@@ -53,10 +53,16 @@ And CMake function pico_generate_pio_header(TARGET PIO_FILE) takes care of invok
 ### 3.4 Color by Number
 We choose the color blue with value 0x00ff00：
 Here is the [list of register](https://github.com/MaxMa6150/ese5190-2022-lab2-into-the-void-star/blob/main/RegisterList_3.4.xlsx).
+![fb3e222239a723a8a36987e85852102](https://user-images.githubusercontent.com/114200453/196376939-99f629ac-f8f1-49f3-88db-3354cfd0c025.jpg)
+
 
 ### 3.5 Modeling Time
 The model/chart with the code is attached below:
 ![e0b00783580c2c6e7955fce979ce67e](https://user-images.githubusercontent.com/114200453/196373103-88f8a259-ec6f-437a-9601-0142a0195496.jpg)
+
+As shown in the model, 10 SM clock cycles take place from when color data is written to the FIFO up until the first full bit is sent, and make a numbered column for each time window.
+
+
 
 
 
