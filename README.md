@@ -44,8 +44,8 @@ A: The PIO assembler. Through the CMake function pico_generate_pio_header(TARGET
 # 3.3 Annotated Code
 
 These are the annotations for ws2812.c
-![0d768cda79b2ebc448dc157c632e14b](https://user-images.githubusercontent.com/90922933/196425386-7fa472c6-f410-4777-b08e-a21101![5dbf440c4b3c96535b3feb9a19beb2e](https://user-images.githubusercontent.com/90922933/196425402-0838b963-bd79-401b-b971-1f7a2be59173.jpg)
-c0214a.jpg)
+![0d768cda79b2ebc448dc157c632e14b](https://user-images.githubusercontent.com/90922933/196425755-6f1a7466-e713-4dde-9685-25b4ae38d844.jpg)
+![5dbf440c4b3c96535b3feb9a19beb2e](https://user-images.githubusercontent.com/90922933/196425766-2b21666c-6b98-4676-8ebb-232a024b4506.jpg)
 
 These are for ws2812.pio.h
 ![2001001baf1c4d246c5310ec9a34dbe](https://user-images.githubusercontent.com/90922933/196425508-63e54a57-6ac9-4011-9978-f7823838cd63.jpg)
