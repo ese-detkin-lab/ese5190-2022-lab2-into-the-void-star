@@ -7,7 +7,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 1. Question 3.2
 
-        [lab 2_3.2.pdf](https://github.com/zgu74/ese5190-2022-lab2-into-the-void-star/files/9806668/lab.2_3.2.pdf)
+        [lab 2_3.2.pdf](https://github.com/zgu74/ese5190-2022-lab2-into-the-void-star/files/9806673/lab.2_3.2.pdf)
+
 
         
 2. Modeling Decisions
