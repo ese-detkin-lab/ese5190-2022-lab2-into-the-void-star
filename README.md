@@ -17,7 +17,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
         static inline void put_pixel(uint32_t pixel_grb) {
    
-        pio_sm_put_blocking(pio0, 0, pixel_grb << 8u);
+            pio_sm_put_blocking(pio0, 0, pixel_grb << 8u);
    
         }
 
