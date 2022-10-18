@@ -51,6 +51,13 @@ Initial register spreadsheet
 ## 4: Hello, Blinkenlight
 The repository contains the folder called 'pio' which contains the necessary code: https://github.com/koushik-sss/ese5190-2022-lab2-into-the-void-star-sai/tree/main/pio
 
+Video:
+
+
+https://user-images.githubusercontent.com/64246696/196428106-24c61d9b-6543-4413-a91d-726137dca013.mp4
+
+
+
 ## Decisions Taken
 This lab was performed after going through several documents and online examples on how a PIO and state machine works.
 
