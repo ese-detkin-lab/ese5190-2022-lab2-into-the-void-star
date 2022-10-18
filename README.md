@@ -139,7 +139,7 @@ Below is the spreadsheet of the list of registers for PIO.
 ## 4: Working USB + WS2812 code folder
 [Code Folder](https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/tree/main/pico-diy)
 
--Result
+- Result
 
 <div align=center>
 <img src="https://github.com/lihzhao14/ese5190-2022-lab2-into-the-void-star/blob/main/part4_gif.gif" width="450">  
