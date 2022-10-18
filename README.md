@@ -33,19 +33,19 @@ This [link](https://github.com/SurajMarthy1001/ese5190-2022-lab2-into-the-void-s
 
 ## 3.4 : Color by Number
 
-	This link <> contains the spreadsheet of initial registers
+This [link]() contains the spreadsheet of initial registers
 
 ## 3.5 : Modeling Time
 
-	This link <> contains paper model of SM's operation as it relays a color packet to the Neopixel
+This [link]() contains paper model of SM's operation as it relays a color packet to the Neopixel
 
 ## 3.6 & 3.7 : Zooming In & Timing Diagram
 
-	This link <> contains timing diagram
+This [link]() contains timing diagram
 
 ## 4 : Hello, Blinkenlight
 
-	This link <> directs to the folder that has the code and header files needed to blink the Neopixel when a certain Serial output is seen
+This [link]() directs to the folder that has the code and header files needed to blink the Neopixel when a certain Serial output is seen
 
 ## Decisions Taken
 
