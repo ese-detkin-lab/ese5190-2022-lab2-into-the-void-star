@@ -37,3 +37,18 @@ Q: What role does the pioasm “assembler” play in the example, and
 how does this interact with CMake? 
 
 A:
+
+
+# 3.3 Annotated Code
+
+# 3.4 PIO Register Spreadsheet
+
+# 3.5 Paper Model
+
+
+
+# 3.6 Transmission Spreadsheet
+
+
+
+# 3.7 Time Diagram
