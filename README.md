@@ -39,7 +39,15 @@ Include lab questions, screenshots, analysis, etc. (Remember, this is public, so
   System software loads data into the PIO's instruction memory and then set the i/o mapping.
 
 3.2.6 In the example, which low-level C SDK function is directly responsible for telling the PIO to set the LED to a new color? 
-How is this function
+How is this function accessed from the main “application” code?
+
+  pio_sm_put_blocking
+  pio_sm_put_blocking() is called with the parameters from the  put_pixel().
+
+3.2.7 What role does the pioasm “assembler” play in the example, and how does this interact with CMake?
+
+  Our program written in C language can be built to assembler with GCC.
+  We can use CMake to generate uf2 file which can be recognized by the board.
 
 
 
