@@ -3,17 +3,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
     Akshaya Nidhi Bhati
     LinkedIn: https://www.linkedin.com/in/akshaya-nidhi-bhati-6467841b3/?originalSubdomain=in
     Tested on: HP Pavilion (14-inch, 2021), Windows 11
-
-(TODO: Your README)
-
-# ESE-519-Lab-2A
-ESE 519 LAB 2A
-
-Akshaya Nidhi Bhati: University of Pennsylvania ESE 5190: Introduction to Embedded Systems, Lab 2A
-LinkedIn: https://www.linkedin.com/in/akshaya-nidhi-bhati-6467841b3/?originalSubdomain=in
-
-Tested on:  HP Pavilion 14, Windows 11
-
+    
 # Part 3: #
 
 ## PIO ##
@@ -58,6 +48,12 @@ The low-level C SDK function that is directly responsible for telling the PIO to
 how does this interact with CMake?** <br>
 Pioasm: it is the PIO assembler included in the SDK. In the example it processes an input text file of PIO assembly that might contain multiple programs and it writes out the ready-to-use assembled programs. These programs containing constant arrays are emitted in the form of C headers.  
 It interacts with the CMake using the pico_generate_pio_header(TARGET PIO_FILE) function as it invokes pioasm and the header is also added in the include path of the target using this. Therefore, we do not have to invoke pioasm in the SDK directly. <br>
+
+## Follow the flow ##
+
+The explantion for the files below is done throughtly in the uploaded PDF's for each along with the Line wise execution of the Program. <br>
+• ws2812.c <br>
+• generated/ws2812.pio.h <br>
 
 ## Spreadsheet of initial PIO register states ##
 
