@@ -1,9 +1,39 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
-    (TODO) YOUR NAME HERE
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
+    Yangbo Zhou
+    Tested on:  HP Envy 13, Windows 11
 
-(TODO: Your README)
+# 3.2 PIO Questions
 
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
+Q: Why is bit-banging impractical on your laptop, despite it having a 
+much faster processor than the RP2040?  
+
+A:
+
+Q: What are some cases where directly using the GPIO might be a 
+better choice than using the PIO hardware?
+
+A:
+
+Q: How do you get data into a PIO state machine? 
+
+A:
+
+Q: How do you get data out of a PIO state machine? 
+
+A:
+
+Q: How do you program a PIO state machine? 
+
+A:
+
+Q: In the example, which low-level C SDK function is directly 
+responsible for telling the PIO to set the LED to a new color? How 
+is this function accessed from the main “application” code? 
+
+A:
+
+Q: What role does the pioasm “assembler” play in the example, and 
+how does this interact with CMake? 
+
+A:
