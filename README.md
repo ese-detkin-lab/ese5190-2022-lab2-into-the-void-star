@@ -51,5 +51,8 @@ And CMake function pico_generate_pio_header(TARGET PIO_FILE) takes care of invok
 [ws2812.pio.h](https://github.com/MaxMa6150/ese5190-2022-lab2-into-the-void-star/blob/main/3.3_ws2812_h-1.pdf)
 
 ### 3.4 Color by Number
+We choose the color blue with value 0x00ff00：
+
+
 
 
