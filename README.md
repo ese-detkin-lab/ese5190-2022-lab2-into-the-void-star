@@ -33,9 +33,6 @@ we can use it to build your PIO programs, for you to #include from your C or C++
 <img width="636" alt="820153fe147c1066dbfe9db63ae4b17" src="https://user-images.githubusercontent.com/114196821/196307144-fb02e134-680d-4b98-87b2-8b65939f79dc.png">
 <img width="661" alt="6ce74708b866d990e0f17a8ff83e3f9" src="https://user-images.githubusercontent.com/114196821/196307156-68ef2c4e-f693-48ca-a917-3a13b4ae00f8.png">
 
-
-
-
-
 ### generated/ws2812.pio.h
+![692268138041952490](https://user-images.githubusercontent.com/114196821/196307753-90ce332d-dc73-482b-a90c-da3b9793dd6c.png)
    
