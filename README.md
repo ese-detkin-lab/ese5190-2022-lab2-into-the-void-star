@@ -22,8 +22,12 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 ![fc7efd4dfa9325e9d917fdd74714d2c](https://user-images.githubusercontent.com/113209201/196401975-1db43aea-cd58-411d-a7ab-7a4503680296.jpg)
 ![f7c56668b91fc16e9577ff7c5d8541d](https://user-images.githubusercontent.com/113209201/196402005-6227246c-9303-4a68-a4ce-9b9c79d3a583.jpg)
 
-# 3.6 transmission spreadsheet
+# 3.6 transmission spreadsheet & 3.7 time diagram
+![a22b48994d02aeb2971234b711fa02b](https://user-images.githubusercontent.com/113209201/196409415-258fef86-8e38-4abe-903b-32fd86d52118.jpg)
+
 
 
 #part 4
+![WeChat_20221018033724 (1)](https://user-images.githubusercontent.com/113209201/196409324-724e298f-e7f4-401a-8444-a17e7222ec19.gif)
+
 https://github.com/sudong-wang/ese5190-2022-lab2-into-the-void-star/tree/main/p4
