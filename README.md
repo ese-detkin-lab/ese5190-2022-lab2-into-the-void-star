@@ -50,6 +50,11 @@ This  contains timing diagram
 
 This [link](https://github.com/SurajMarthy1001/ese5190-2022-lab2-into-the-void-star/tree/main/ledhello) directs to the folder that has the code and header files needed to blink the Neopixel when a certain Serial output is seen
 
+
+https://user-images.githubusercontent.com/69215958/196429128-bab8395d-db65-49f4-9a87-8242302f350f.mp4
+
+
+
 ## Decisions Taken
 
 - This lab was performed after going through several documents and online examples on how a PIO and state machine works. 
