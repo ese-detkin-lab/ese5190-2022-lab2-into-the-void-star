@@ -40,10 +40,10 @@ Below is the spreadsheet of the list of registers for PIO.
 | :---:    | :---:                  | :---:  | :---:                                       | :---: | :---: |
 |BASE      | 0x5020000              | NONE   |PIO0_BASE<br>PIO1_BASE|NONE|Base address for PIO0_BASE and PIO1_BASE                   |
 |CLTR      | 0x5020000              | 0x000  |PIO control register                         | 0x00000001 ||
-|FSTAT     | 0x5020004              | 0x004  |FIFO status register                         | 0x0f000f01 | State machine 0's TX FIFO is  filled with color data while its RX FIFO is not used.     Other 3 state machine is not enabled. |
-|FDEBUG    | 0x5020008              | 0x008  |FIFO debug register                          | 0x01000f00 | State machine 0's TX FIFO is  full and its RX is not used here.     Other 3 state machine is not enabled. |
-|FLEVEL    | 0x502000c              | 0x00c  |FIFO level register                          | 0x00000000 | Only state machine 0's TX is  used, no level specficed for other TX or RX register |
-|TXF0      | 0x5020010              | 0x010  |TXF0 register                                | 0x00000000 | The color 0xFF0000 is used here  for state machine 0. Since the WS2812 takes onlt GRB channel orders, the RGB  is transmitted in the form of GRB after transform. |
+|FSTAT     | 0x5020004              | 0x004  |FIFO status register                         | 0x0f000f01 | While State Machine 0's RX FIFO is not in use, its TX FIFO is loaded with color data. |
+|FDEBUG    | 0x5020008              | 0x008  |FIFO debug register                          | 0x01000f00 | While State Machine 0's RX FIFO is not in use, its TX FIFO is loaded with color data.. |
+|FLEVEL    | 0x502000c              | 0x00c  |FIFO level register                          | 0x00000000 | No level is specified for any other TX or RX registers, only the TX of state machine 0 is used. |
+|TXF0      | 0x5020010              | 0x010  |TXF0 register                                | 0x00000000 | State machine 0 is represented here by the color 0xFF0000. The RGB is transmitted as a GRB after transform because the WS2812 only accepts GRB channel instructions. |
 |TXF1      | 0x5020014              | 0x014  |TXF1 register                                | 0x00000000 ||
 |TXF2      | 0x5020018              | 0x018  |TXF2 register                                | 0x00000000 ||
 |TXF3      | 0x502001c              | 0x01c  |TXF3 register                                | 0x00000000 ||
@@ -84,10 +84,10 @@ Below is the spreadsheet of the list of registers for PIO.
 |INSTR_MEM30  | 0x50200c0           | 0x0c0  |Write-only access to instruction memory location 30              | 0x00000000 ||
 |INSTR_MEM31  | 0x50200c4           | 0x0c4  |Write-only access to instruction memory location 31              | 0x00000000 ||
 |SM0_CLKDIV   | 0x50200c8           | 0x0c8  |Clock Divisor register for SM 0                                  | 0x000fa000 ||
-|SM1_CLKDIV   | 0x50200e0           | 0x0e0  |Clock Divisor register for SM 1                | 0x00000000 | State machine 1 is not used.                                 |
-|SM2_CLKDIV   | 0x50200f8           | 0x0f8  |Clock Divisor register for SM 2                | 0x00000000 | State machine 2 is not used.                                 |
-|SM3_CLKDIV   | 0x5020110           | 0x110  |Clock Divisor register for SM 3                | 0x00000000 | State machine 3 is not used.                                 |
-|SM0_EXECCTRL  | 0x50200cc          | 0x0cc  |Execution/behavioral settings  for state machine 0      | 0x00000000 | Wrap top set to 0x1f while some  other address is nke known. |
+|SM1_CLKDIV   | 0x50200e0           | 0x0e0  |Clock Divisor register for SM 1                | 0x00000000 | There is no use of state machine 1.                                 |
+|SM2_CLKDIV   | 0x50200f8           | 0x0f8  |Clock Divisor register for SM 2                | 0x00000000 | There is no use of state machine 2.                                |
+|SM3_CLKDIV   | 0x5020110           | 0x110  |Clock Divisor register for SM 3                | 0x00000000 | There is no use of state machine 3.                                |
+|SM0_EXECCTRL  | 0x50200cc          | 0x0cc  |Execution/behavioral settings  for state machine 0      | 0x00000000 |While some other address is unknown, the wrap top is set to 0x1f. |
 |SM1_EXECCTRL  | 0x50200e4          | 0x0e4  |Execution/behavioral settings  for state machine 1      | 0x00000000 | State machine 1 is not used.                                 |
 |SM2_EXECCTRL  | 0x50200fc          | 0x0fc  |Execution/behavioral settings  for state machine 2      | 0x00000000 | State machine 2 is not used.                                 |
 |SM3_EXECCTRL  | 0x5020114          | 0x114  |Execution/behavioral settings  for state machine 3      | 0x00000000 | State machine 3 is not used.                                 |
@@ -95,15 +95,15 @@ Below is the spreadsheet of the list of registers for PIO.
 |SM1_SHIFTCTRL | 0x50200e8          | 0x0e8  |Control behavior of the I/O  shift registers for state machine 1 | 0x00000000 | State machine 1 is not used.                                 |
 |SM2_SHIFTCTRL | 0x5020100          | 0x100  |Control behavior of the I/O  shift registers for state machine 2 | 0x00000000 | State machine 2 is not used.                                 |
 |SM3_SHIFTCTRL | 0x5020118          | 0x118  |Control behavior of the I/O  shift registers for state machine 3 | 0x00000000 | State machine 3 is not used.                                 |
-|SM0_ADDR    | 0x50200d4            | 0x0d4  |Current instruction address of  state machine 0        | 0x00000000 | State machine is going to output  the first digit of color data, which is the 0th instruction. |
+|SM0_ADDR    | 0x50200d4            | 0x0d4  |Current instruction address of  state machine 0        | 0x00000000 | The first digit of the color data, or the 0th instruction, will be emitted by the state machine. |
 |SM1_ADDR    | 0x50200ec            | 0x0ec  |Current instruction address of  state machine 1        | 0x00000000 | State machine 1 is not used.                                 |
 |SM2_ADDR    | 0x5020104            | 0x104  |Current instruction address of  state machine 2        | 0x00000000 | State machine 2 is not used.                                 |
 |SM3_ADDR    | 0x502011c            | 0x11c  |Current instruction address of  state machine 3        | 0x00000000 | State machine 3 is not used.                                 |
-|SM0_INSTR   | 0x50200d8            | 0x0d8  |Instruction currently addressed  by state machine 0's program counter | 0x00000000 | Now the state machine 0 is going  to execute the 0th instruction out x, 1 side 0 [2] immediately, so this  register is wirtten as the instruction. |
+|SM0_INSTR   | 0x50200d8            | 0x0d8  |Instruction currently addressed  by state machine 0's program counter | 0x00000000 | This register is written as the instruction because the state machine 0 will now instantly execute the 0th instruction out of x, 1 side 0 [2]. |
 |SM1_INSTR   | 0x50200f0            | 0x0f0  |Instruction currently addressed  by state machine 1's program counter | 0x00000000 | State machine 1 is not used.                                 |
 |SM2_INSTR   | 0x5020108            | 0x108  |Instruction currently addressed  by state machine 2's program counter | 0x00000000 | State machine 2 is not used.                                 |
 |SM3_INSTR   | 0x5020120            | 0x120  |Instruction currently addressed  by state machine 3's program counter | 0x00000000 | State machine 3 is not used.                                 |
-|SM0_PINCTRL  | 0x50200dc           | 0x0dc  |State machine 0 pin control                  | 0x00000000 | Correct instruction specific a  pin used to receive the value of side-set change. |
+|SM0_PINCTRL  | 0x50200dc           | 0x0dc  |State machine 0 pin control                  | 0x00000000 | The proper instruction that is particular to the pin that receives the value of side-set change |
 |SM1_PINCTRL  | 0x50200f4           | 0x0f4  |State machine 1 pin control                  | 0x00000000 | State machine 1 is not used. |
 |SM2_PINCTRL  | 0x502010c           | 0x10c  |State machine 2 pin control                  | 0x00000000 | State machine 2 is not used. |
 |SM3_PINCTRL  | 0x5020124           | 0x124  |State machine 3 pin control                  | 0x00000000 | State machine 3 is not used. |
