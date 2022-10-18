@@ -15,6 +15,7 @@ https://github.com/harishramesh98/ese5190-2022-lab2-into-the-void-star/blob/3a81
 
 ## 3.6 & 3.7 Zooming In and Timing Diagram
 https://github.com/harishramesh98/ese5190-2022-lab2-into-the-void-star/blob/3a815c42360a7faf1715b66e33a4eccf398051eb/ese_519_lab2a_3_6_7.xlsx
+For the timing diagram in 3.7, we have mentioned the value of the clock at clock cycle period and mentioned the value at each time instant. Graphically representing the clock was becoming tedious after starting it.
 
 ## Hello Blinkenlight
 The codes have been added to the repo:
@@ -24,3 +25,4 @@ The codes have been added to the repo:
 ![](https://github.com/harishramesh98/ese5190-2022-lab2-into-the-void-star/blob/e5a9fb32666a7cfa5c006d0ef4bc1a1b9688ec98/op.gif)
 
 ## Brief Responses to questions raised in into the (void):
+
