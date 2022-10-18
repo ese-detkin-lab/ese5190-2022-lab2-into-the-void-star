@@ -29,7 +29,7 @@ University of Pennsylvania, ESE 5190 : Intro to Embedded Systems, Lab 2A
 
 ## 3.3 : Follow the Flow
 
-	This [link](https://github.com/SurajMarthy1001/ese5190-2022-lab2-into-the-void-star/blob/d94f95174980885a1f097fd64cb2c9735ae31a64/AnnotatedCode.pdf) contains the annotated code of ws2812.c and generated/ws2812.pio.h
+This [link](https://github.com/SurajMarthy1001/ese5190-2022-lab2-into-the-void-star/blob/d94f95174980885a1f097fd64cb2c9735ae31a64/AnnotatedCode.pdf) contains the annotated code of ws2812.c and generated/ws2812.pio.h
 
 ## 3.4 : Color by Number
 
