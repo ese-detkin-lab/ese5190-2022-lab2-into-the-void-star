@@ -1,4 +1,4 @@
-University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
+# University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
     Xiayu Zeng
     Tested on: MacBook air (M1, 2020), macOS Monterey 12.6
@@ -37,13 +37,13 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 ## 3.3 Anotation of the Code
 
-![IMG_0242](https://user-images.githubusercontent.com/114005477/196339361-a324afec-1138-4882-a438-b5c4aeb3d69b.jpg)
+![IMG_0242](https://user-images.githubusercontent.com/114005477/196342221-98e4bc02-eb8c-41d3-b724-f6de09d0b055.jpg)
 
-![IMG_0244](https://user-images.githubusercontent.com/114005477/196339382-b4edc4bd-c803-4bd0-b924-cc76429c9f02.jpg)
+![IMG_0244](https://user-images.githubusercontent.com/114005477/196342255-f5592583-868b-4bee-a289-8d918102e6c4.jpg)
 
-![IMG_0245](https://user-images.githubusercontent.com/114005477/196339401-9b258035-3781-48ae-bea8-234b0091d802.jpg)
+![IMG_0245](https://user-images.githubusercontent.com/114005477/196342274-d3cbe0fc-0038-4e06-9f3d-629474947261.jpg)
 
-![IMG_0246](https://user-images.githubusercontent.com/114005477/196339416-312a511d-2386-48bc-9c66-8aed0d2dab4c.jpg)
+![IMG_0246](https://user-images.githubusercontent.com/114005477/196342286-8afe30cc-2660-4258-bcb5-42c56b372287.jpg)
 
 
 ## 3.4 Color by Number 
