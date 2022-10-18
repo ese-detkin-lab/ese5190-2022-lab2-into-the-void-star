@@ -50,6 +50,7 @@ we can use it to build your PIO programs, for you to #include from your C or C++
 
 3.3 FOLLOW THE FLOW
 
+
 ws2812.c
 
 
@@ -57,6 +58,7 @@ ws2812.c
 ![image](https://user-images.githubusercontent.com/114256663/196360794-c3925af2-80cd-4cfb-8d8b-11c713c27ce4.png)
 ![image](https://user-images.githubusercontent.com/114256663/196360918-9e946275-6ce9-401b-a2ea-d163311c171c.png)
 ![image](https://user-images.githubusercontent.com/114256663/196360945-bf6d4822-034f-4a37-8a3d-2a60c3b98d4d.png)
+
 
 
 ws2812.pio.h
@@ -82,6 +84,8 @@ ws2812.pio.h
 
 3.5 MODELING TIME
 
+
+
 o What basic circuitry does a WS2812 LED need to operate?
 shift
 
@@ -93,6 +97,7 @@ WS2812: DIN port receives data from the controller，RP2040: GPIO port 12 sends 
 
 
 o How does a WS2812 translate bits to color values? 
+
 
 The width of the pulse
 
@@ -116,6 +121,7 @@ the PIO is stalled
 
 
 o How do you send data to more than one WS2812 in a chain?
+
 each ws2812 will keep the first three bytes of data
 
 
@@ -130,23 +136,30 @@ each ws2812 will keep the first three bytes of data
 
 <img width="1312" alt="image" src="https://user-images.githubusercontent.com/114256663/196404874-5abcbc78-47e7-40f5-8bb9-ab12d1982319.png">
 
-The link is 
+The link is https://github.com/real-YingXu/ese5190-2022-lab2-into-the-void-star/blob/main/3.6%263.7.xlsx
 
 
 
 ##
+
 
 Reflect on the tools:
 
-
+weaknesses of working with paper：Spending too much time
+strengths of of working with spreadsheets: very detailed
+Need draw in the pictures.
 
 
 ##
+
+
 
 
 PART 4: HELLO, BLINKENLIGHT
 
 
+
+The link is https://github.com/real-YingXu/ese5190-2022-lab2-into-the-void-star/tree/main/lab2part4
 
 
 
