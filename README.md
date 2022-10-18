@@ -67,6 +67,7 @@ For this part, I choose color 0X0000FF(BLUE).
 ![](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/blob/main/Lab%202%20Prob3/3.7.jpg)
 
 # Part4 HELLO, BLINKENLIGHT 
+[part4 folder](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/tree/main/lab2%20prob4)
+
 In this part, I modify hello_usb.c to make my LED to switch between blue and green constantly. By using PuTTY, you can find the program print "Hello, world! BLUE" when LED blue light blink and print "Hello, world! GREEN" when LED green light blink. 
 
-[part4 folder](https://github.com/SEN316/ese5190-2022-lab2-into-the-void-star/tree/main/lab2%20prob4)
