@@ -81,11 +81,11 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 ### PART 3.4 : COLOR BY NUMBER
 
-The Excel File contains the values for the registers : [Link]()
+The Excel File contains the values for the registers : [Link](https://github.com/Ruturajn/ese5190-2022-lab2-into-the-void-star/blob/main/ESE519-Spreadsheet.xlsx)
 
 ### PART 3.5 : MODELLING TIME
 
-
+![WhatsApp Image 2022-10-17 at 10 51 10 PM](https://user-images.githubusercontent.com/56625259/196359264-f81e6bf6-640e-41be-947f-67f4f2a0a58d.jpeg)
 
 ### PART 3.6 : ZOOMING IN AND TIMING DIAGRAM
 
