@@ -8,9 +8,9 @@
 
 【**part3.3**】: Annotated code for ws2812 example
 
-【**part3.5**】: Paper model for PIO process 1 bit (DATA=0 / DATA=1)
+【**part3.5.peng**】: Paper model for PIO process 1 bit (DATA=0 / DATA=1)
 
-【**Spreadsheet of initial PIO register states**】: Spreadsheet of initial PIO register states, Packet transmission spreadsheet and Timing diagram based on part3.5
+【**Spreadsheet of initial PIO register states.xlsx**】: Spreadsheet of initial PIO register states, Packet transmission spreadsheet and Timing diagram based on part3.5
 
 【**part4**】: Working USB + WS2812 folder
 
@@ -60,7 +60,7 @@ Check the file 【**part3.3**】
 
 # Part 3.4
 
-Check the file 【**part3.4**】
+Check the file 【**Spreadsheet of initial PIO register states.xlsx**】
 
 # Part 3.5
 
@@ -107,7 +107,7 @@ Check the file 【**part3.5**】
 
 # Part 3.6 & 3.7
 
-Check the file【**part3.6/7**】 
+Check the file 【**Spreadsheet of initial PIO register states.xlsx**】
 
 # Reflection
 
