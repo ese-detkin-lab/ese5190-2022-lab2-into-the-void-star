@@ -22,6 +22,15 @@ What role does the pioasm “assembler” play in the example, and how does this
 
 You program with C sdk and translate it with GCC into assembler (jmp move out nop...) and then use cmake to combine them to produce the uf2, which means that you needn't to recompile the codes.
 
-
-
 Brief discussion of decisions you made while working with your modeling documents. 
+Truly, I do not understand this question much. Okay, I have to admit that this is really messy and the decisions... were all uncertain. Too overwhelming workload I even don't know where to start...Just finish by the ddl maybe I did not pay any attention on the process...
+
+At the end of your writeup of section 3, reflect on the tools you used for modeling from a user interface design perspective. 
+What were some strengths/weaknesses of working with paper?
+From my perspective, I like working with paper, it is free and flexible. Weakness may be not tidy enough.
+
+What were some strengths/weaknesses of working with spreadsheets?  
+Spreadsheet is hard to make but it gives you a clear thought about your question, maybe.
+
+How might you approach this task using other tools available to you? 
+...I am not an experienced programmer in embeded system, thus coming up with few other methods.
