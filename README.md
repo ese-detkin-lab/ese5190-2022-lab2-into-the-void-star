@@ -2,7 +2,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
     Siyun Wang
      
-    Tested on: (TODO) DELL Inspiron 5505, Windows 10
+    Tested on: DELL Inspiron 5505, Windows 10
 
 
 
