@@ -215,9 +215,31 @@ The output should be going are below:
 
 ![image-20221016214832435](README.assets/image-20221016214832435.png)
 
-And the state is shown in the form:
+And the state is shown in the form ([state.xlsx](state.xlsx)):
 
-![image-20221016234619253](README.assets/image-20221016234619253.png)
+![image-20221017201449364](README.assets/image-20221017201449364.png)
+
+We can clearly seen from the diagram and form that, each bit need 10 clock cycle to create a custom wave for transmission. Thus, 
+
+
+
+
+
+# 3.6&3.7 Zoom in and Timing Diagram
+
+Now let's stretch the time to 4 bits. Suppose that we are first sending blue and then green and then a random color and focus on the point that finish the blue transmission. In this case, we can see more changes in different component. 
+
+0000 0000 0000 0000 1111 11**11 00**00 0000 
+
+1111 1111 0000 0000 0000 0000 0000 0000 
+
+1010 1000 1010 1110 0010 1011 0000 0000
+
+The observed bits is bolded as shown. The first 32 bits are blue bits, and then the following 32 bits are the green bits, and the next 32 bits are still green.
+
+And the timing diagram is shown below ([zoom in.xlsx](zoom in.xlsx))
+
+![image-20221017215825118](README.assets/image-20221017215825118.png)
 
 
 
@@ -233,11 +255,11 @@ This project design a system that read from the USB console and give the corresp
 
 And most of code is based on [PICO example of ws2812](https://github.com/raspberrypi/pico-examples/tree/master/pio/ws2812).
 
-<img src="README.assets/image-20221016231412516.png" alt="image-20221016231412516" style="zoom:33%;" />
+<img src="README.assets/g.jpg" alt="g" style="zoom: 25%;" />
 
-<img src="README.assets/937bc3bda75fe2d061dc31838b41f30.jpg" alt="937bc3bda75fe2d061dc31838b41f30" style="zoom:33%;" />
+<img src="README.assets/r.jpg" alt="r" style="zoom: 25%;" />
 
-<img src="README.assets/b601563b1666c1eaec0956a4026c2ec.jpg" alt="b601563b1666c1eaec0956a4026c2ec" style="zoom:33%;" />
+<img src="README.assets/b.jpg" alt="b" style="zoom: 25%;" />
 
 ## 4.2 Features
 
