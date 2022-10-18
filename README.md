@@ -66,3 +66,6 @@ When serial data is presented at the LED’s input, it takes the first three byt
 ### Chart of System State Step Through:
 https://github.com/ChiYuan9/ese5190-2022-lab2-into-the-void-star/blob/main/3.5_Chart%20of%20System%20State%20Step%20Through.jpeg
 ![3 5](https://user-images.githubusercontent.com/108168201/196312780-8918dbd1-8ad7-4b82-a321-4df8b580e704.jpeg)
+
+## 3.6 Zooming In
+A trace of the entire packet transmission:
