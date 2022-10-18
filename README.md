@@ -103,7 +103,7 @@ Check the file 【**part3.5**】
 
 - *How do you send data to more than one WS2812 in a chain?*
     
-    Set a threshold for 24 bits
+    Send data in the series, the first WS2812 will take the first 24 bits GRB data, the second WS2812 will take the second 24 bits GRB data and so on.
 
 # Part 3.6 & 3.7
 
