@@ -95,3 +95,17 @@ The Excel File contains timing data for packet transfer to the `ws2812` module :
 
 
 https://user-images.githubusercontent.com/56625259/196392029-b82e49ca-d3dc-409e-9239-3145cd341b79.mp4
+
+### REFLECTIONS
+
+- What were some strengths/weaknesses of working with paper?
+    
+    **Ans**: It felt easier to dry run code.
+
+- What were some strengths/weaknesses of working with spreadsheets?
+    
+    **Ans**: Understanding the bits in registers was easier when working with them on paper.
+
+-  How might you approach this task using other tools available to you?
+    
+    **Ans**: Visualizing timing for various elements would be helpful.
