@@ -61,7 +61,7 @@ Open up the '.c' and '.pio.h' files and go over it in line by line manner and ma
 # 3.4
 
 Data can be acuquired using the printing values method with the code given as follows:
-<div align=center><img width="400" height="300" src="Print_Registers.png"/></div>
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab2-into-the-void-star/blob/main/Media_For_Lab2/Print_Registers.png)
 The value in the register for sequential address is then given as follows:
 <div align=center><img width="400" height="300" src="Print_Value_1.png"/></div>
 
