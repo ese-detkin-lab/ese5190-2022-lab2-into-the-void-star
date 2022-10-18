@@ -70,6 +70,8 @@ The final codes have been added in a nested directory called "The Final Code fol
 C code: https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/36518f5be5dad070610266429e872d5c1c16442f/The%20Final%20Code%20folder/ws2812.c
 PIO Header file: https://github.com/sugahiraeth/ese5190-2022-lab2-into-the-void-star/blob/36518f5be5dad070610266429e872d5c1c16442f/The%20Final%20Code%20folder/generated/ws2812.pio.h
 
+## Decisions taken during modelling
+We decided to use blue light of the highest intensity at the very beginning as the light to be transmitted. This made it so that the data that we would transmit would be 0x000000FF which made computations and demonstrations slightly easier.
 
 
 ### Output
