@@ -31,3 +31,7 @@ The link to our annotated code printouts is https://github.com/ZhijingY/ESE519-l
 ## 3.4 COLOR BY NUMBER
 
 The link to our spreadsheet of initial PIO register states is https://github.com/ZhijingY/ESE519-lab2/blob/main/hw2_writeup/3.4_RegistersList.docx.
+
+## 3.5 MODELING TIME
+
+The link to our electronic paper model is https://github.com/ZhijingY/ESE519-lab2/blob/main/hw2_writeup/3.5.pdf.
