@@ -151,7 +151,12 @@ The link is https://github.com/real-YingXu/ese5190-2022-lab2-into-the-void-star/
 Reflect on the tools:
 
 weaknesses of working with paper：Spending too much time
+
+
 strengths of of working with spreadsheets: very detailed
+
+
+
 Need draw in the pictures.
 
 
