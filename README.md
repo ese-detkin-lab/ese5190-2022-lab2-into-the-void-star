@@ -26,3 +26,4 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
     - The PIO Assembler parses a PIO source file and outputs the assembled version ready for inclusion in an RP2040;
     - the CMake function pico_generate_pio_header(TARGET PIO_FILE) takes care of invoking pioasm and adding the generated header to the include path of the target application.
 ## 3.3 FOLLOW THE FLOW
+![image]
