@@ -82,7 +82,7 @@ The Excel file containing all the register  values can be accessed through the g
 
 ## 3.6  ZOOMING IN
 
-[Excel Link](https://github.com/Siddmathur14/ESE-5190-LAB-2A/blob/main/ESE5190-3.7%20(2).xlsx)
+[Excel Link](https://github.com/Siddmathur14/ese5190-2022-lab2-into-the-void-star/blob/main/ESE5190-3.7%20(2).xlsx)
 
 
 
