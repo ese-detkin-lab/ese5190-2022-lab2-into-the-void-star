@@ -54,22 +54,28 @@ See folder with name "lab2par3.3"
 
 ![IMG_0672](https://user-images.githubusercontent.com/114244957/196578972-13ff1c93-a566-4dc4-b360-ad6de2ccc9de.jpg)
 
+The '-' mark means reserved. They are presented as grey blocks in the spreadsheet.
 
 ## Part 3.6 & 3.7 Packet transmission spreadsheet & Timing Diagram
 
+The color for the example timing diagram is 0x0000FF(Blue in GRB).
+
 ![IMG_0675](https://user-images.githubusercontent.com/114244957/196578990-34e8d84a-da70-42bb-b379-79f042dfd988.jpg)
 
-
-
+This is a tranmission for transmitting the first bit.
 
 ![IMG_0673](https://user-images.githubusercontent.com/114244957/196579062-296fa372-8ac6-42c6-b489-6a9e4c50b697.jpg)
 
+The diagram uses a time resolution of *2 of a single SM clock cycle. The full diagram is shown above.
 
+End discussion:
+- I have chosen the color blue because the 0xFF is at the end of the sm. Thus, the "flow" of the bits will be more obvious in the timing diagram.
+- Working with paper is easier for skim and scam. I can spread the papers and have a quick view of the codes/timing diagrams. Whereas iPad limited the contents I can see at one time due to the screen size.
+- Spreadsheet can sometimes be too long to read and find useful information. Comparing to spreadsheet, I prefer tables. However, when the spreadsheet is not too long, it is easy to catch key infomation as infomation are spreaded out.
+- I have not use VScode when I program. This could be a potential upgrade in the future.
 
+## Part 4 Hello_LED
 
+The codes are in the folder called "lab2_submissionfiles".
 
-  - Brief discussion of decisions you made while working with your modeling documents.
-  - At the end of your writeup of section 3, reflect on the tools you used for modeling from a user interface design perspective.
-    - What were some strengths/weaknesses of working with paper?
-    - What were some strengths/weaknesses of working with spreadsheets?
-    - How might you approach this task using other tools available to you?
+Guide to setup the SDK and run example codes are [ese5190Lab2_SDKGuide](https://github.com/katrinaji/ese5190Lab2_SDKGuide.git).
