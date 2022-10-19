@@ -63,7 +63,7 @@ then GRB is 0001 0000 0000 000 0011 0001
 
  What were some strengths/weaknesses of working with paper and spreadsheets? 
 
-It really helps me sort out some concepts and pushes me to list them one by one. Some personal notes is more helpful for me to understand the process at a glance especially 3.3.
+It really helps me sort out some concepts and pushes me to list them one by one. Some personal notes is more helpful for me to understand the process at a glance especially 3.3. But it is also a hard job for some beginners to Sort out these things clearly. But I am not sure whether my understanding is correct.
 
 
 ## 4.HELLO, BLINKENLIGHT 
