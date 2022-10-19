@@ -52,15 +52,21 @@ See folder with name "lab2par3.3"
 
 ## Part 3.5 Paper Model
 
-![IMG_0672](https://user-images.githubusercontent.com/114244957/196542652-24f42f4e-b2a4-4f6f-b0e6-e3b21cad2705.jpg)
-
-## Part 3.6 Packet transmission spreadsheet
+![IMG_0672](https://user-images.githubusercontent.com/114244957/196578972-13ff1c93-a566-4dc4-b360-ad6de2ccc9de.jpg)
 
 
+## Part 3.6 & 3.7 Packet transmission spreadsheet & Timing Diagram
 
-## LAB WRITEUP: due Monday, Oct 17 at 8:30 AM ET on Github
-- 3.6: Your complete packet transmission spreadsheet 
-- 3.7: Your polished timing diagram
+![IMG_0675](https://user-images.githubusercontent.com/114244957/196578990-34e8d84a-da70-42bb-b379-79f042dfd988.jpg)
+
+
+
+
+![IMG_0673](https://user-images.githubusercontent.com/114244957/196579062-296fa372-8ac6-42c6-b489-6a9e4c50b697.jpg)
+
+
+
+
 
   - Brief discussion of decisions you made while working with your modeling documents.
   - At the end of your writeup of section 3, reflect on the tools you used for modeling from a user interface design perspective.
