@@ -27,3 +27,7 @@ And usually we need a PIO program, some software written in C to run the whole s
 
 7. What role does the pioasm “assembler” play in the example, and how does this interact with CMake
 It is used to build the PIO programs and to #include from the program. It can be used to generate programs that are suitable for use with the MicroPython PIO library.
+
+# 3.3 Follow the flow(Annotation of the code)
+[3.3 annotation](https://github.com/23qiaoqiaoo/ese5190-2022-lab2-into-the-void-star/blob/9145ebe13a1cfc03275d63b546fdc448a64cb02e/3.3%20annotation.docx "3.3 annotation")
+
