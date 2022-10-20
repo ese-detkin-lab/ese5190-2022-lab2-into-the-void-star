@@ -1,8 +1,8 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
-    (TODO) YOUR NAME HERE
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
+    Xingjian Chen
+        [(TODO) LinkedIn, personal website, twitter, etc.](https://www.linkedin.com/in/xingjian-chen-64632b207/)
+    Tested on: Lenovo Legion R9000P 2021 15.6''
 
 (TODO: Your README)
 
