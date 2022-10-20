@@ -1,35 +1,37 @@
-add_executable(pio_ws2812)
+cmake_minimum_required(VERSION 3.12)
 
-# generate the header file into the source tree as it is included in the RP2040 datasheet
-pico_generate_pio_header(pio_ws2812 ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio OUTPUT_DIR ${CMAKE_CURRENT_LIST_DIR}/generated)
+# Pull in SDK (must be before project)
+include(pico_sdk_import.cmake)
 
-target_sources(pio_ws2812 PRIVATE ws2812.c)
+project(pico_examples C CXX ASM)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
-target_link_libraries(pio_ws2812 PRIVATE pico_stdlib hardware_pio)
-pico_add_extra_outputs(pio_ws2812)
+if (PICO_SDK_VERSION_STRING VERSION_LESS "1.3.0")
+    message(FATAL_ERROR "Raspberry Pi Pico SDK version 1.3.0 (or later) required. Your version is ${PICO_SDK_VERSION_STRING}")
+endif()
 
-# add url via pico_set_program_url
-example_auto_set_url(pio_ws2812)
+set(PICO_EXAMPLES_PATH ${PROJECT_SOURCE_DIR})
 
-add_executable(pio_ws2812_parallel)
+# Initialize the SDK
+pico_sdk_init()
 
-pico_generate_pio_header(pio_ws2812_parallel ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio OUTPUT_DIR ${CMAKE_CURRENT_LIST_DIR}/generated)
+include(example_auto_set_url.cmake)
+# Add blink example
+#add_subdirectory(blink)
 
-target_sources(pio_ws2812_parallel PRIVATE ws2812_parallel.c)
+# Add hello world example
+#add_subdirectory(hello_world)
 
-target_compile_definitions(pio_ws2812_parallel PRIVATE
-        PIN_DBG1=3)
-
-target_link_libraries(pio_ws2812_parallel PRIVATE pico_stdlib hardware_pio hardware_dma)
-pico_add_extra_outputs(pio_ws2812_parallel)
-
-# add url via pico_set_program_url
-example_auto_set_url(pio_ws2812_parallel)
-
-# Additionally generate python and hex pioasm outputs for inclusion in the RP2040 datasheet
-add_custom_target(pio_ws2812_datasheet DEPENDS ${CMAKE_CURRENT_LIST_DIR}/generated/ws2812.py)
-add_custom_command(OUTPUT ${CMAKE_CURRENT_LIST_DIR}/generated/ws2812.py
-        DEPENDS ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio
-        COMMAND Pioasm -o python ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio ${CMAKE_CURRENT_LIST_DIR}/generated/ws2812.py
+add_compile_options(-Wall
+        -Wno-format          # int != int32_t as far as the compiler is concerned because gcc has int32_t as long int
+        -Wno-unused-function # we have some for the docs that aren't called
+        -Wno-maybe-uninitialized
         )
-add_dependencies(pio_ws2812 pio_ws2812_datasheet)
+
+# Hardware-specific examples in subdirectories:
+
+#add_subdirectory(cmake)
+
+add_subdirectory(pio)
+
