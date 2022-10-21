@@ -182,7 +182,7 @@ Below is the spreadsheet of the list of registers for PIO.
 </div>
 
 5. Build .uf2 file and drag and drop it into the chip disk.
-
+(When you build, you should build the entire folder "pico-diy")
 
 <div align=center>
 <img src="https://user-images.githubusercontent.com/113971230/196369746-8a85456c-fa16-4de3-a7a3-02a47e9706fc.png" width="450">  
