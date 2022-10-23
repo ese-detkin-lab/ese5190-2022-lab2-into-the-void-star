@@ -32,3 +32,5 @@ It is used to build the PIO programs and to #include from the program. It can be
 [3.3 annotation](https://github.com/23qiaoqiaoo/ese5190-2022-lab2-into-the-void-star/blob/9145ebe13a1cfc03275d63b546fdc448a64cb02e/3.3%20annotation.docx "3.3 annotation")
 # 3.4 Datasheet
 [3.4 datasheet](http://https://github.com/23qiaoqiaoo/ese5190-2022-lab2-into-the-void-star/blob/935e004791342202cf4c44891b5fdded6d76ba84/Q.xlsx)
+# 3.5 Modeling time
+![3.5 modeling time](https://github.com/23qiaoqiaoo/ese5190-2022-lab2-into-the-void-star/blob/247d7eb02a2beebc56e592daf04a9d26bc05951b/247743715797080649.jpg "3.5 modeling time")
