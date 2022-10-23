@@ -31,4 +31,4 @@ It is used to build the PIO programs and to #include from the program. It can be
 # 3.3 Follow the flow(Annotation of the code)
 [3.3 annotation](https://github.com/23qiaoqiaoo/ese5190-2022-lab2-into-the-void-star/blob/9145ebe13a1cfc03275d63b546fdc448a64cb02e/3.3%20annotation.docx "3.3 annotation")
 # 3.4 Datasheet
-[3.4](http://https://github.com/23qiaoqiaoo/ese5190-2022-lab2-into-the-void-star/blob/935e004791342202cf4c44891b5fdded6d76ba84/Q.xlsx)
+[3.4 datasheet](http://https://github.com/23qiaoqiaoo/ese5190-2022-lab2-into-the-void-star/blob/935e004791342202cf4c44891b5fdded6d76ba84/Q.xlsx)
