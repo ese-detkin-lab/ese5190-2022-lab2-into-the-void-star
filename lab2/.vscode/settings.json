@@ -1,0 +1,5 @@
+{
+    "files.associations": {
+        "ws2812.pio.h": "c"
+    }
+}
