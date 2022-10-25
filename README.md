@@ -34,3 +34,14 @@ It is used to build the PIO programs and to #include from the program. It can be
 [3.4 datasheet](http://https://github.com/23qiaoqiaoo/ese5190-2022-lab2-into-the-void-star/blob/935e004791342202cf4c44891b5fdded6d76ba84/Q.xlsx)
 # 3.5 Modeling time
 ![3.5 modeling time](https://github.com/23qiaoqiaoo/ese5190-2022-lab2-into-the-void-star/blob/247d7eb02a2beebc56e592daf04a9d26bc05951b/247743715797080649.jpg "3.5 modeling time")
+#3.6&3.7
+([!](https://github.com/23qiaoqiaoo/ese5190-2022-lab2-into-the-void-star/blob/a6076997da726e9bb2f57a184569932c8fb3fe6f/Lab3.6&3.7.xlsx)
+# End Discussion
+## The weaknesses of working with paper
+It is hard to keep the paper tiny and it is hard to keep. The accuracy might be influenced too.
+## The strength of working with paper
+It is easier to think of the whole logic and take notes. And I personally feel more comforbale reading the paper version compared to the elctronic one.
+## The weakness of working with spreadsheet
+It is a lot to write and format when there is a bunch of data need to be recorded. It is slower compared to working on paper.
+## The strength of working with spreadsheet
+It can be easily stored and updated for future use.
