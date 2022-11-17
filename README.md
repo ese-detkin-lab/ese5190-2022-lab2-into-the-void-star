@@ -3,9 +3,9 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 Praveen Raj Uma Maheswari Shyam Sundar
     LinkedIn: www.linkedin.com/in/praveen-raj-u-s-317981135
 Tested on: Asus ROG Flow X13, Windows 11
-
-#3.2 Answers
-
+---------------------------------------------------------------------------------------------------------------------------------------------
+# 3.2
+----------------------------------------------------------------------------------------------------------------------------------------------
 **1. Why is bit-banging impractical on your laptop, despite it having a much faster processor than the RP2040?**
 A: Bit-banging is actually the method of data-transmission that leverages the software in place of the hardware. The reason why our laptop is not ideal for the case is because the processor is not customized for big-banging inspite of it's high processing power. For Bit-banging to work properly the processor would have to be customly set to the unique time-loop. And other parallel processes might interrupt the bit-banging.
 
@@ -30,6 +30,16 @@ A: pio_sm_put_blocking() -> Sets the LED
 A: The Pioasm is the assembler that converts machine code to binary. It Processess the PIO input assembly file and generates functions for every program.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+# PART 4
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![Part4](https://user-images.githubusercontent.com/114270637/202566242-f4b87490-ab9c-466d-b8fa-78984efcb94c.gif)
 
 
 
@@ -131,4 +141,5 @@ This will open the serial monitor where "Hello World" would already have started
 
 
 (We did it..!)
+
 
