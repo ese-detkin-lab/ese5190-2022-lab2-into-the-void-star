@@ -30,7 +30,17 @@ A: pio_sm_put_blocking() -> Sets the LED
 A: The Pioasm is the assembler that converts machine code to binary. It Processess the PIO input assembly file and generates functions for every program.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 3.3: Follow the Flow
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/114270637/202805664-57207d31-1cab-48d2-8ef3-5c05815c58e7.png)
 
+![image](https://user-images.githubusercontent.com/114270637/202805768-1f6f58ab-a5dd-433b-a52b-69da087ae700.png)
+
+
+![image](https://user-images.githubusercontent.com/114270637/202805838-3acd3634-6de9-4ec9-bbed-fcb3ca4e19f5.png)
+
+
+![image](https://user-images.githubusercontent.com/114270637/202805853-db823212-8ccc-4bd3-abd6-05939a58dbe0.png)
 
 
 
