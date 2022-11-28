@@ -56,3 +56,4 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
 
 4.0
+![NeoLedplusHelloWorld](https://user-images.githubusercontent.com/114784563/204381200-b3863d8a-dac6-4bcf-92f3-9942e4c8b51c.gif)
