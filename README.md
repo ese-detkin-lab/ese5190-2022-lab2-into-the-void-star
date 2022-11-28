@@ -1,8 +1,8 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 2A
 
-    (TODO) Osamuyi Uwadia
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
+    Osamuyi Uwadia
+    LinkIn: https://www.linkedin.com/in/osamuyi-uwadia-a3038813b/
+    Tested on: HP Spectre x360 Convertible 15-df1xxx Microsoft Windows 11
 
 3.2
 1.	Why is bit-banging impractical on your laptop, despite it having a 
