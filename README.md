@@ -43,6 +43,16 @@ A: The Pioasm is the assembler that converts machine code to binary. It Processe
 ![image](https://user-images.githubusercontent.com/114270637/202805853-db823212-8ccc-4bd3-abd6-05939a58dbe0.png)
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 3.4: Registers Color:
+[3.4 Registers.xlsx](https://github.com/Praveen-Raj-u-s/ese5190-2022-lab2-into-the-void-star/files/10254670/3.4.Registers.xlsx)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 3.5: Bitloop Paper Modelling:
+
+![Bitloop](https://user-images.githubusercontent.com/114270637/208320784-a4bcd657-4c31-45d2-a606-050a8837447f.jpg)
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
